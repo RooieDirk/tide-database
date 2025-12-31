@@ -1,6 +1,5 @@
 #!/usr/bin/env node
 
-import { writeFile } from 'fs/promises'
 import createFetch from 'make-fetch-happen'
 import { normalize, save } from './station.ts'
 import type { Station } from '../src/index.ts'
@@ -18,16 +17,14 @@ const STATIONS_URL =
 const idMap = new Map()
 
 async function main() {
-  console.log('Creating harmonic stations:')
-
   const { stations } = await fetch(
     `${STATIONS_URL}?type=tidepredictions&expand=details,tidepredoffsets&units=metric`
   ).then((r) => r.json())
 
+  console.log(`Fetched metadata for ${stations.length} stations.`)
+
   const referenceStations = stations.filter((s: any) => s.type === 'R')
   const subordinateStations = stations.filter((s: any) => s.type === 'S')
-
-  console.log(`Fetched metadata for ${stations.length} stations.`)
 
   console.log('Creating reference stations:')
   for (const meta of referenceStations) {
@@ -114,9 +111,6 @@ async function buildStation(meta: any): Promise<Station> {
 
     // This should never happen, but just in case
     if (!data) throw new Error(`No data found for station ID: ${meta.id}`)
-
-    // Write raw data to tmp for debugging
-    writeFile(`tmp/noaa/${meta.id}.json`, JSON.stringify(data, null, 2))
 
     Object.assign(station, {
       harmonic_constituents: data.harmonicConstituents.HarmonicConstituents.map(
