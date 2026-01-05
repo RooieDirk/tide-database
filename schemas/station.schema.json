@@ -82,7 +82,7 @@
   "properties": {
     "id": {
       "type": "string",
-      "description": "Unique station ID for this database only, in the format of `country-region-station-name`.",
+      "description": "Unique station ID for this database only, in the format of `country/region/station-name`.",
       "examples": [
         "us-ma-boston",
         "ar-u-puerto-madryn"
