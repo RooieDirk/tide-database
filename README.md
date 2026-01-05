@@ -83,3 +83,13 @@ Releases of this database use [Semantic Versioning](https://semver.org/), with t
 * Major version changes indicate breaking changes to the data structure or APIs. However, as long as the version is "0.x", breaking changes may occur without a major version bump.
 * Minor version changes indicate backward-compatible additions to the data structure or APIs, such as new fields.
 * Patch version changes indicate updates to station data, and will always be the current date. For example, "0.1.20260101".
+
+## License
+
+* All code in this repository is licensed under the [MIT License](./LICENSE).
+* The `license` field of each station's JSON file specifies the license for that station.
+* Unless otherwise noted, All other data is licensed under the [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) license.
+
+If using this project, please attribute it as:
+
+> Tide harmonic constituents from the Neaps tide database (https://github.com/neaps/tide-database)
