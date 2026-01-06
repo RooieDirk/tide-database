@@ -1,3 +1,5 @@
+import _constituents from './constituents.json' with { type: 'json' }
+
 export interface HarmonicConstituent {
   name: string
   description?: string
@@ -5,6 +7,12 @@ export interface HarmonicConstituent {
   phase_UTC: number
   phase_local: number
   speed?: number
+}
+
+export interface Constituent {
+  name: string
+  description: string | null
+  speed: number
 }
 
 export interface Station {
@@ -49,7 +57,7 @@ export interface Station {
   datums: Record<string, number>
 }
 
-export { default as constituents } from './constituents.json' with { type: 'json' }
+export const constituents: Constituent[] = _constituents
 
 export const stations: Station[] = Object.values(
   import.meta.glob('../data/**/*.json', { eager: true, import: 'default' })

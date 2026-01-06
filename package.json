@@ -16,14 +16,20 @@
     "url": "git+https://github.com/neaps/tide-database.git"
   },
   "license": "MIT",
-  "author": "",
+  "author": "Brandon Keepers <brandon@openwaters.io>",
   "type": "module",
-  "main": "dist/index.js",
+  "main": "dist/index.cjs",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
   "directories": {
     "doc": "docs"
   },
   "scripts": {
-    "build": "tsc -b && tsc -p tsconfig.node.json && vite build",
+    "build": "tsc -b && tsc -p tsconfig.node.json && tsdown",
     "prepare": "npm run build",
     "test": "vitest"
   },
@@ -38,8 +44,8 @@
     "make-fetch-happen": "^15.0.3",
     "moment": "^2.30.1",
     "sort-object-keys": "^2.0.1",
-    "vite": "^7.2.6",
-    "vite-plugin-dts": "^4.5.4",
+    "tsdown": "^0.19.0-beta.3",
+    "typescript": "^5.9.3",
     "vitest": "^4.0.15"
   },
   "files": [
