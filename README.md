@@ -29,14 +29,14 @@ $ npm install @neaps/tide-database
 The package exports an array of all tide stations in the database:
 
 ```typescript
-import { constituents, stations } from '@neaps/tide-database';
+import { constituents, stations } from "@neaps/tide-database";
 
 // Constituents is an array of all harmonic constituents used in the database with a description and speed.
-console.log('Total constituents:', constituents.length);
+console.log("Total constituents:", constituents.length);
 console.log(constituents[0]);
 
 // Stations is an array of all the files in `data/`
-console.log('Total stations:', stations.length);
+console.log("Total stations:", stations.length);
 console.log(stations[0]);
 ```
 
@@ -61,6 +61,7 @@ Subordinate stations have four kinds of offsets, two to correct for water level,
 ## Maintenance
 
 A GitHub Action runs monthly on the 1st of each month to automatically update NOAA tide station data. The workflow:
+
 - Fetches the latest station list and harmonic constituents from NOAA's API
 - Updates existing station files with new data
 - Adds any newly discovered reference stations
@@ -80,9 +81,9 @@ This will scan all existing NOAA station files, fetch any new stations from NOAA
 
 Releases of this database use [Semantic Versioning](https://semver.org/), with these added semantics:
 
-* Major version changes indicate breaking changes to the data structure or APIs. However, as long as the version is "0.x", breaking changes may occur without a major version bump.
-* Minor version changes indicate backward-compatible additions to the data structure or APIs, such as new fields.
-* Patch version changes indicate updates to station data, and will always be the current date. For example, "0.1.20260101".
+- Major version changes indicate breaking changes to the data structure or APIs. However, as long as the version is "0.x", breaking changes may occur without a major version bump.
+- Minor version changes indicate backward-compatible additions to the data structure or APIs, such as new fields.
+- Patch version changes indicate updates to station data, and will always be the current date. For example, "0.1.20260101".
 
 ## Releasing
 
@@ -90,9 +91,9 @@ Releases are created by [running the Publish action](https://github.com/neaps/ti
 
 ## License
 
-* All code in this repository is licensed under the [MIT License](./LICENSE).
-* The `license` field of each station's JSON file specifies the license for that station.
-* Unless otherwise noted, All other data is licensed under the [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) license.
+- All code in this repository is licensed under the [MIT License](./LICENSE).
+- The `license` field of each station's JSON file specifies the license for that station.
+- Unless otherwise noted, All other data is licensed under the [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) license.
 
 If using this project, please attribute it as:
 
