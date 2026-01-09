@@ -1,29 +1,29 @@
 #!/usr/bin/env node
 
-import { readFile } from 'fs/promises'
-import { dirname, join } from 'path'
-import { fileURLToPath } from 'url'
-import { parseCSV, indexBy, groupBy } from './util.ts'
-import { normalize, save } from './station.ts'
-import { computeDatums } from './datum.ts'
-import constituents from '../src/constituents.json' with { type: 'json' }
-import type { Station, HarmonicConstituent } from '../src/index.ts'
+import { readFile } from "fs/promises";
+import { dirname, join } from "path";
+import { fileURLToPath } from "url";
+import { parseCSV, indexBy, groupBy } from "./util.ts";
+import { normalize, save } from "./station.ts";
+import { computeDatums } from "./datum.ts";
+import constituents from "../src/constituents.json" with { type: "json" };
+import type { Station, HarmonicConstituent } from "../src/index.ts";
 
-const constituents_by_name = indexBy(constituents, 'name')
+const constituents_by_name = indexBy(constituents, "name");
 
-const __dirname = dirname(fileURLToPath(import.meta.url))
-const metaPath = join(__dirname, '..', 'tmp', 'TICON-4', 'meta.csv')
-const dataPath = join(__dirname, '..', 'tmp', 'TICON-4', 'data.csv')
+const __dirname = dirname(fileURLToPath(import.meta.url));
+const metaPath = join(__dirname, "..", "tmp", "TICON-4", "meta.csv");
+const dataPath = join(__dirname, "..", "tmp", "TICON-4", "data.csv");
 const metadata = indexBy(
-  parseCSV<TiconMetaRow>(await readFile(metaPath, 'utf-8')),
-  'FILE NAME'
-)
-const data = await readFile(dataPath, 'utf-8')
+  parseCSV<TiconMetaRow>(await readFile(metaPath, "utf-8")),
+  "FILE NAME",
+);
+const data = await readFile(dataPath, "utf-8");
 
 type TiconMetaRow = {
-  'FILE NAME': string
-  'SITE NAME': string
-}
+  "FILE NAME": string;
+  "SITE NAME": string;
+};
 
 /**
  * Converts TICON-4 CSV files to station JSON format
@@ -33,96 +33,94 @@ type TiconMetaRow = {
  * one JSON file with all its harmonic constituents aggregated.
  */
 async function main() {
-  const stations = Object.values(groupBy(parseCSV<TiconRow>(data), (r) => r.tide_gauge_name))
+  const stations = Object.values(
+    groupBy(parseCSV<TiconRow>(data), (r) => r.tide_gauge_name),
+  );
 
-  let created = 0
+  let created = 0;
 
   for (const rows of stations) {
-    await save(
-      normalize(
-        convertStation(rows)
-      )
-    )
-    created++
-    process.stdout.write('.')
+    await save(normalize(convertStation(rows)));
+    created++;
+    process.stdout.write(".");
   }
 
-  console.log(`\nDone. Created ${created} files`)
+  console.log(`\nDone. Created ${created} files`);
 }
 
 interface TiconRow {
-  lat: string
-  lon: string
-  tide_gauge_name: string
-  type: string
-  country: string
-  gesla_source: string
-  record_quality: string
-  datum_information: string
-  years_of_obs: string
-  start_date: string
-  end_date: string
-  con: string
-  amp: string
-  pha: string
-  amp_std: string
-  pha_std: string
-  missing_obs: string
-  no_of_obs: string
+  lat: string;
+  lon: string;
+  tide_gauge_name: string;
+  type: string;
+  country: string;
+  gesla_source: string;
+  record_quality: string;
+  datum_information: string;
+  years_of_obs: string;
+  start_date: string;
+  end_date: string;
+  con: string;
+  amp: string;
+  pha: string;
+  amp_std: string;
+  pha_std: string;
+  missing_obs: string;
+  no_of_obs: string;
 }
 
 function dayMonthYearToDate(date: string) {
-  const [ day, month, year ] = date.split('/').map((v) => parseInt(v, 10))
-  if(!day || !month || !year) {
-    throw new Error(`Invalid date: ${date}`)
+  const [day, month, year] = date.split("/").map((v) => parseInt(v, 10));
+  if (!day || !month || !year) {
+    throw new Error(`Invalid date: ${date}`);
   }
-  return new Date(Date.UTC(year, month - 1, day, 0, 0, 0))
+  return new Date(Date.UTC(year, month - 1, day, 0, 0, 0));
 }
 
 /**
  * Convert a TICON-4 station to our JSON schema format
  */
 function convertStation(rows: TiconRow[]): Station {
-  if(!rows[0]) {
-    throw new Error('No rows to convert')
+  if (!rows[0]) {
+    throw new Error("No rows to convert");
   }
 
-  const gesla = metadata[rows[0].tide_gauge_name]
+  const gesla = metadata[rows[0].tide_gauge_name];
 
   const constituents: HarmonicConstituent[] = rows.map((row) => ({
     name: row.con,
     amplitude: parseFloat(row.amp) / 100, // convert cm to m
     phase: ((parseFloat(row.pha) % 360) + 360) % 360, // lag in degrees; normalize to [0, 360)
     speed: constituents_by_name[row.con]?.speed,
-  }))
+  }));
 
-  const start = dayMonthYearToDate(rows[0].start_date)
-  const end = dayMonthYearToDate(rows[0].end_date)
+  const start = dayMonthYearToDate(rows[0].start_date);
+  const end = dayMonthYearToDate(rows[0].end_date);
 
-  const { datums } = computeDatums(constituents, { start, end })
+  const { datums } = computeDatums(constituents, { start, end });
 
   // Create the station JSON
   return normalize({
-    name: gesla['SITE NAME'],
+    name: gesla["SITE NAME"],
     country: rows[0].country,
     latitude: parseFloat(rows[0].lat),
     longitude: parseFloat(rows[0].lon),
-    type: 'reference',
+    type: "reference",
     disclaimers: rows[0].record_quality,
     source: {
-      name: 'TICON-4',
-      url: 'https://www.seanoe.org/data/00980/109129/',
+      name: "TICON-4",
+      url: "https://www.seanoe.org/data/00980/109129/",
       id: rows[0].tide_gauge_name,
       published_harmonics: true,
     },
     license: {
-      type: 'cc-by-4.0',
+      type: "cc-by-4.0",
       commercial_use: true,
-      url: 'https://creativecommons.org/licenses/by/4.0/',
+      url: "https://creativecommons.org/licenses/by/4.0/",
     },
     harmonic_constituents: constituents,
     datums,
-  })
+  });
 }
 
-main()
+main();
