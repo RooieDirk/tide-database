@@ -1,0 +1,227 @@
+{
+  "name": "Beecher Pass",
+  "region": "AK",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 56.595,
+  "longitude": -132.987,
+  "timezone": "America/Sitka",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9451287",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9451287"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "datums": {
+    "LAT": -2.8327491,
+    "HAT": 4.453251,
+    "STND": 0,
+    "MHHW": 3.282,
+    "MHW": 3.011,
+    "DTL": 0.924,
+    "MTL": 1.023,
+    "MSL": 0.975,
+    "MLW": -0.966,
+    "MLLW": -1.434,
+    "GT": 4.716,
+    "MN": 3.977,
+    "DHQ": 0.271,
+    "DLQ": 0.468,
+    "HWI": 9.78,
+    "LWI": 3.34
+  },
+  "type": "reference",
+  "harmonic_constituents": [
+    {
+      "name": "M2",
+      "amplitude": 1.876,
+      "phase": 279.1
+    },
+    {
+      "name": "S2",
+      "amplitude": 0.645,
+      "phase": 311.1
+    },
+    {
+      "name": "N2",
+      "amplitude": 0.376,
+      "phase": 257.6
+    },
+    {
+      "name": "K1",
+      "amplitude": 0.499,
+      "phase": 264.9
+    },
+    {
+      "name": "M4",
+      "amplitude": 0.06,
+      "phase": 254.2
+    },
+    {
+      "name": "O1",
+      "amplitude": 0.307,
+      "phase": 250.6
+    },
+    {
+      "name": "M6",
+      "amplitude": 0.01,
+      "phase": 86.1
+    },
+    {
+      "name": "MK3",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "S4",
+      "amplitude": 0.005,
+      "phase": 336.5
+    },
+    {
+      "name": "MN4",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "NU2",
+      "amplitude": 0.073,
+      "phase": 260.5
+    },
+    {
+      "name": "S6",
+      "amplitude": 0.002,
+      "phase": 219
+    },
+    {
+      "name": "MU2",
+      "amplitude": 0.045,
+      "phase": 341.2
+    },
+    {
+      "name": "2N2",
+      "amplitude": 0.05,
+      "phase": 236.1
+    },
+    {
+      "name": "OO1",
+      "amplitude": 0.013,
+      "phase": 279.1
+    },
+    {
+      "name": "LAM2",
+      "amplitude": 0.013,
+      "phase": 294
+    },
+    {
+      "name": "S1",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "M1",
+      "amplitude": 0.022,
+      "phase": 257.8
+    },
+    {
+      "name": "J1",
+      "amplitude": 0.024,
+      "phase": 271.9
+    },
+    {
+      "name": "MM",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "SSA",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "SA",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MSF",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MF",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "RHO",
+      "amplitude": 0.012,
+      "phase": 244.5
+    },
+    {
+      "name": "Q1",
+      "amplitude": 0.06,
+      "phase": 243.6
+    },
+    {
+      "name": "T2",
+      "amplitude": 0.038,
+      "phase": 309.8
+    },
+    {
+      "name": "R2",
+      "amplitude": 0.005,
+      "phase": 312.4
+    },
+    {
+      "name": "2Q1",
+      "amplitude": 0.008,
+      "phase": 236.5
+    },
+    {
+      "name": "P1",
+      "amplitude": 0.165,
+      "phase": 263.8
+    },
+    {
+      "name": "2SM2",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "M3",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "L2",
+      "amplitude": 0.052,
+      "phase": 300.6
+    },
+    {
+      "name": "2MK3",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "K2",
+      "amplitude": 0.175,
+      "phase": 313.7
+    },
+    {
+      "name": "M8",
+      "amplitude": 0.003,
+      "phase": 116.5
+    },
+    {
+      "name": "MS4",
+      "amplitude": 0,
+      "phase": 0
+    }
+  ]
+}

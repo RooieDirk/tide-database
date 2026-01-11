@@ -1,0 +1,33 @@
+{
+  "name": "New Rochelle",
+  "region": "NY",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 40.8933,
+  "longitude": -73.7817,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8518490",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8518490"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8516945",
+    "height": {
+      "type": "ratio",
+      "high": 1.01,
+      "low": 0.93
+    },
+    "time": {
+      "high": -16,
+      "low": -18
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "James Island",
+  "region": "WA",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 47.9067,
+  "longitude": -124.647,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9442388",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9442388"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/9440910",
+    "height": {
+      "type": "ratio",
+      "high": 0.92,
+      "low": 0.96
+    },
+    "time": {
+      "high": -39,
+      "low": -32
+    }
+  }
+}

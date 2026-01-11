@@ -1,0 +1,33 @@
+{
+  "name": "Mobile Point (Fort Morgan)",
+  "region": "AL",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 30.2333,
+  "longitude": -88.02,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8734635",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8734635"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8737048",
+    "height": {
+      "type": "ratio",
+      "high": 0.8,
+      "low": 0.8
+    },
+    "time": {
+      "high": -106,
+      "low": -92
+    }
+  }
+}

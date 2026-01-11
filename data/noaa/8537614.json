@@ -1,0 +1,33 @@
+{
+  "name": "Artificial Island, Salem Nuclear Plant, N.J.",
+  "region": "NJ",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 39.46,
+  "longitude": -75.5317,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8537614",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8537614"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8551910",
+    "height": {
+      "type": "ratio",
+      "high": 1.08,
+      "low": 1.08
+    },
+    "time": {
+      "high": -35,
+      "low": -33
+    }
+  }
+}

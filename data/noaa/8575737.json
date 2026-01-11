@@ -1,0 +1,33 @@
+{
+  "name": "Thomas Point Shoal Light",
+  "region": "MD",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 38.9,
+  "longitude": -76.4333,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8575737",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8575737"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8574680",
+    "height": {
+      "type": "ratio",
+      "high": 0.81,
+      "low": 0.91
+    },
+    "time": {
+      "high": -116,
+      "low": -131
+    }
+  }
+}

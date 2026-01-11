@@ -1,0 +1,33 @@
+{
+  "name": "Composite Island",
+  "region": "AK",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 58.8883,
+  "longitude": -136.573,
+  "timezone": "America/Juneau",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9452682",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9452682"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/9452634",
+    "height": {
+      "type": "ratio",
+      "high": 1.54,
+      "low": 1.2
+    },
+    "time": {
+      "high": 45,
+      "low": 51
+    }
+  }
+}

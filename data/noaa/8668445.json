@@ -1,0 +1,33 @@
+{
+  "name": "Parris Island, Marine Corps Recruit Depot",
+  "region": "SC",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 32.35,
+  "longitude": -80.6683,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8668445",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8668445"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8670870",
+    "height": {
+      "type": "ratio",
+      "high": 1.02,
+      "low": 0.91
+    },
+    "time": {
+      "high": 37,
+      "low": 26
+    }
+  }
+}

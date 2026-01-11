@@ -1,0 +1,33 @@
+{
+  "name": "Harbor River Bridge",
+  "region": "SC",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 32.4033,
+  "longitude": -80.4533,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8668146",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8668146"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8670870",
+    "height": {
+      "type": "ratio",
+      "high": 0.88,
+      "low": 0.95
+    },
+    "time": {
+      "high": 3,
+      "low": -6
+    }
+  }
+}

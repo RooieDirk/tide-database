@@ -1,0 +1,33 @@
+{
+  "name": "Big Bay, Shuyak Island",
+  "region": "AK",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 58.555,
+  "longitude": -152.613,
+  "timezone": "America/Anchorage",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9457321",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9457321"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/9455500",
+    "height": {
+      "type": "ratio",
+      "high": 0.77,
+      "low": 0.77
+    },
+    "time": {
+      "high": 10,
+      "low": 15
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Oak Branch, Bohicket Creek",
+  "region": "SC",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 32.6833,
+  "longitude": -80.0967,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8666282",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8666282"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8665530",
+    "height": {
+      "type": "ratio",
+      "high": 1.26,
+      "low": 1.16
+    },
+    "time": {
+      "high": 99,
+      "low": 57
+    }
+  }
+}

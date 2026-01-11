@@ -1,0 +1,33 @@
+{
+  "name": "Mangareva Island",
+  "region": "",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": -23.13333333333333,
+  "longitude": -134.9666666666667,
+  "timezone": "Pacific/Gambier",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TPT2835",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TPT2835"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/1770000",
+    "height": {
+      "type": "ratio",
+      "high": 0.86,
+      "low": 0.86
+    },
+    "time": {
+      "high": -290,
+      "low": -287
+    }
+  }
+}

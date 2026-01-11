@@ -1,0 +1,33 @@
+{
+  "name": "Cape Romain, 46 miles east of",
+  "region": "",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 33.1,
+  "longitude": -78.433333333333,
+  "timezone": "Etc/GMT+5",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TEC3011",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TEC3011"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8665530",
+    "height": {
+      "type": "ratio",
+      "high": 0.78,
+      "low": 0.79
+    },
+    "time": {
+      "high": -65,
+      "low": -73
+    }
+  }
+}

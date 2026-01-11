@@ -1,0 +1,33 @@
+{
+  "name": "Threemile Harbor entrance, Gardiners Bay",
+  "region": "NY",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 41.035,
+  "longitude": -72.19,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8511171",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8511171"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8461490",
+    "height": {
+      "type": "ratio",
+      "high": 0.96,
+      "low": 1
+    },
+    "time": {
+      "high": 39,
+      "low": 19
+    }
+  }
+}

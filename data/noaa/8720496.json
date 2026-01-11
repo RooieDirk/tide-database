@@ -1,0 +1,33 @@
+{
+  "name": "Green Cove Springs",
+  "region": "FL",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 29.99,
+  "longitude": -81.6633,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8720496",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8720496"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8720218",
+    "height": {
+      "type": "ratio",
+      "high": 0.17,
+      "low": 0.27
+    },
+    "time": {
+      "high": 297,
+      "low": 355
+    }
+  }
+}

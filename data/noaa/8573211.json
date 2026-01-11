@@ -1,0 +1,33 @@
+{
+  "name": "Deep Landing, Swan Creek",
+  "region": "MD",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 39.145,
+  "longitude": -76.26,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8573211",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8573211"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8574680",
+    "height": {
+      "type": "ratio",
+      "high": 0.96,
+      "low": 1.09
+    },
+    "time": {
+      "high": 2,
+      "low": -4
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Beaufort Inlet Channel Range",
+  "region": "NC",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 34.6983,
+  "longitude": -76.665,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8656569",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8656569"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8654400",
+    "height": {
+      "type": "ratio",
+      "high": 1.07,
+      "low": 1.67
+    },
+    "time": {
+      "high": 7,
+      "low": 11
+    }
+  }
+}

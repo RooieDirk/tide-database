@@ -1,0 +1,33 @@
+{
+  "name": "Favorite Bay",
+  "region": "",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 57.48333333333299,
+  "longitude": -134.55,
+  "timezone": "America/Juneau",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TWC1739",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TWC1739"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/9452210",
+    "height": {
+      "type": "fixed",
+      "high": -0.85,
+      "low": 0.09
+    },
+    "time": {
+      "high": 11,
+      "low": 15
+    }
+  }
+}

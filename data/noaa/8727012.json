@@ -1,0 +1,33 @@
+{
+  "name": "Hwy. 19 bridge, Pithlachascotee River",
+  "region": "FL",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 28.2683,
+  "longitude": -82.7267,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8727012",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8727012"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8727520",
+    "height": {
+      "type": "ratio",
+      "high": 0.85,
+      "low": 0.84
+    },
+    "time": {
+      "high": -76,
+      "low": -40
+    }
+  }
+}

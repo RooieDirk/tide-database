@@ -1,0 +1,33 @@
+{
+  "name": "Assiscunk Creek, Route 130 bridge, N.J.",
+  "region": "NJ",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 40.0733,
+  "longitude": -74.8483,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8539058",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8539058"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8545240",
+    "height": {
+      "type": "ratio",
+      "high": 1.12,
+      "low": 0.85
+    },
+    "time": {
+      "high": 64,
+      "low": 91
+    }
+  }
+}

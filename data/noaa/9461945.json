@@ -1,0 +1,33 @@
+{
+  "name": "Finch Cove, Seguam Island",
+  "region": "AK",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 52.3917,
+  "longitude": -172.405,
+  "timezone": "America/Adak",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9461945",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9461945"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/9461380",
+    "height": {
+      "type": "ratio",
+      "high": 0.87,
+      "low": 0.87
+    },
+    "time": {
+      "high": -60,
+      "low": 7
+    }
+  }
+}

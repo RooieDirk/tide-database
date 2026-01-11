@@ -1,0 +1,33 @@
+{
+  "name": "Raccoon Key, east side",
+  "region": "FL",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 24.7417,
+  "longitude": -81.4833,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8724311",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8724311"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8724580",
+    "height": {
+      "type": "ratio",
+      "high": 1.5,
+      "low": 1.21
+    },
+    "time": {
+      "high": 200,
+      "low": 309
+    }
+  }
+}

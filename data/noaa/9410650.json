@@ -1,0 +1,33 @@
+{
+  "name": "Cabrillo Beach",
+  "region": "CA",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 33.7067,
+  "longitude": -118.273,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9410650",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9410650"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/9410660",
+    "height": {
+      "type": "ratio",
+      "high": 1,
+      "low": 1
+    },
+    "time": {
+      "high": 0,
+      "low": 0
+    }
+  }
+}

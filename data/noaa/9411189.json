@@ -1,0 +1,33 @@
+{
+  "name": "Ventura",
+  "region": "CA",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 34.2667,
+  "longitude": -119.283,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9411189",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9411189"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/9410660",
+    "height": {
+      "type": "fixed",
+      "high": -0.03,
+      "low": 0
+    },
+    "time": {
+      "high": 9,
+      "low": 16
+    }
+  }
+}

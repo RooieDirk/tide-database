@@ -1,0 +1,33 @@
+{
+  "name": "Clifton Beach, Smith Point, Md.",
+  "region": "",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 38.41333333333299,
+  "longitude": -77.266666666667,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8578931",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8578931"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8594900",
+    "height": {
+      "type": "ratio",
+      "high": 0.41,
+      "low": 0.67
+    },
+    "time": {
+      "high": -102,
+      "low": -166
+    }
+  }
+}

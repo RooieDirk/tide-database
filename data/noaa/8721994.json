@@ -1,0 +1,33 @@
+{
+  "name": "Micco",
+  "region": "FL",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 27.8733,
+  "longitude": -80.4967,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8721994",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8721994"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8723178",
+    "height": {
+      "type": "ratio",
+      "high": 0.14,
+      "low": 0.57
+    },
+    "time": {
+      "high": 74,
+      "low": 139
+    }
+  }
+}

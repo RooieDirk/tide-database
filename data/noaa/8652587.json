@@ -1,0 +1,228 @@
+{
+  "name": "OREGON INLET MARINA",
+  "region": "NC",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 35.79569444444444,
+  "longitude": -75.54819444444445,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8652587",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8652587"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "datums": {
+    "LAT": 0.707,
+    "HAT": 1.288,
+    "STND": 0,
+    "MHHW": 1.148,
+    "MHW": 1.105,
+    "DTL": 0.968,
+    "MTL": 0.966,
+    "MSL": 0.965,
+    "MLW": 0.828,
+    "MLLW": 0.788,
+    "GT": 0.36,
+    "MN": 0.276,
+    "DHQ": 0.043,
+    "DLQ": 0.04,
+    "HWI": 0.45,
+    "LWI": 7.15,
+    "NAVD88": 1.003
+  },
+  "type": "reference",
+  "harmonic_constituents": [
+    {
+      "name": "M2",
+      "amplitude": 0.12,
+      "phase": 16.6
+    },
+    {
+      "name": "S2",
+      "amplitude": 0.019,
+      "phase": 32.5
+    },
+    {
+      "name": "N2",
+      "amplitude": 0.028,
+      "phase": 358.9
+    },
+    {
+      "name": "K1",
+      "amplitude": 0.028,
+      "phase": 190.9
+    },
+    {
+      "name": "M4",
+      "amplitude": 0.009,
+      "phase": 346.3
+    },
+    {
+      "name": "O1",
+      "amplitude": 0.02,
+      "phase": 194.1
+    },
+    {
+      "name": "M6",
+      "amplitude": 0.004,
+      "phase": 209.5
+    },
+    {
+      "name": "MK3",
+      "amplitude": 0.004,
+      "phase": 166.1
+    },
+    {
+      "name": "S4",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MN4",
+      "amplitude": 0.003,
+      "phase": 327.9
+    },
+    {
+      "name": "NU2",
+      "amplitude": 0.006,
+      "phase": 351.5
+    },
+    {
+      "name": "S6",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MU2",
+      "amplitude": 0.004,
+      "phase": 27.4
+    },
+    {
+      "name": "2N2",
+      "amplitude": 0.004,
+      "phase": 351.7
+    },
+    {
+      "name": "OO1",
+      "amplitude": 0.001,
+      "phase": 175
+    },
+    {
+      "name": "LAM2",
+      "amplitude": 0.002,
+      "phase": 41
+    },
+    {
+      "name": "S1",
+      "amplitude": 0.012,
+      "phase": 248.9
+    },
+    {
+      "name": "M1",
+      "amplitude": 0.002,
+      "phase": 210.3
+    },
+    {
+      "name": "J1",
+      "amplitude": 0.003,
+      "phase": 211.2
+    },
+    {
+      "name": "MM",
+      "amplitude": 0.019,
+      "phase": 56.5
+    },
+    {
+      "name": "SSA",
+      "amplitude": 0.032,
+      "phase": 56.9
+    },
+    {
+      "name": "SA",
+      "amplitude": 0.074,
+      "phase": 154.6
+    },
+    {
+      "name": "MSF",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MF",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "RHO",
+      "amplitude": 0.002,
+      "phase": 218.4
+    },
+    {
+      "name": "Q1",
+      "amplitude": 0.003,
+      "phase": 219.8
+    },
+    {
+      "name": "T2",
+      "amplitude": 0.002,
+      "phase": 14.4
+    },
+    {
+      "name": "R2",
+      "amplitude": 0.003,
+      "phase": 238.2
+    },
+    {
+      "name": "2Q1",
+      "amplitude": 0.001,
+      "phase": 336.9
+    },
+    {
+      "name": "P1",
+      "amplitude": 0.013,
+      "phase": 218.6
+    },
+    {
+      "name": "2SM2",
+      "amplitude": 0.001,
+      "phase": 332.2
+    },
+    {
+      "name": "M3",
+      "amplitude": 0.001,
+      "phase": 356.3
+    },
+    {
+      "name": "L2",
+      "amplitude": 0.003,
+      "phase": 34.2
+    },
+    {
+      "name": "2MK3",
+      "amplitude": 0.002,
+      "phase": 185.5
+    },
+    {
+      "name": "K2",
+      "amplitude": 0.004,
+      "phase": 23.4
+    },
+    {
+      "name": "M8",
+      "amplitude": 0.001,
+      "phase": 194.2
+    },
+    {
+      "name": "MS4",
+      "amplitude": 0.004,
+      "phase": 28.2
+    }
+  ]
+}

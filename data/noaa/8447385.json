@@ -1,0 +1,33 @@
+{
+  "name": "Marion, Sippican Harbor",
+  "region": "MA",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 41.705,
+  "longitude": -70.7617,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8447385",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8447385"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8452660",
+    "height": {
+      "type": "ratio",
+      "high": 1.13,
+      "low": 1.29
+    },
+    "time": {
+      "high": 10,
+      "low": 12
+    }
+  }
+}

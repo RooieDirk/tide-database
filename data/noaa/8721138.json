@@ -1,0 +1,33 @@
+{
+  "name": "Ponce Inlet, Halifax River",
+  "region": "FL",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 29.0817,
+  "longitude": -80.9367,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8721138",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8721138"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8723178",
+    "height": {
+      "type": "ratio",
+      "high": 1.18,
+      "low": 1
+    },
+    "time": {
+      "high": 5,
+      "low": 33
+    }
+  }
+}

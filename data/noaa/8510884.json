@@ -1,0 +1,33 @@
+{
+  "name": "Little Gull Island",
+  "region": "NY",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 41.2067,
+  "longitude": -72.1017,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8510884",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8510884"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8461490",
+    "height": {
+      "type": "ratio",
+      "high": 0.85,
+      "low": 0.85
+    },
+    "time": {
+      "high": 13,
+      "low": -22
+    }
+  }
+}

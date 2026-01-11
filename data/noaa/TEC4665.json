@@ -1,0 +1,33 @@
+{
+  "name": "Punta Maisi",
+  "region": "",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 20.25,
+  "longitude": -74.133333333333,
+  "timezone": "America/Havana",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TEC4665",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TEC4665"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8638610",
+    "height": {
+      "type": "ratio",
+      "high": 0.88,
+      "low": 0.88
+    },
+    "time": {
+      "high": -76,
+      "low": -80
+    }
+  }
+}

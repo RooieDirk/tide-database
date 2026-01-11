@@ -1,0 +1,225 @@
+{
+  "name": "Port Saint Joe, St. Joseph Bay",
+  "region": "FL",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 29.815,
+  "longitude": -85.3133,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8728912",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8728912"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "datums": {
+    "LAT": 0.607,
+    "HAT": 1.6589999,
+    "STND": 0,
+    "MHHW": 1.412,
+    "MHW": 1.321,
+    "DTL": 1.16,
+    "MTL": 1.145,
+    "MSL": 1.158,
+    "MLW": 0.97,
+    "MLLW": 0.908,
+    "GT": 0.504,
+    "MN": 0.351,
+    "DHQ": 0.091,
+    "DLQ": 0.062
+  },
+  "type": "reference",
+  "harmonic_constituents": [
+    {
+      "name": "M2",
+      "amplitude": 0.039,
+      "phase": 128.9
+    },
+    {
+      "name": "S2",
+      "amplitude": 0.018,
+      "phase": 132.7
+    },
+    {
+      "name": "N2",
+      "amplitude": 0.008,
+      "phase": 142.9
+    },
+    {
+      "name": "K1",
+      "amplitude": 0.149,
+      "phase": 33.5
+    },
+    {
+      "name": "M4",
+      "amplitude": 0.025,
+      "phase": 30.5
+    },
+    {
+      "name": "O1",
+      "amplitude": 0.141,
+      "phase": 23.2
+    },
+    {
+      "name": "M6",
+      "amplitude": 0.008,
+      "phase": 316.4
+    },
+    {
+      "name": "MK3",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "S4",
+      "amplitude": 0.009,
+      "phase": 158.1
+    },
+    {
+      "name": "MN4",
+      "amplitude": 0.013,
+      "phase": 348.6
+    },
+    {
+      "name": "NU2",
+      "amplitude": 0.002,
+      "phase": 138.6
+    },
+    {
+      "name": "S6",
+      "amplitude": 0.002,
+      "phase": 284
+    },
+    {
+      "name": "MU2",
+      "amplitude": 0.002,
+      "phase": 115.3
+    },
+    {
+      "name": "2N2",
+      "amplitude": 0.002,
+      "phase": 117.1
+    },
+    {
+      "name": "OO1",
+      "amplitude": 0.008,
+      "phase": 56.1
+    },
+    {
+      "name": "LAM2",
+      "amplitude": 0.001,
+      "phase": 240.8
+    },
+    {
+      "name": "S1",
+      "amplitude": 0.008,
+      "phase": 143.5
+    },
+    {
+      "name": "M1",
+      "amplitude": 0.009,
+      "phase": 50.5
+    },
+    {
+      "name": "J1",
+      "amplitude": 0.011,
+      "phase": 22.7
+    },
+    {
+      "name": "MM",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "SSA",
+      "amplitude": 0.046,
+      "phase": 39.8
+    },
+    {
+      "name": "SA",
+      "amplitude": 0.113,
+      "phase": 152
+    },
+    {
+      "name": "MSF",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MF",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "RHO",
+      "amplitude": 0.007,
+      "phase": 2.4
+    },
+    {
+      "name": "Q1",
+      "amplitude": 0.028,
+      "phase": 13.1
+    },
+    {
+      "name": "T2",
+      "amplitude": 0.002,
+      "phase": 139.2
+    },
+    {
+      "name": "R2",
+      "amplitude": 0.001,
+      "phase": 1.3
+    },
+    {
+      "name": "2Q1",
+      "amplitude": 0.002,
+      "phase": 18.3
+    },
+    {
+      "name": "P1",
+      "amplitude": 0.047,
+      "phase": 33.1
+    },
+    {
+      "name": "2SM2",
+      "amplitude": 0.001,
+      "phase": 200.4
+    },
+    {
+      "name": "M3",
+      "amplitude": 0.001,
+      "phase": 215.8
+    },
+    {
+      "name": "L2",
+      "amplitude": 0.001,
+      "phase": 351.1
+    },
+    {
+      "name": "2MK3",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "K2",
+      "amplitude": 0.005,
+      "phase": 110.9
+    },
+    {
+      "name": "M8",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MS4",
+      "amplitude": 0.015,
+      "phase": 48.4
+    }
+  ]
+}

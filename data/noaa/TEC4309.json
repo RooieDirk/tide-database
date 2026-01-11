@@ -1,0 +1,33 @@
+{
+  "name": "Rock Islands",
+  "region": "",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 29.966699600219727,
+  "longitude": -83.83329772949219,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TEC4309",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TEC4309"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8728130",
+    "height": {
+      "type": "ratio",
+      "high": 0.93,
+      "low": 0.91
+    },
+    "time": {
+      "high": -3,
+      "low": 4
+    }
+  }
+}

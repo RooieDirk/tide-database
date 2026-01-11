@@ -1,0 +1,33 @@
+{
+  "name": "Little Torch Key, Torch Channel",
+  "region": "FL",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 24.665,
+  "longitude": -81.395,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8724232",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8724232"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8724580",
+    "height": {
+      "type": "ratio",
+      "high": 0.57,
+      "low": 0.33
+    },
+    "time": {
+      "high": 11,
+      "low": 105
+    }
+  }
+}

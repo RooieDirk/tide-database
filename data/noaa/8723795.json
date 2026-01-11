@@ -1,0 +1,33 @@
+{
+  "name": "Whale Harbor, Windley Key, Hawk Channel",
+  "region": "FL",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 24.94,
+  "longitude": -80.6083,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8723795",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8723795"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8723178",
+    "height": {
+      "type": "ratio",
+      "high": 0.65,
+      "low": 0.36
+    },
+    "time": {
+      "high": 7,
+      "low": 51
+    }
+  }
+}

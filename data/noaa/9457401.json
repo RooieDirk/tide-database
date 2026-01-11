@@ -1,0 +1,33 @@
+{
+  "name": "Kizhuyak Bay",
+  "region": "AK",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 57.82,
+  "longitude": -152.9,
+  "timezone": "America/Anchorage",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9457401",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9457401"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/9457292",
+    "height": {
+      "type": "fixed",
+      "high": 0.24,
+      "low": 0
+    },
+    "time": {
+      "high": 6,
+      "low": 11
+    }
+  }
+}

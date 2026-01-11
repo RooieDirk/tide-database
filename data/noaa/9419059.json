@@ -1,0 +1,33 @@
+{
+  "name": "Trinidad Harbor",
+  "region": "CA",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 41.0567,
+  "longitude": -124.147,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9419059",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9419059"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/9419750",
+    "height": {
+      "type": "ratio",
+      "high": 0.97,
+      "low": 0.98
+    },
+    "time": {
+      "high": -2,
+      "low": -3
+    }
+  }
+}

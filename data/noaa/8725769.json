@@ -1,0 +1,33 @@
+{
+  "name": "El Jobean, Myakka River",
+  "region": "FL",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 26.9617,
+  "longitude": -82.21,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8725769",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8725769"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8726520",
+    "height": {
+      "type": "ratio",
+      "high": 0.83,
+      "low": 0.83
+    },
+    "time": {
+      "high": 98,
+      "low": 116
+    }
+  }
+}

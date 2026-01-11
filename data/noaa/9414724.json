@@ -1,0 +1,33 @@
+{
+  "name": "San Leandro Channel, San Leandro Bay",
+  "region": "CA",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 37.7483,
+  "longitude": -122.235,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9414724",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9414724"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/9414290",
+    "height": {
+      "type": "ratio",
+      "high": 1.16,
+      "low": 0.98
+    },
+    "time": {
+      "high": 42,
+      "low": 52
+    }
+  }
+}

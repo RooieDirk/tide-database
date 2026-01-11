@@ -1,0 +1,33 @@
+{
+  "name": "Southeast Pass",
+  "region": "LA",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 29.1167,
+  "longitude": -89.045,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8760416",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8760416"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8760551",
+    "height": {
+      "type": "ratio",
+      "high": 0.98,
+      "low": 0.98
+    },
+    "time": {
+      "high": 37,
+      "low": -28
+    }
+  }
+}

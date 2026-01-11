@@ -1,0 +1,33 @@
+{
+  "name": "Cape Canaveral",
+  "region": "",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 28.433333333332993,
+  "longitude": -80.566666666667,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TEC3693",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TEC3693"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8723178",
+    "height": {
+      "type": "ratio",
+      "high": 1.5,
+      "low": 1.42
+    },
+    "time": {
+      "high": -66,
+      "low": -44
+    }
+  }
+}

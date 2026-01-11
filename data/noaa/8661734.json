@@ -1,0 +1,33 @@
+{
+  "name": "Mt. Pleasant Plantation, Black River",
+  "region": "SC",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 33.495,
+  "longitude": -79.4617,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8661734",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8661734"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8665530",
+    "height": {
+      "type": "ratio",
+      "high": 0.37,
+      "low": 1.05
+    },
+    "time": {
+      "high": 338,
+      "low": 364
+    }
+  }
+}

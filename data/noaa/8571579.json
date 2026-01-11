@@ -1,0 +1,228 @@
+{
+  "name": "Barren Island",
+  "region": "MD",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 38.3417,
+  "longitude": -76.265,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8571579",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8571579"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "datums": {
+    "LAT": 8.661,
+    "HAT": 9.425,
+    "STND": 0,
+    "MHHW": 9.306,
+    "MHW": 9.254,
+    "DTL": 9.07,
+    "MTL": 9.068,
+    "MSL": 9.074,
+    "MLW": 8.881,
+    "MLLW": 8.834,
+    "GT": 0.473,
+    "MN": 0.373,
+    "DHQ": 0.053,
+    "DLQ": 0.048,
+    "HWI": 6.775,
+    "LWI": 0.761,
+    "NAVD88": 9.204
+  },
+  "type": "reference",
+  "harmonic_constituents": [
+    {
+      "name": "M2",
+      "amplitude": 0.177,
+      "phase": 194.1
+    },
+    {
+      "name": "S2",
+      "amplitude": 0.032,
+      "phase": 209
+    },
+    {
+      "name": "N2",
+      "amplitude": 0.039,
+      "phase": 168.1
+    },
+    {
+      "name": "K1",
+      "amplitude": 0.03,
+      "phase": 305.1
+    },
+    {
+      "name": "M4",
+      "amplitude": 0.005,
+      "phase": 243.6
+    },
+    {
+      "name": "O1",
+      "amplitude": 0.023,
+      "phase": 325.1
+    },
+    {
+      "name": "M6",
+      "amplitude": 0.004,
+      "phase": 277.5
+    },
+    {
+      "name": "MK3",
+      "amplitude": 0.003,
+      "phase": 312.7
+    },
+    {
+      "name": "S4",
+      "amplitude": 0.001,
+      "phase": 272.8
+    },
+    {
+      "name": "MN4",
+      "amplitude": 0.003,
+      "phase": 218.7
+    },
+    {
+      "name": "NU2",
+      "amplitude": 0.008,
+      "phase": 172.8
+    },
+    {
+      "name": "S6",
+      "amplitude": 0.001,
+      "phase": 256.4
+    },
+    {
+      "name": "MU2",
+      "amplitude": 0.001,
+      "phase": 102.1
+    },
+    {
+      "name": "2N2",
+      "amplitude": 0.005,
+      "phase": 148.9
+    },
+    {
+      "name": "OO1",
+      "amplitude": 0.002,
+      "phase": 320.4
+    },
+    {
+      "name": "LAM2",
+      "amplitude": 0.004,
+      "phase": 232.8
+    },
+    {
+      "name": "S1",
+      "amplitude": 0.014,
+      "phase": 288.6
+    },
+    {
+      "name": "M1",
+      "amplitude": 0.002,
+      "phase": 46.1
+    },
+    {
+      "name": "J1",
+      "amplitude": 0.001,
+      "phase": 9.1
+    },
+    {
+      "name": "MM",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "SSA",
+      "amplitude": 0.034,
+      "phase": 36.1
+    },
+    {
+      "name": "SA",
+      "amplitude": 0.087,
+      "phase": 131.4
+    },
+    {
+      "name": "MSF",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MF",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "RHO",
+      "amplitude": 0.002,
+      "phase": 43.4
+    },
+    {
+      "name": "Q1",
+      "amplitude": 0.006,
+      "phase": 301.6
+    },
+    {
+      "name": "T2",
+      "amplitude": 0.007,
+      "phase": 199.5
+    },
+    {
+      "name": "R2",
+      "amplitude": 0.006,
+      "phase": 337
+    },
+    {
+      "name": "2Q1",
+      "amplitude": 0.001,
+      "phase": 300.8
+    },
+    {
+      "name": "P1",
+      "amplitude": 0.015,
+      "phase": 291
+    },
+    {
+      "name": "2SM2",
+      "amplitude": 0.001,
+      "phase": 309.3
+    },
+    {
+      "name": "M3",
+      "amplitude": 0.002,
+      "phase": 266.6
+    },
+    {
+      "name": "L2",
+      "amplitude": 0.017,
+      "phase": 229.9
+    },
+    {
+      "name": "2MK3",
+      "amplitude": 0.003,
+      "phase": 308.7
+    },
+    {
+      "name": "K2",
+      "amplitude": 0.008,
+      "phase": 238.3
+    },
+    {
+      "name": "M8",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MS4",
+      "amplitude": 0.001,
+      "phase": 307.4
+    }
+  ]
+}

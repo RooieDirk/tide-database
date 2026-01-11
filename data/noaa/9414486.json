@@ -1,0 +1,33 @@
+{
+  "name": "Bay Slough, east end",
+  "region": "CA",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 37.545,
+  "longitude": -122.222,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9414486",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9414486"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/9414290",
+    "height": {
+      "type": "ratio",
+      "high": 1.27,
+      "low": 0.77
+    },
+    "time": {
+      "high": 49,
+      "low": 112
+    }
+  }
+}

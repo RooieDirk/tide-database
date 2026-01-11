@@ -1,0 +1,33 @@
+{
+  "name": "Highway bridge, Ogeechee River",
+  "region": "",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 31.983333333332993,
+  "longitude": -81.28333333333299,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TEC3421",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TEC3421"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8670870",
+    "height": {
+      "type": "ratio",
+      "high": 0.15,
+      "low": 0.14
+    },
+    "time": {
+      "high": 199,
+      "low": 265
+    }
+  }
+}

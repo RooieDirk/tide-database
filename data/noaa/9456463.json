@@ -1,0 +1,33 @@
+{
+  "name": "Oil Bay, Kamishak Bay",
+  "region": "AK",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 59.64,
+  "longitude": -153.262,
+  "timezone": "America/Anchorage",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9456463",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9456463"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/9455500",
+    "height": {
+      "type": "ratio",
+      "high": 0.77,
+      "low": 0.83
+    },
+    "time": {
+      "high": 75,
+      "low": 76
+    }
+  }
+}

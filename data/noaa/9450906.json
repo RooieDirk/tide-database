@@ -1,0 +1,33 @@
+{
+  "name": "Beck Island, Clarence Strait",
+  "region": "AK",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 56.0467,
+  "longitude": -132.862,
+  "timezone": "America/Sitka",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9450906",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9450906"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/9450460",
+    "height": {
+      "type": "ratio",
+      "high": 1.05,
+      "low": 1.01
+    },
+    "time": {
+      "high": 10,
+      "low": 5
+    }
+  }
+}

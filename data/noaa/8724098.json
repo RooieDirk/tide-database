@@ -1,0 +1,33 @@
+{
+  "name": "Cocoanut Key, Florida Bay",
+  "region": "FL",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 24.745,
+  "longitude": -81.2367,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8724098",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8724098"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8724580",
+    "height": {
+      "type": "ratio",
+      "high": 0.55,
+      "low": 0.55
+    },
+    "time": {
+      "high": 232,
+      "low": 170
+    }
+  }
+}

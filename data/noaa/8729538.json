@@ -1,0 +1,33 @@
+{
+  "name": "Shalimar, Garnier Bayou",
+  "region": "FL",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 30.435,
+  "longitude": -86.5867,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8729538",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8729538"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8729840",
+    "height": {
+      "type": "ratio",
+      "high": 0.32,
+      "low": 0.32
+    },
+    "time": {
+      "high": 213,
+      "low": 183
+    }
+  }
+}

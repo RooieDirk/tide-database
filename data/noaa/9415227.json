@@ -1,0 +1,33 @@
+{
+  "name": "Point Buckler",
+  "region": "CA",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 38.1,
+  "longitude": -122.033,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9415227",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9415227"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/9415144",
+    "height": {
+      "type": "ratio",
+      "high": 1.12,
+      "low": 1.08
+    },
+    "time": {
+      "high": 13,
+      "low": 22
+    }
+  }
+}

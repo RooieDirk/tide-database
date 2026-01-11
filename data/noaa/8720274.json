@@ -1,0 +1,33 @@
+{
+  "name": "Little Pottsburg Creek",
+  "region": "FL",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 30.31,
+  "longitude": -81.61,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8720274",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8720274"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8720218",
+    "height": {
+      "type": "ratio",
+      "high": 0.44,
+      "low": 0.53
+    },
+    "time": {
+      "high": 91,
+      "low": 129
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "St. Michaels, Miles River",
+  "region": "MD",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 38.7867,
+  "longitude": -76.2217,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8572342",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8572342"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8574680",
+    "height": {
+      "type": "ratio",
+      "high": 1.22,
+      "low": 1.18
+    },
+    "time": {
+      "high": -132,
+      "low": -122
+    }
+  }
+}

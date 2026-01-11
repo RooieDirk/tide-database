@@ -1,0 +1,33 @@
+{
+  "name": "Mauricetown",
+  "region": "NJ",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 39.285,
+  "longitude": -74.9917,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8537059",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8537059"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8557380",
+    "height": {
+      "type": "ratio",
+      "high": 1.05,
+      "low": 1.05
+    },
+    "time": {
+      "high": 137,
+      "low": 150
+    }
+  }
+}

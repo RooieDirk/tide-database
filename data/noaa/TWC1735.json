@@ -1,0 +1,33 @@
+{
+  "name": "Point Thatcher",
+  "region": "",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 57.416666666667005,
+  "longitude": -134.85,
+  "timezone": "America/Sitka",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TWC1735",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TWC1735"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/9452210",
+    "height": {
+      "type": "fixed",
+      "high": -0.58,
+      "low": 0.06
+    },
+    "time": {
+      "high": -15,
+      "low": -11
+    }
+  }
+}

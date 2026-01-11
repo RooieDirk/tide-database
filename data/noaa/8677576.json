@@ -1,0 +1,33 @@
+{
+  "name": "Jointer Island, Jointer Creek",
+  "region": "GA",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 31.095,
+  "longitude": -81.505,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8677576",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8677576"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8720030",
+    "height": {
+      "type": "ratio",
+      "high": 1.18,
+      "low": 1.18
+    },
+    "time": {
+      "high": 11,
+      "low": 31
+    }
+  }
+}

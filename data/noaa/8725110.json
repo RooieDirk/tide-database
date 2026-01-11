@@ -1,0 +1,228 @@
+{
+  "name": "Naples (outer coast)",
+  "region": "FL",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 26.1316667,
+  "longitude": -81.8075,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8725110",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8725110"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "datums": {
+    "LAT": 0.22299999,
+    "HAT": 1.819,
+    "STND": 0,
+    "MHHW": 1.527,
+    "MHW": 1.45,
+    "DTL": 1.09,
+    "MTL": 1.144,
+    "MSL": 1.155,
+    "MLW": 0.837,
+    "MLLW": 0.653,
+    "GT": 0.875,
+    "MN": 0.613,
+    "DHQ": 0.077,
+    "DLQ": 0.185,
+    "HWI": 5.12,
+    "LWI": 11.29,
+    "NAVD88": 1.343
+  },
+  "type": "reference",
+  "harmonic_constituents": [
+    {
+      "name": "M2",
+      "amplitude": 0.27,
+      "phase": 144.8
+    },
+    {
+      "name": "S2",
+      "amplitude": 0.088,
+      "phase": 157.1
+    },
+    {
+      "name": "N2",
+      "amplitude": 0.054,
+      "phase": 130.2
+    },
+    {
+      "name": "K1",
+      "amplitude": 0.146,
+      "phase": 9.3
+    },
+    {
+      "name": "M4",
+      "amplitude": 0.017,
+      "phase": 119.8
+    },
+    {
+      "name": "O1",
+      "amplitude": 0.135,
+      "phase": 3.3
+    },
+    {
+      "name": "M6",
+      "amplitude": 0.008,
+      "phase": 130.1
+    },
+    {
+      "name": "MK3",
+      "amplitude": 0.009,
+      "phase": 314.3
+    },
+    {
+      "name": "S4",
+      "amplitude": 0.003,
+      "phase": 247.3
+    },
+    {
+      "name": "MN4",
+      "amplitude": 0.007,
+      "phase": 86.4
+    },
+    {
+      "name": "NU2",
+      "amplitude": 0.011,
+      "phase": 140.6
+    },
+    {
+      "name": "S6",
+      "amplitude": 0.001,
+      "phase": 358.1
+    },
+    {
+      "name": "MU2",
+      "amplitude": 0.008,
+      "phase": 58.4
+    },
+    {
+      "name": "2N2",
+      "amplitude": 0.007,
+      "phase": 124.5
+    },
+    {
+      "name": "OO1",
+      "amplitude": 0.003,
+      "phase": 1.3
+    },
+    {
+      "name": "LAM2",
+      "amplitude": 0.003,
+      "phase": 196.9
+    },
+    {
+      "name": "S1",
+      "amplitude": 0.015,
+      "phase": 107.9
+    },
+    {
+      "name": "M1",
+      "amplitude": 0.005,
+      "phase": 40.7
+    },
+    {
+      "name": "J1",
+      "amplitude": 0.008,
+      "phase": 15.4
+    },
+    {
+      "name": "MM",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "SSA",
+      "amplitude": 0.041,
+      "phase": 42.3
+    },
+    {
+      "name": "SA",
+      "amplitude": 0.096,
+      "phase": 158.5
+    },
+    {
+      "name": "MSF",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MF",
+      "amplitude": 0.01,
+      "phase": 342.7
+    },
+    {
+      "name": "RHO",
+      "amplitude": 0.005,
+      "phase": 351.9
+    },
+    {
+      "name": "Q1",
+      "amplitude": 0.031,
+      "phase": 353.4
+    },
+    {
+      "name": "T2",
+      "amplitude": 0.005,
+      "phase": 148.4
+    },
+    {
+      "name": "R2",
+      "amplitude": 0.002,
+      "phase": 52.5
+    },
+    {
+      "name": "2Q1",
+      "amplitude": 0.005,
+      "phase": 342.1
+    },
+    {
+      "name": "P1",
+      "amplitude": 0.048,
+      "phase": 6.7
+    },
+    {
+      "name": "2SM2",
+      "amplitude": 0.001,
+      "phase": 120.5
+    },
+    {
+      "name": "M3",
+      "amplitude": 0.003,
+      "phase": 327.8
+    },
+    {
+      "name": "L2",
+      "amplitude": 0.01,
+      "phase": 181.1
+    },
+    {
+      "name": "2MK3",
+      "amplitude": 0.009,
+      "phase": 298.5
+    },
+    {
+      "name": "K2",
+      "amplitude": 0.026,
+      "phase": 150.3
+    },
+    {
+      "name": "M8",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MS4",
+      "amplitude": 0.007,
+      "phase": 141.9
+    }
+  ]
+}

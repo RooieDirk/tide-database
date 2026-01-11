@@ -1,0 +1,33 @@
+{
+  "name": "Little Torch Key, Pine Channel Bridge, south side",
+  "region": "FL",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 24.665,
+  "longitude": -81.3867,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8724224",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8724224"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8724580",
+    "height": {
+      "type": "ratio",
+      "high": 0.69,
+      "low": 0.38
+    },
+    "time": {
+      "high": -13,
+      "low": 54
+    }
+  }
+}

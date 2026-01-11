@@ -1,0 +1,33 @@
+{
+  "name": "Murilo Atoll, Hall Islands",
+  "region": "",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 8.6,
+  "longitude": 152.25,
+  "timezone": "Pacific/Chuuk",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TPT2657",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TPT2657"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/1840000",
+    "height": {
+      "type": "ratio",
+      "high": 0.85,
+      "low": 0.85
+    },
+    "time": {
+      "high": -28,
+      "low": 0
+    }
+  }
+}

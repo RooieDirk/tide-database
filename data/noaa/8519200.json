@@ -1,0 +1,33 @@
+{
+  "name": "Port Ivory, Howland Hook, N.Y.",
+  "region": "NY",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 40.645,
+  "longitude": -74.18,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8519200",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8519200"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8531680",
+    "height": {
+      "type": "ratio",
+      "high": 1.09,
+      "low": 1.09
+    },
+    "time": {
+      "high": 27,
+      "low": 39
+    }
+  }
+}

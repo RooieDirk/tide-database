@@ -1,0 +1,33 @@
+{
+  "name": "San Simeon",
+  "region": "CA",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 35.6417,
+  "longitude": -121.188,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9412553",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9412553"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/9412110",
+    "height": {
+      "type": "ratio",
+      "high": 0.99,
+      "low": 1
+    },
+    "time": {
+      "high": 8,
+      "low": 7
+    }
+  }
+}

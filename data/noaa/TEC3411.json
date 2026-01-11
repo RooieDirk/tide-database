@@ -1,0 +1,33 @@
+{
+  "name": "Isle of Hope, Skidaway River",
+  "region": "",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 31.983333333332993,
+  "longitude": -81.05,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TEC3411",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TEC3411"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8670870",
+    "height": {
+      "type": "ratio",
+      "high": 1.13,
+      "low": 1.13
+    },
+    "time": {
+      "high": 50,
+      "low": 28
+    }
+  }
+}

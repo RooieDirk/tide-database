@@ -1,0 +1,33 @@
+{
+  "name": "Leipsic, Leipsic River",
+  "region": "DE",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 39.245,
+  "longitude": -75.5183,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8554038",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8554038"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8557380",
+    "height": {
+      "type": "ratio",
+      "high": 0.85,
+      "low": 0.63
+    },
+    "time": {
+      "high": 215,
+      "low": 229
+    }
+  }
+}

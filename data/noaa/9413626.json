@@ -1,0 +1,33 @@
+{
+  "name": "Elkhorn Yacht Club",
+  "region": "CA",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 36.8133,
+  "longitude": -121.787,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9413626",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9413626"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/9413450",
+    "height": {
+      "type": "ratio",
+      "high": 0.97,
+      "low": 0.95
+    },
+    "time": {
+      "high": 0,
+      "low": 2
+    }
+  }
+}

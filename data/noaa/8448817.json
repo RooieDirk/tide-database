@@ -1,0 +1,33 @@
+{
+  "name": "Muskeget Island, north side",
+  "region": "MA",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 41.3367,
+  "longitude": -70.305,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8448817",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8448817"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8443970",
+    "height": {
+      "type": "ratio",
+      "high": 0.21,
+      "low": 0.21
+    },
+    "time": {
+      "high": 25,
+      "low": 15
+    }
+  }
+}

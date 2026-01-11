@@ -1,0 +1,33 @@
+{
+  "name": "Pitch Landing",
+  "region": "SC",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 33.8,
+  "longitude": -79.055,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8660475",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8660475"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8665530",
+    "height": {
+      "type": "ratio",
+      "high": 0.2,
+      "low": 0.74
+    },
+    "time": {
+      "high": 445,
+      "low": 450
+    }
+  }
+}

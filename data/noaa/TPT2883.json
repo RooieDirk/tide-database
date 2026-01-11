@@ -1,0 +1,33 @@
+{
+  "name": "Ngau Island",
+  "region": "",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": -18,
+  "longitude": 179.2166666666667,
+  "timezone": "Pacific/Fiji",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TPT2883",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TPT2883"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/1910000",
+    "height": {
+      "type": "fixed",
+      "high": 0.12,
+      "low": 0.24
+    },
+    "time": {
+      "high": 14,
+      "low": -12
+    }
+  }
+}

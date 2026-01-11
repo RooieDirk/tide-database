@@ -1,0 +1,33 @@
+{
+  "name": "Ideal Cove, Mitkof Island",
+  "region": "",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 56.666666666667005,
+  "longitude": -132.63333333332992,
+  "timezone": "America/Sitka",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TWC1657",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TWC1657"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/9452210",
+    "height": {
+      "type": "fixed",
+      "high": -0.06,
+      "low": 0
+    },
+    "time": {
+      "high": -9,
+      "low": -5
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Middle Torch Key, Torch Ramrod Channel",
+  "region": "FL",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 24.6617,
+  "longitude": -81.4017,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8724237",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8724237"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8724580",
+    "height": {
+      "type": "ratio",
+      "high": 0.69,
+      "low": 0.38
+    },
+    "time": {
+      "high": -16,
+      "low": 89
+    }
+  }
+}

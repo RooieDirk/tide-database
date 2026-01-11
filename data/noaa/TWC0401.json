@@ -1,0 +1,33 @@
+{
+  "name": "Isla Guadalupe",
+  "region": "",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 28.883333333332992,
+  "longitude": -116.3,
+  "timezone": "Etc/GMT+8",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TWC0401",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TWC0401"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/9410170",
+    "height": {
+      "type": "ratio",
+      "high": 0.78,
+      "low": 0.78
+    },
+    "time": {
+      "high": -30,
+      "low": -21
+    }
+  }
+}

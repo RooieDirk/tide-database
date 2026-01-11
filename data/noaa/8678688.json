@@ -1,0 +1,33 @@
+{
+  "name": "Cumberland Wharf, Cumberland River",
+  "region": "GA",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 30.93,
+  "longitude": -81.4467,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8678688",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8678688"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8720030",
+    "height": {
+      "type": "ratio",
+      "high": 1.12,
+      "low": 1.12
+    },
+    "time": {
+      "high": 0,
+      "low": 26
+    }
+  }
+}

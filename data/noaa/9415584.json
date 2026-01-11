@@ -1,0 +1,33 @@
+{
+  "name": "Upper drawbridge, Petaluma River",
+  "region": "CA",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 38.2283,
+  "longitude": -122.613,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9415584",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9415584"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/9414290",
+    "height": {
+      "type": "ratio",
+      "high": 1.15,
+      "low": 0.82
+    },
+    "time": {
+      "high": 131,
+      "low": 179
+    }
+  }
+}

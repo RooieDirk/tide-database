@@ -1,0 +1,33 @@
+{
+  "name": "Gosport Harbor, Isles of Shoals",
+  "region": "NH",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 42.9783,
+  "longitude": -70.615,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8427031",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8427031"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8418150",
+    "height": {
+      "type": "ratio",
+      "high": 0.93,
+      "low": 0.93
+    },
+    "time": {
+      "high": 2,
+      "low": -2
+    }
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "name": "Wauna",
+  "region": "OR",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 46.15999984741211,
+  "longitude": -123.40499877929688,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9439099",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9439099"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "<a href=\"https://tidesandcurrents.noaa.gov/crd.html\">Columbia River Datum (CRD)</a> is the adopted fixed low water reference plane for this area. CRD is a U.S. Army Corps of Engineers non-tidal datum defined at distinct river miles relative to NAVD88, and is used as chart datum above river mile 23 on the Columbia River. Datums are computed using observations from the low river stages of the year, generally August through October due to the masking of the tidal signal from strong seasonal river runoff during other portions of the year. Depending on river flow, water levels can be significantly higher than Columbia River Datum. As of 2014, the U.S. Army Corps of Engineers provided updated offsets for CRD that have been applied to this station. Station Datum (STND) is no longer set equal to CRD.",
+  "datums": {
+    "LAT": -0.20099998,
+    "HAT": 2.95,
+    "STND": 0,
+    "MHHW": 2.384,
+    "MHW": 2.205,
+    "DTL": 1.347,
+    "MTL": 1.354,
+    "MSL": 1.314,
+    "MLW": 0.503,
+    "MLLW": 0.309,
+    "GT": 2.075,
+    "MN": 1.702,
+    "DHQ": 0.179,
+    "DLQ": 0.194,
+    "HWI": 10.261,
+    "LWI": 4.833,
+    "CRD_OFFSET": -0.044
+  },
+  "type": "reference",
+  "harmonic_constituents": [
+    {
+      "name": "M2",
+      "amplitude": 0.767,
+      "phase": 299.9
+    },
+    {
+      "name": "S2",
+      "amplitude": 0.181,
+      "phase": 334.3
+    },
+    {
+      "name": "N2",
+      "amplitude": 0.14,
+      "phase": 278.7
+    },
+    {
+      "name": "K1",
+      "amplitude": 0.291,
+      "phase": 281.8
+    },
+    {
+      "name": "M4",
+      "amplitude": 0.076,
+      "phase": 171.7
+    },
+    {
+      "name": "O1",
+      "amplitude": 0.158,
+      "phase": 272.9
+    },
+    {
+      "name": "M6",
+      "amplitude": 0.01,
+      "phase": 279.4
+    },
+    {
+      "name": "MK3",
+      "amplitude": 0.069,
+      "phase": 154.6
+    },
+    {
+      "name": "S4",
+      "amplitude": 0.003,
+      "phase": 270
+    },
+    {
+      "name": "MN4",
+      "amplitude": 0.027,
+      "phase": 151
+    },
+    {
+      "name": "NU2",
+      "amplitude": 0.033,
+      "phase": 278.6
+    },
+    {
+      "name": "S6",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MU2",
+      "amplitude": 0.027,
+      "phase": 53.4
+    },
+    {
+      "name": "2N2",
+      "amplitude": 0.013,
+      "phase": 250
+    },
+    {
+      "name": "OO1",
+      "amplitude": 0.01,
+      "phase": 350.7
+    },
+    {
+      "name": "LAM2",
+      "amplitude": 0.022,
+      "phase": 290.2
+    },
+    {
+      "name": "S1",
+      "amplitude": 0.01,
+      "phase": 127.5
+    },
+    {
+      "name": "M1",
+      "amplitude": 0.012,
+      "phase": 340.7
+    },
+    {
+      "name": "J1",
+      "amplitude": 0.008,
+      "phase": 329.4
+    },
+    {
+      "name": "MM",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "SSA",
+      "amplitude": 0.045,
+      "phase": 183
+    },
+    {
+      "name": "SA",
+      "amplitude": 0.113,
+      "phase": 308.7
+    },
+    {
+      "name": "MSF",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MF",
+      "amplitude": 0.026,
+      "phase": 187.9
+    },
+    {
+      "name": "RHO",
+      "amplitude": 0.004,
+      "phase": 300.6
+    },
+    {
+      "name": "Q1",
+      "amplitude": 0.029,
+      "phase": 282.4
+    },
+    {
+      "name": "T2",
+      "amplitude": 0.016,
+      "phase": 343.9
+    },
+    {
+      "name": "R2",
+      "amplitude": 0.01,
+      "phase": 18.4
+    },
+    {
+      "name": "2Q1",
+      "amplitude": 0.004,
+      "phase": 286.6
+    },
+    {
+      "name": "P1",
+      "amplitude": 0.08,
+      "phase": 280.1
+    },
+    {
+      "name": "2SM2",
+      "amplitude": 0.011,
+      "phase": 168.3
+    },
+    {
+      "name": "M3",
+      "amplitude": 0.011,
+      "phase": 61.1
+    },
+    {
+      "name": "L2",
+      "amplitude": 0.049,
+      "phase": 307
+    },
+    {
+      "name": "2MK3",
+      "amplitude": 0.058,
+      "phase": 137.2
+    },
+    {
+      "name": "K2",
+      "amplitude": 0.068,
+      "phase": 318.8
+    },
+    {
+      "name": "M8",
+      "amplitude": 0.004,
+      "phase": 116.1
+    },
+    {
+      "name": "MS4",
+      "amplitude": 0.036,
+      "phase": 205.8
+    }
+  ]
+}

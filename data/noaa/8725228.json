@@ -1,0 +1,33 @@
+{
+  "name": "Cocohatchee River, U.S. 41 bridge",
+  "region": "FL",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 26.2817,
+  "longitude": -81.8017,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8725228",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8725228"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8725110",
+    "height": {
+      "type": "ratio",
+      "high": 0.74,
+      "low": 0.65
+    },
+    "time": {
+      "high": 70,
+      "low": 88
+    }
+  }
+}

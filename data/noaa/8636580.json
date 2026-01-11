@@ -1,0 +1,228 @@
+{
+  "name": "Windmill Point",
+  "region": "VA",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 37.6155,
+  "longitude": -76.28977777777777,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8636580",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8636580"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "datums": {
+    "LAT": 0.49500003,
+    "HAT": 1.283,
+    "STND": 0,
+    "MHHW": 1.098,
+    "MHW": 1.058,
+    "DTL": 0.886,
+    "MTL": 0.881,
+    "MSL": 0.887,
+    "MLW": 0.705,
+    "MLLW": 0.675,
+    "GT": 0.424,
+    "MN": 0.354,
+    "DHQ": 0.04,
+    "DLQ": 0.03,
+    "HWI": 3.483,
+    "LWI": 10.068,
+    "NAVD88": 1.033
+  },
+  "type": "reference",
+  "harmonic_constituents": [
+    {
+      "name": "M2",
+      "amplitude": 0.17,
+      "phase": 102.9
+    },
+    {
+      "name": "S2",
+      "amplitude": 0.028,
+      "phase": 126.1
+    },
+    {
+      "name": "N2",
+      "amplitude": 0.039,
+      "phase": 82
+    },
+    {
+      "name": "K1",
+      "amplitude": 0.029,
+      "phase": 225.5
+    },
+    {
+      "name": "M4",
+      "amplitude": 0.008,
+      "phase": 89.7
+    },
+    {
+      "name": "O1",
+      "amplitude": 0.023,
+      "phase": 247.2
+    },
+    {
+      "name": "M6",
+      "amplitude": 0.003,
+      "phase": 96.5
+    },
+    {
+      "name": "MK3",
+      "amplitude": 0.003,
+      "phase": 188.7
+    },
+    {
+      "name": "S4",
+      "amplitude": 0.001,
+      "phase": 64.9
+    },
+    {
+      "name": "MN4",
+      "amplitude": 0.004,
+      "phase": 63
+    },
+    {
+      "name": "NU2",
+      "amplitude": 0.007,
+      "phase": 79.9
+    },
+    {
+      "name": "S6",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MU2",
+      "amplitude": 0.004,
+      "phase": 84.1
+    },
+    {
+      "name": "2N2",
+      "amplitude": 0.005,
+      "phase": 64.9
+    },
+    {
+      "name": "OO1",
+      "amplitude": 0.001,
+      "phase": 229.4
+    },
+    {
+      "name": "LAM2",
+      "amplitude": 0.003,
+      "phase": 123.2
+    },
+    {
+      "name": "S1",
+      "amplitude": 0.001,
+      "phase": 352.8
+    },
+    {
+      "name": "M1",
+      "amplitude": 0.001,
+      "phase": 282
+    },
+    {
+      "name": "J1",
+      "amplitude": 0.002,
+      "phase": 225.3
+    },
+    {
+      "name": "MM",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "SSA",
+      "amplitude": 0.048,
+      "phase": 40
+    },
+    {
+      "name": "SA",
+      "amplitude": 0.097,
+      "phase": 141.8
+    },
+    {
+      "name": "MSF",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MF",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "RHO",
+      "amplitude": 0.001,
+      "phase": 196.6
+    },
+    {
+      "name": "Q1",
+      "amplitude": 0.006,
+      "phase": 232.8
+    },
+    {
+      "name": "T2",
+      "amplitude": 0.002,
+      "phase": 110.7
+    },
+    {
+      "name": "R2",
+      "amplitude": 0.001,
+      "phase": 356.9
+    },
+    {
+      "name": "2Q1",
+      "amplitude": 0.002,
+      "phase": 188.4
+    },
+    {
+      "name": "P1",
+      "amplitude": 0.008,
+      "phase": 232.7
+    },
+    {
+      "name": "2SM2",
+      "amplitude": 0.001,
+      "phase": 121.8
+    },
+    {
+      "name": "M3",
+      "amplitude": 0.001,
+      "phase": 148.8
+    },
+    {
+      "name": "L2",
+      "amplitude": 0.008,
+      "phase": 116
+    },
+    {
+      "name": "2MK3",
+      "amplitude": 0.002,
+      "phase": 190.4
+    },
+    {
+      "name": "K2",
+      "amplitude": 0.008,
+      "phase": 125.6
+    },
+    {
+      "name": "M8",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MS4",
+      "amplitude": 0.002,
+      "phase": 151.9
+    }
+  ]
+}

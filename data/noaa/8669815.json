@@ -1,0 +1,33 @@
+{
+  "name": "Fields Cut, Wright River",
+  "region": "SC",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 32.0867,
+  "longitude": -80.9333,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8669815",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8669815"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8670870",
+    "height": {
+      "type": "ratio",
+      "high": 1.02,
+      "low": 1.05
+    },
+    "time": {
+      "high": 16,
+      "low": 29
+    }
+  }
+}

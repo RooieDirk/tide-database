@@ -1,0 +1,227 @@
+{
+  "name": "Martha's Vineyard GPS Buoy",
+  "region": "MA",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 41.32622222222222,
+  "longitude": -70.59033333333333,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8448875",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8448875"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "datums": {
+    "LAT": -29.802837,
+    "HAT": -28.329838,
+    "STND": 0,
+    "MHHW": -28.614,
+    "MHW": -28.682,
+    "DTL": -29.09,
+    "MTL": -29.106,
+    "MSL": -29.126,
+    "MLW": -29.529,
+    "MLLW": -29.565,
+    "GT": 0.951,
+    "MN": 0.847,
+    "DHQ": 0.069,
+    "DLQ": 0.036,
+    "HWI": 12.21,
+    "LWI": 5.96
+  },
+  "type": "reference",
+  "harmonic_constituents": [
+    {
+      "name": "M2",
+      "amplitude": 0.402,
+      "phase": 354.9
+    },
+    {
+      "name": "S2",
+      "amplitude": 0.08,
+      "phase": 17.7
+    },
+    {
+      "name": "N2",
+      "amplitude": 0.101,
+      "phase": 338.5
+    },
+    {
+      "name": "K1",
+      "amplitude": 0.054,
+      "phase": 167.8
+    },
+    {
+      "name": "M4",
+      "amplitude": 0.031,
+      "phase": 318.8
+    },
+    {
+      "name": "O1",
+      "amplitude": 0.042,
+      "phase": 203.9
+    },
+    {
+      "name": "M6",
+      "amplitude": 0.012,
+      "phase": 332.9
+    },
+    {
+      "name": "MK3",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "S4",
+      "amplitude": 0.008,
+      "phase": 142.1
+    },
+    {
+      "name": "MN4",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "NU2",
+      "amplitude": 0.02,
+      "phase": 340.7
+    },
+    {
+      "name": "S6",
+      "amplitude": 0.003,
+      "phase": 100.9
+    },
+    {
+      "name": "MU2",
+      "amplitude": 0.01,
+      "phase": 332.1
+    },
+    {
+      "name": "2N2",
+      "amplitude": 0.013,
+      "phase": 322.1
+    },
+    {
+      "name": "OO1",
+      "amplitude": 0.002,
+      "phase": 131.7
+    },
+    {
+      "name": "LAM2",
+      "amplitude": 0.003,
+      "phase": 5.5
+    },
+    {
+      "name": "S1",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "M1",
+      "amplitude": 0.003,
+      "phase": 185.7
+    },
+    {
+      "name": "J1",
+      "amplitude": 0.003,
+      "phase": 149.9
+    },
+    {
+      "name": "MM",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "SSA",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "SA",
+      "amplitude": 0.037,
+      "phase": 165.7
+    },
+    {
+      "name": "MSF",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MF",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "RHO",
+      "amplitude": 0.002,
+      "phase": 219.4
+    },
+    {
+      "name": "Q1",
+      "amplitude": 0.008,
+      "phase": 221.8
+    },
+    {
+      "name": "T2",
+      "amplitude": 0.005,
+      "phase": 16.8
+    },
+    {
+      "name": "R2",
+      "amplitude": 0.001,
+      "phase": 18.6
+    },
+    {
+      "name": "2Q1",
+      "amplitude": 0.001,
+      "phase": 239.7
+    },
+    {
+      "name": "P1",
+      "amplitude": 0.018,
+      "phase": 170.5
+    },
+    {
+      "name": "2SM2",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "M3",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "L2",
+      "amplitude": 0.011,
+      "phase": 11.3
+    },
+    {
+      "name": "2MK3",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "K2",
+      "amplitude": 0.022,
+      "phase": 19.6
+    },
+    {
+      "name": "M8",
+      "amplitude": 0.002,
+      "phase": 69.1
+    },
+    {
+      "name": "MS4",
+      "amplitude": 0,
+      "phase": 0
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Liverpool Point, Md.",
+  "region": "MD",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 38.46,
+  "longitude": -77.27,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8578984",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8578984"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8594900",
+    "height": {
+      "type": "ratio",
+      "high": 0.44,
+      "low": 0.67
+    },
+    "time": {
+      "high": -39,
+      "low": -118
+    }
+  }
+}

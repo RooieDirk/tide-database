@@ -1,0 +1,228 @@
+{
+  "name": "Gravina River",
+  "region": "AK",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 60.766700744628906,
+  "longitude": -146.0845947265625,
+  "timezone": "America/Anchorage",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9454153",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9454153"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "datums": {
+    "LAT": 4.248,
+    "HAT": 10.109,
+    "STND": 0,
+    "MHHW": 9.042,
+    "MHW": 8.762,
+    "DTL": 7.207,
+    "MTL": 7.296,
+    "MSL": 7.334,
+    "MLW": 5.83,
+    "MLLW": 5.373,
+    "GT": 3.669,
+    "MN": 2.931,
+    "DHQ": 0.28,
+    "DLQ": 0.457,
+    "HWI": 10.001,
+    "LWI": 3.69,
+    "NAVD88": 5.618
+  },
+  "type": "reference",
+  "harmonic_constituents": [
+    {
+      "name": "M2",
+      "amplitude": 1.358,
+      "phase": 287.4
+    },
+    {
+      "name": "S2",
+      "amplitude": 0.459,
+      "phase": 320.9
+    },
+    {
+      "name": "N2",
+      "amplitude": 0.285,
+      "phase": 264.2
+    },
+    {
+      "name": "K1",
+      "amplitude": 0.474,
+      "phase": 272.6
+    },
+    {
+      "name": "M4",
+      "amplitude": 0.043,
+      "phase": 16.5
+    },
+    {
+      "name": "O1",
+      "amplitude": 0.299,
+      "phase": 255.3
+    },
+    {
+      "name": "M6",
+      "amplitude": 0.002,
+      "phase": 176.3
+    },
+    {
+      "name": "MK3",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "S4",
+      "amplitude": 0.011,
+      "phase": 315.4
+    },
+    {
+      "name": "MN4",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "NU2",
+      "amplitude": 0.055,
+      "phase": 267.3
+    },
+    {
+      "name": "S6",
+      "amplitude": 0.001,
+      "phase": 327.5
+    },
+    {
+      "name": "MU2",
+      "amplitude": 0.033,
+      "phase": 253.9
+    },
+    {
+      "name": "2N2",
+      "amplitude": 0.038,
+      "phase": 241
+    },
+    {
+      "name": "OO1",
+      "amplitude": 0.013,
+      "phase": 289.8
+    },
+    {
+      "name": "LAM2",
+      "amplitude": 0.01,
+      "phase": 302.9
+    },
+    {
+      "name": "S1",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "M1",
+      "amplitude": 0.021,
+      "phase": 264
+    },
+    {
+      "name": "J1",
+      "amplitude": 0.024,
+      "phase": 281.1
+    },
+    {
+      "name": "MM",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "SSA",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "SA",
+      "amplitude": 0.112,
+      "phase": 243.1
+    },
+    {
+      "name": "MSF",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MF",
+      "amplitude": 0.026,
+      "phase": 176.5
+    },
+    {
+      "name": "RHO",
+      "amplitude": 0.011,
+      "phase": 247.9
+    },
+    {
+      "name": "Q1",
+      "amplitude": 0.058,
+      "phase": 246.8
+    },
+    {
+      "name": "T2",
+      "amplitude": 0.027,
+      "phase": 319.6
+    },
+    {
+      "name": "R2",
+      "amplitude": 0.004,
+      "phase": 322.2
+    },
+    {
+      "name": "2Q1",
+      "amplitude": 0.008,
+      "phase": 238.2
+    },
+    {
+      "name": "P1",
+      "amplitude": 0.157,
+      "phase": 271.3
+    },
+    {
+      "name": "2SM2",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "M3",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "L2",
+      "amplitude": 0.038,
+      "phase": 310.6
+    },
+    {
+      "name": "2MK3",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "K2",
+      "amplitude": 0.125,
+      "phase": 323.6
+    },
+    {
+      "name": "M8",
+      "amplitude": 0.001,
+      "phase": 170.6
+    },
+    {
+      "name": "MS4",
+      "amplitude": 0,
+      "phase": 0
+    }
+  ]
+}

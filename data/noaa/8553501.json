@@ -1,0 +1,33 @@
+{
+  "name": "Woodland Beach, Del.",
+  "region": "DE",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 39.3333,
+  "longitude": -75.4667,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8553501",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8553501"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8551910",
+    "height": {
+      "type": "ratio",
+      "high": 1.11,
+      "low": 1.11
+    },
+    "time": {
+      "high": -67,
+      "low": -70
+    }
+  }
+}

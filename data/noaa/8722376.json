@@ -1,0 +1,33 @@
+{
+  "name": "South Fork",
+  "region": "FL",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 27.165,
+  "longitude": -80.255,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8722376",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8722376"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8723178",
+    "height": {
+      "type": "ratio",
+      "high": 0.43,
+      "low": 0.92
+    },
+    "time": {
+      "high": 155,
+      "low": 212
+    }
+  }
+}

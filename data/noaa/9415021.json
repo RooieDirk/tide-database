@@ -1,0 +1,227 @@
+{
+  "name": "Blackslough Landing",
+  "region": "CA",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 37.994998931884766,
+  "longitude": -121.41999816894531,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9415021",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9415021"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "datums": {
+    "LAT": 99.937004,
+    "HAT": 101.607,
+    "STND": 0,
+    "MHHW": 101.334,
+    "MHW": 101.196,
+    "DTL": 100.78,
+    "MTL": 100.78,
+    "MSL": 100.786,
+    "MLW": 100.363,
+    "MLLW": 100.225,
+    "GT": 1.108,
+    "MN": 0.832,
+    "DHQ": 0.138,
+    "DLQ": 0.138,
+    "HWI": 1.344,
+    "LWI": 7.725
+  },
+  "type": "reference",
+  "harmonic_constituents": [
+    {
+      "name": "M2",
+      "amplitude": 0.341,
+      "phase": 29.8
+    },
+    {
+      "name": "S2",
+      "amplitude": 0.065,
+      "phase": 50.9
+    },
+    {
+      "name": "N2",
+      "amplitude": 0.061,
+      "phase": 10.8
+    },
+    {
+      "name": "K1",
+      "amplitude": 0.197,
+      "phase": 330.7
+    },
+    {
+      "name": "M4",
+      "amplitude": 0.015,
+      "phase": 326.6
+    },
+    {
+      "name": "O1",
+      "amplitude": 0.134,
+      "phase": 326
+    },
+    {
+      "name": "M6",
+      "amplitude": 0.014,
+      "phase": 155.4
+    },
+    {
+      "name": "MK3",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "S4",
+      "amplitude": 0.002,
+      "phase": 45.1
+    },
+    {
+      "name": "MN4",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "NU2",
+      "amplitude": 0.012,
+      "phase": 13.3
+    },
+    {
+      "name": "S6",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MU2",
+      "amplitude": 0.008,
+      "phase": 8.2
+    },
+    {
+      "name": "2N2",
+      "amplitude": 0.008,
+      "phase": 351.8
+    },
+    {
+      "name": "OO1",
+      "amplitude": 0.006,
+      "phase": 335.3
+    },
+    {
+      "name": "LAM2",
+      "amplitude": 0.002,
+      "phase": 39.7
+    },
+    {
+      "name": "S1",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "M1",
+      "amplitude": 0.01,
+      "phase": 328.3
+    },
+    {
+      "name": "J1",
+      "amplitude": 0.011,
+      "phase": 332.9
+    },
+    {
+      "name": "MM",
+      "amplitude": 0.016,
+      "phase": 34.4
+    },
+    {
+      "name": "SSA",
+      "amplitude": 0.042,
+      "phase": 264.8
+    },
+    {
+      "name": "SA",
+      "amplitude": 0.027,
+      "phase": 144.6
+    },
+    {
+      "name": "MSF",
+      "amplitude": 0.03,
+      "phase": 18.1
+    },
+    {
+      "name": "MF",
+      "amplitude": 0.041,
+      "phase": 184.3
+    },
+    {
+      "name": "RHO",
+      "amplitude": 0.005,
+      "phase": 324.4
+    },
+    {
+      "name": "Q1",
+      "amplitude": 0.026,
+      "phase": 323.8
+    },
+    {
+      "name": "T2",
+      "amplitude": 0.004,
+      "phase": 50.5
+    },
+    {
+      "name": "R2",
+      "amplitude": 0.001,
+      "phase": 47.4
+    },
+    {
+      "name": "2Q1",
+      "amplitude": 0.004,
+      "phase": 320.8
+    },
+    {
+      "name": "P1",
+      "amplitude": 0.065,
+      "phase": 330.3
+    },
+    {
+      "name": "2SM2",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "M3",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "L2",
+      "amplitude": 0.01,
+      "phase": 48.6
+    },
+    {
+      "name": "2MK3",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "K2",
+      "amplitude": 0.017,
+      "phase": 52.7
+    },
+    {
+      "name": "M8",
+      "amplitude": 0.001,
+      "phase": 133.1
+    },
+    {
+      "name": "MS4",
+      "amplitude": 0,
+      "phase": 0
+    }
+  ]
+}

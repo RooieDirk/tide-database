@@ -1,0 +1,33 @@
+{
+  "name": "Uncatena Island (south side)",
+  "region": "MA",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 41.52,
+  "longitude": -70.7083,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8447941",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8447941"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8452660",
+    "height": {
+      "type": "ratio",
+      "high": 1.02,
+      "low": 1.02
+    },
+    "time": {
+      "high": 12,
+      "low": 22
+    }
+  }
+}

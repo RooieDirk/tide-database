@@ -1,0 +1,33 @@
+{
+  "name": "Little Creek, NAB",
+  "region": "VA",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 36.9117,
+  "longitude": -76.175,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8638776",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8638776"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8638863",
+    "height": {
+      "type": "ratio",
+      "high": 1.01,
+      "low": 1.17
+    },
+    "time": {
+      "high": 8,
+      "low": 9
+    }
+  }
+}

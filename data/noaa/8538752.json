@@ -1,0 +1,33 @@
+{
+  "name": "Pavonia, Cooper River, RR. bridge, N.J.",
+  "region": "NJ",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 39.9467,
+  "longitude": -75.105,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8538752",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8538752"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8545240",
+    "height": {
+      "type": "ratio",
+      "high": 1.04,
+      "low": 1
+    },
+    "time": {
+      "high": 14,
+      "low": 23
+    }
+  }
+}

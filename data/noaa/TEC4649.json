@@ -1,0 +1,33 @@
+{
+  "name": "Nuevitas, Bahia de Nuevitas",
+  "region": "",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 21.58333333333299,
+  "longitude": -77.25,
+  "timezone": "America/Havana",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TEC4649",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TEC4649"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8638610",
+    "height": {
+      "type": "ratio",
+      "high": 0.56,
+      "low": 0.56
+    },
+    "time": {
+      "high": 92,
+      "low": 93
+    }
+  }
+}

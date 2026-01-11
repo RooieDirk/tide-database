@@ -1,0 +1,33 @@
+{
+  "name": "Jennettes Pier, Nags Head (ocean)",
+  "region": "NC",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 35.91,
+  "longitude": -75.59169444444444,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8652226",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8652226"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8651370",
+    "height": {
+      "type": "ratio",
+      "high": 1.04,
+      "low": 1.43
+    },
+    "time": {
+      "high": -5,
+      "low": 1
+    }
+  }
+}

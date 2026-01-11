@@ -1,0 +1,33 @@
+{
+  "name": "Quilcene, Quilcene Bay, Dabob Bay",
+  "region": "WA",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 47.8,
+  "longitude": -122.858,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9445272",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9445272"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/9447130",
+    "height": {
+      "type": "ratio",
+      "high": 1,
+      "low": 1.04
+    },
+    "time": {
+      "high": -8,
+      "low": -2
+    }
+  }
+}

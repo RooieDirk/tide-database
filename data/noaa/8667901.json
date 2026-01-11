@@ -1,0 +1,33 @@
+{
+  "name": "Lucy Point Creek entrance",
+  "region": "SC",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 32.4517,
+  "longitude": -80.61,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8667901",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8667901"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8670870",
+    "height": {
+      "type": "ratio",
+      "high": 0.9,
+      "low": 0.88
+    },
+    "time": {
+      "high": 53,
+      "low": 33
+    }
+  }
+}

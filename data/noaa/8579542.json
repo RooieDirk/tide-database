@@ -1,0 +1,227 @@
+{
+  "name": "Lower Marlboro",
+  "region": "MD",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 38.655,
+  "longitude": -76.68333333333334,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8579542",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8579542"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "datums": {
+    "LAT": 2.523,
+    "HAT": 3.273,
+    "STND": 0,
+    "MHHW": 3.207,
+    "MHW": 3.165,
+    "DTL": 2.881,
+    "MTL": 2.887,
+    "MSL": 2.897,
+    "MLW": 2.609,
+    "MLLW": 2.556,
+    "GT": 0.651,
+    "MN": 0.556,
+    "DHQ": 0.042,
+    "DLQ": 0.053,
+    "HWI": 8.774,
+    "LWI": 2.803
+  },
+  "type": "reference",
+  "harmonic_constituents": [
+    {
+      "name": "M2",
+      "amplitude": 0.261,
+      "phase": 252
+    },
+    {
+      "name": "S2",
+      "amplitude": 0.032,
+      "phase": 289
+    },
+    {
+      "name": "N2",
+      "amplitude": 0.032,
+      "phase": 228.9
+    },
+    {
+      "name": "K1",
+      "amplitude": 0.034,
+      "phase": 321.2
+    },
+    {
+      "name": "M4",
+      "amplitude": 0.014,
+      "phase": 12.7
+    },
+    {
+      "name": "O1",
+      "amplitude": 0.022,
+      "phase": 3.3
+    },
+    {
+      "name": "M6",
+      "amplitude": 0.008,
+      "phase": 120.9
+    },
+    {
+      "name": "MK3",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "S4",
+      "amplitude": 0.001,
+      "phase": 90.4
+    },
+    {
+      "name": "MN4",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "NU2",
+      "amplitude": 0.006,
+      "phase": 232
+    },
+    {
+      "name": "S6",
+      "amplitude": 0,
+      "phase": 4.2
+    },
+    {
+      "name": "MU2",
+      "amplitude": 0.006,
+      "phase": 61.5
+    },
+    {
+      "name": "2N2",
+      "amplitude": 0.004,
+      "phase": 205.9
+    },
+    {
+      "name": "OO1",
+      "amplitude": 0.001,
+      "phase": 279.2
+    },
+    {
+      "name": "LAM2",
+      "amplitude": 0.002,
+      "phase": 269.2
+    },
+    {
+      "name": "S1",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "M1",
+      "amplitude": 0.002,
+      "phase": 342.1
+    },
+    {
+      "name": "J1",
+      "amplitude": 0.002,
+      "phase": 300.4
+    },
+    {
+      "name": "MM",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "SSA",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "SA",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MSF",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MF",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "RHO",
+      "amplitude": 0.001,
+      "phase": 21.3
+    },
+    {
+      "name": "Q1",
+      "amplitude": 0.004,
+      "phase": 24.1
+    },
+    {
+      "name": "T2",
+      "amplitude": 0.002,
+      "phase": 287.6
+    },
+    {
+      "name": "R2",
+      "amplitude": 0,
+      "phase": 290.5
+    },
+    {
+      "name": "2Q1",
+      "amplitude": 0.001,
+      "phase": 45
+    },
+    {
+      "name": "P1",
+      "amplitude": 0.011,
+      "phase": 324.4
+    },
+    {
+      "name": "2SM2",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "M3",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "L2",
+      "amplitude": 0.007,
+      "phase": 275
+    },
+    {
+      "name": "2MK3",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "K2",
+      "amplitude": 0.009,
+      "phase": 292
+    },
+    {
+      "name": "M8",
+      "amplitude": 0.001,
+      "phase": 313.9
+    },
+    {
+      "name": "MS4",
+      "amplitude": 0,
+      "phase": 0
+    }
+  ]
+}

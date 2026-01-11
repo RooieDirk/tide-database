@@ -1,0 +1,33 @@
+{
+  "name": "Greely Point, Taku Inlet",
+  "region": "AK",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 58.2233,
+  "longitude": -134.06,
+  "timezone": "America/Juneau",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9452133",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9452133"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/9452210",
+    "height": {
+      "type": "fixed",
+      "high": -0.18,
+      "low": -0.03
+    },
+    "time": {
+      "high": -1,
+      "low": -4
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Morehead City",
+  "region": "NC",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 34.7183,
+  "longitude": -76.695,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8656496",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8656496"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8654400",
+    "height": {
+      "type": "ratio",
+      "high": 1.04,
+      "low": 1.25
+    },
+    "time": {
+      "high": 26,
+      "low": 27
+    }
+  }
+}

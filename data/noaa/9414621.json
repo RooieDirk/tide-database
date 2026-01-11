@@ -1,0 +1,33 @@
+{
+  "name": "Coyote Hills Slough entrance",
+  "region": "CA",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 37.5633,
+  "longitude": -122.128,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9414621",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9414621"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/9414290",
+    "height": {
+      "type": "ratio",
+      "high": 1.17,
+      "low": 0.45
+    },
+    "time": {
+      "high": 52,
+      "low": 141
+    }
+  }
+}

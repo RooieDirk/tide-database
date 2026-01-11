@@ -1,0 +1,33 @@
+{
+  "name": "Tuxedni Channel",
+  "region": "AK",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 60.1533,
+  "longitude": -152.635,
+  "timezone": "America/Anchorage",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9456204",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9456204"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/9455500",
+    "height": {
+      "type": "fixed",
+      "high": -0.4,
+      "low": 0.06
+    },
+    "time": {
+      "high": 39,
+      "low": 53
+    }
+  }
+}

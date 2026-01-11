@@ -1,0 +1,33 @@
+{
+  "name": "Town Point",
+  "region": "VA",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 36.8833,
+  "longitude": -76.5083,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8638406",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8638406"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8638610",
+    "height": {
+      "type": "ratio",
+      "high": 1.22,
+      "low": 0.83
+    },
+    "time": {
+      "high": 37,
+      "low": 44
+    }
+  }
+}

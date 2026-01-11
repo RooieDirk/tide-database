@@ -1,0 +1,227 @@
+{
+  "name": "Lindeman Cove",
+  "region": "AK",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 55.6017,
+  "longitude": -132.512,
+  "timezone": "America/Sitka",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9450625",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9450625"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "datums": {
+    "LAT": 2.027251,
+    "HAT": 9.723251,
+    "STND": 0,
+    "MHHW": 8.318,
+    "MHW": 8.044,
+    "DTL": 5.917,
+    "MTL": 6.021,
+    "MSL": 6.018,
+    "MLW": 3.999,
+    "MLLW": 3.516,
+    "GT": 4.802,
+    "MN": 4.046,
+    "DHQ": 0.274,
+    "DLQ": 0.483,
+    "HWI": 9.51,
+    "LWI": 3.15
+  },
+  "type": "reference",
+  "harmonic_constituents": [
+    {
+      "name": "M2",
+      "amplitude": 1.937,
+      "phase": 272.9
+    },
+    {
+      "name": "S2",
+      "amplitude": 0.676,
+      "phase": 304.3
+    },
+    {
+      "name": "N2",
+      "amplitude": 0.41,
+      "phase": 246.8
+    },
+    {
+      "name": "K1",
+      "amplitude": 0.53,
+      "phase": 260.9
+    },
+    {
+      "name": "M4",
+      "amplitude": 0.033,
+      "phase": 272.3
+    },
+    {
+      "name": "O1",
+      "amplitude": 0.304,
+      "phase": 246.4
+    },
+    {
+      "name": "M6",
+      "amplitude": 0.003,
+      "phase": 355
+    },
+    {
+      "name": "MK3",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "S4",
+      "amplitude": 0.006,
+      "phase": 41.9
+    },
+    {
+      "name": "MN4",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "NU2",
+      "amplitude": 0.08,
+      "phase": 250.3
+    },
+    {
+      "name": "S6",
+      "amplitude": 0.001,
+      "phase": 101.1
+    },
+    {
+      "name": "MU2",
+      "amplitude": 0.047,
+      "phase": 336.5
+    },
+    {
+      "name": "2N2",
+      "amplitude": 0.055,
+      "phase": 220.8
+    },
+    {
+      "name": "OO1",
+      "amplitude": 0.013,
+      "phase": 275.5
+    },
+    {
+      "name": "LAM2",
+      "amplitude": 0.014,
+      "phase": 287.5
+    },
+    {
+      "name": "S1",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "M1",
+      "amplitude": 0.022,
+      "phase": 253.7
+    },
+    {
+      "name": "J1",
+      "amplitude": 0.024,
+      "phase": 268.1
+    },
+    {
+      "name": "MM",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "SSA",
+      "amplitude": 0.031,
+      "phase": 161.1
+    },
+    {
+      "name": "SA",
+      "amplitude": 0.115,
+      "phase": 273.7
+    },
+    {
+      "name": "MSF",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MF",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "RHO",
+      "amplitude": 0.012,
+      "phase": 240.2
+    },
+    {
+      "name": "Q1",
+      "amplitude": 0.059,
+      "phase": 239.2
+    },
+    {
+      "name": "T2",
+      "amplitude": 0.04,
+      "phase": 303
+    },
+    {
+      "name": "R2",
+      "amplitude": 0.005,
+      "phase": 305.5
+    },
+    {
+      "name": "2Q1",
+      "amplitude": 0.008,
+      "phase": 232
+    },
+    {
+      "name": "P1",
+      "amplitude": 0.175,
+      "phase": 259.8
+    },
+    {
+      "name": "2SM2",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "M3",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "L2",
+      "amplitude": 0.054,
+      "phase": 298.9
+    },
+    {
+      "name": "2MK3",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "K2",
+      "amplitude": 0.184,
+      "phase": 306.8
+    },
+    {
+      "name": "M8",
+      "amplitude": 0.001,
+      "phase": 6.7
+    },
+    {
+      "name": "MS4",
+      "amplitude": 0,
+      "phase": 0
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Chestnut Neck Boat Yard",
+  "region": "NJ",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 39.5483,
+  "longitude": -74.4617,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8534212",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8534212"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8531680",
+    "height": {
+      "type": "ratio",
+      "high": 0.63,
+      "low": 0.79
+    },
+    "time": {
+      "high": 87,
+      "low": 121
+    }
+  }
+}

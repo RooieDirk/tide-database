@@ -1,0 +1,33 @@
+{
+  "name": "Ngaloa Harbor, Kandavu Island",
+  "region": "",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": -19.06666666666667,
+  "longitude": 178.1666666666667,
+  "timezone": "Pacific/Fiji",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TPT2873",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TPT2873"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/1910000",
+    "height": {
+      "type": "fixed",
+      "high": 0.24,
+      "low": 0.06
+    },
+    "time": {
+      "high": -7,
+      "low": 1
+    }
+  }
+}

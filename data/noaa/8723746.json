@@ -1,0 +1,33 @@
+{
+  "name": "Crane Keys, north side, Florida Bay",
+  "region": "FL",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 25.005,
+  "longitude": -80.6183,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8723746",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8723746"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8723178",
+    "height": {
+      "type": "ratio",
+      "high": 0.17,
+      "low": 0.21
+    },
+    "time": {
+      "high": 172,
+      "low": 275
+    }
+  }
+}

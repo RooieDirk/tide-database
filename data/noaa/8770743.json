@@ -1,0 +1,220 @@
+{
+  "name": "Battleship Texas State Park",
+  "region": "TX",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 29.75670051574707,
+  "longitude": -95.08999633789062,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8770743",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8770743"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "These data and associated tidal datums are derived from the Texas Coastal Ocean Observation Network (TCOON), a state-wide coastal observing system. Leveling information used to verify vertical positioning for navigational purposes may not meet NOS standards. Subsequent review of these data based upon field inspections may result in revisions. Data users are cautioned before using these data for critical decisions such as those that concern physical or public safety.",
+  "datums": {
+    "LAT": 2.847,
+    "HAT": 3.934,
+    "STND": 0,
+    "MHHW": 3.694,
+    "MHW": 3.668,
+    "MTL": 3.483,
+    "MSL": 3.494,
+    "MLW": 3.297,
+    "MLLW": 3.245
+  },
+  "type": "reference",
+  "harmonic_constituents": [
+    {
+      "name": "M2",
+      "amplitude": 0.073,
+      "phase": 84.5
+    },
+    {
+      "name": "S2",
+      "amplitude": 0.022,
+      "phase": 78.4
+    },
+    {
+      "name": "N2",
+      "amplitude": 0.017,
+      "phase": 63
+    },
+    {
+      "name": "K1",
+      "amplitude": 0.13,
+      "phase": 120.4
+    },
+    {
+      "name": "M4",
+      "amplitude": 0.002,
+      "phase": 53.9
+    },
+    {
+      "name": "O1",
+      "amplitude": 0.118,
+      "phase": 107.8
+    },
+    {
+      "name": "M6",
+      "amplitude": 0.001,
+      "phase": 255.9
+    },
+    {
+      "name": "MK3",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "S4",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MN4",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "NU2",
+      "amplitude": 0.006,
+      "phase": 61
+    },
+    {
+      "name": "S6",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MU2",
+      "amplitude": 0.002,
+      "phase": 4.8
+    },
+    {
+      "name": "2N2",
+      "amplitude": 0.006,
+      "phase": 131.6
+    },
+    {
+      "name": "OO1",
+      "amplitude": 0.012,
+      "phase": 125
+    },
+    {
+      "name": "LAM2",
+      "amplitude": 0.002,
+      "phase": 175.1
+    },
+    {
+      "name": "S1",
+      "amplitude": 0.005,
+      "phase": 88.9
+    },
+    {
+      "name": "M1",
+      "amplitude": 0.007,
+      "phase": 156.6
+    },
+    {
+      "name": "J1",
+      "amplitude": 0.004,
+      "phase": 201.3
+    },
+    {
+      "name": "MM",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "SSA",
+      "amplitude": 0.104,
+      "phase": 35.4
+    },
+    {
+      "name": "SA",
+      "amplitude": 0.13,
+      "phase": 141.8
+    },
+    {
+      "name": "MSF",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MF",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "RHO",
+      "amplitude": 0.008,
+      "phase": 50
+    },
+    {
+      "name": "Q1",
+      "amplitude": 0.02,
+      "phase": 93.4
+    },
+    {
+      "name": "T2",
+      "amplitude": 0.006,
+      "phase": 133.4
+    },
+    {
+      "name": "R2",
+      "amplitude": 0.002,
+      "phase": 72.6
+    },
+    {
+      "name": "2Q1",
+      "amplitude": 0.005,
+      "phase": 107.8
+    },
+    {
+      "name": "P1",
+      "amplitude": 0.032,
+      "phase": 130.3
+    },
+    {
+      "name": "2SM2",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "M3",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "L2",
+      "amplitude": 0.008,
+      "phase": 140.5
+    },
+    {
+      "name": "2MK3",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "K2",
+      "amplitude": 0.01,
+      "phase": 99.7
+    },
+    {
+      "name": "M8",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MS4",
+      "amplitude": 0,
+      "phase": 0
+    }
+  ]
+}

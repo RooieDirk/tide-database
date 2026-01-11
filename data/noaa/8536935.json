@@ -1,0 +1,33 @@
+{
+  "name": "Weir Creek bridge, Dividing Creek",
+  "region": "NJ",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 39.25,
+  "longitude": -75.1283,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8536935",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8536935"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8557380",
+    "height": {
+      "type": "ratio",
+      "high": 0.71,
+      "low": 0.71
+    },
+    "time": {
+      "high": 98,
+      "low": 153
+    }
+  }
+}

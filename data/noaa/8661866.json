@@ -1,0 +1,33 @@
+{
+  "name": "South of Sam Worth Game Management Area",
+  "region": "SC",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 33.4683,
+  "longitude": -79.1883,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8661866",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8661866"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8665530",
+    "height": {
+      "type": "ratio",
+      "high": 0.69,
+      "low": 0.68
+    },
+    "time": {
+      "high": 141,
+      "low": 186
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Silver Bay, Silver Bay Marina",
+  "region": "NJ",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 39.9967,
+  "longitude": -74.1483,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8532921",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8532921"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8531680",
+    "height": {
+      "type": "ratio",
+      "high": 0.08,
+      "low": 0.08
+    },
+    "time": {
+      "high": 266,
+      "low": 279
+    }
+  }
+}

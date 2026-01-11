@@ -1,0 +1,227 @@
+{
+  "name": "Foulweather Bluff",
+  "region": "WA",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 47.9267,
+  "longitude": -122.617,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9445016",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9445016"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "datums": {
+    "LAT": -0.09500003,
+    "HAT": 4.6809998,
+    "STND": 0,
+    "MHHW": 4.133,
+    "MHW": 3.881,
+    "DTL": 2.609,
+    "MTL": 2.896,
+    "MSL": 2.875,
+    "MLW": 1.911,
+    "MLLW": 1.084,
+    "GT": 3.049,
+    "MN": 1.97,
+    "DHQ": 0.252,
+    "DLQ": 0.827,
+    "HWI": 0.131,
+    "LWI": 6.398
+  },
+  "type": "reference",
+  "harmonic_constituents": [
+    {
+      "name": "M2",
+      "amplitude": 0.883,
+      "phase": 3.4
+    },
+    {
+      "name": "S2",
+      "amplitude": 0.218,
+      "phase": 29.6
+    },
+    {
+      "name": "N2",
+      "amplitude": 0.17,
+      "phase": 331.3
+    },
+    {
+      "name": "K1",
+      "amplitude": 0.765,
+      "phase": 275.9
+    },
+    {
+      "name": "M4",
+      "amplitude": 0.017,
+      "phase": 180.9
+    },
+    {
+      "name": "O1",
+      "amplitude": 0.421,
+      "phase": 253.9
+    },
+    {
+      "name": "M6",
+      "amplitude": 0.005,
+      "phase": 296.4
+    },
+    {
+      "name": "MK3",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "S4",
+      "amplitude": 0.002,
+      "phase": 140.3
+    },
+    {
+      "name": "MN4",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "NU2",
+      "amplitude": 0.033,
+      "phase": 335.6
+    },
+    {
+      "name": "S6",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MU2",
+      "amplitude": 0.021,
+      "phase": 337.1
+    },
+    {
+      "name": "2N2",
+      "amplitude": 0.023,
+      "phase": 299.2
+    },
+    {
+      "name": "OO1",
+      "amplitude": 0.018,
+      "phase": 297.8
+    },
+    {
+      "name": "LAM2",
+      "amplitude": 0.006,
+      "phase": 15.6
+    },
+    {
+      "name": "S1",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "M1",
+      "amplitude": 0.03,
+      "phase": 265
+    },
+    {
+      "name": "J1",
+      "amplitude": 0.033,
+      "phase": 286.7
+    },
+    {
+      "name": "MM",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "SSA",
+      "amplitude": 0.033,
+      "phase": 231.1
+    },
+    {
+      "name": "SA",
+      "amplitude": 0.077,
+      "phase": 292.9
+    },
+    {
+      "name": "MSF",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MF",
+      "amplitude": 0.022,
+      "phase": 140.5
+    },
+    {
+      "name": "RHO",
+      "amplitude": 0.016,
+      "phase": 244.5
+    },
+    {
+      "name": "Q1",
+      "amplitude": 0.082,
+      "phase": 243.1
+    },
+    {
+      "name": "T2",
+      "amplitude": 0.013,
+      "phase": 28.6
+    },
+    {
+      "name": "R2",
+      "amplitude": 0.002,
+      "phase": 30.7
+    },
+    {
+      "name": "2Q1",
+      "amplitude": 0.011,
+      "phase": 232.2
+    },
+    {
+      "name": "P1",
+      "amplitude": 0.253,
+      "phase": 274.2
+    },
+    {
+      "name": "2SM2",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "M3",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "L2",
+      "amplitude": 0.025,
+      "phase": 35.4
+    },
+    {
+      "name": "2MK3",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "K2",
+      "amplitude": 0.059,
+      "phase": 31.8
+    },
+    {
+      "name": "M8",
+      "amplitude": 0.001,
+      "phase": 275.5
+    },
+    {
+      "name": "MS4",
+      "amplitude": 0,
+      "phase": 0
+    }
+  ]
+}

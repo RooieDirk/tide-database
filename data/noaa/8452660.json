@@ -1,0 +1,228 @@
+{
+  "name": "NEWPORT",
+  "region": "RI",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 41.5043333,
+  "longitude": -71.3261389,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8452660",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8452660"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "datums": {
+    "LAT": 0.284163,
+    "HAT": 2.1571631,
+    "STND": 0,
+    "MHHW": 1.751,
+    "MHW": 1.676,
+    "DTL": 1.164,
+    "MTL": 1.148,
+    "MSL": 1.106,
+    "MLW": 0.619,
+    "MLLW": 0.577,
+    "GT": 1.174,
+    "MN": 1.056,
+    "DHQ": 0.075,
+    "DLQ": 0.042,
+    "HWI": 0.269,
+    "LWI": 5.924,
+    "NAVD88": 1.199
+  },
+  "type": "reference",
+  "harmonic_constituents": [
+    {
+      "name": "M2",
+      "amplitude": 0.505,
+      "phase": 2.3
+    },
+    {
+      "name": "S2",
+      "amplitude": 0.108,
+      "phase": 25
+    },
+    {
+      "name": "N2",
+      "amplitude": 0.124,
+      "phase": 345.8
+    },
+    {
+      "name": "K1",
+      "amplitude": 0.062,
+      "phase": 166.1
+    },
+    {
+      "name": "M4",
+      "amplitude": 0.057,
+      "phase": 35.8
+    },
+    {
+      "name": "O1",
+      "amplitude": 0.047,
+      "phase": 202
+    },
+    {
+      "name": "M6",
+      "amplitude": 0.005,
+      "phase": 220.1
+    },
+    {
+      "name": "MK3",
+      "amplitude": 0.008,
+      "phase": 19.5
+    },
+    {
+      "name": "S4",
+      "amplitude": 0.007,
+      "phase": 5.1
+    },
+    {
+      "name": "MN4",
+      "amplitude": 0.026,
+      "phase": 347.9
+    },
+    {
+      "name": "NU2",
+      "amplitude": 0.021,
+      "phase": 341
+    },
+    {
+      "name": "S6",
+      "amplitude": 0.001,
+      "phase": 222.9
+    },
+    {
+      "name": "MU2",
+      "amplitude": 0.025,
+      "phase": 344.5
+    },
+    {
+      "name": "2N2",
+      "amplitude": 0.018,
+      "phase": 333
+    },
+    {
+      "name": "OO1",
+      "amplitude": 0.004,
+      "phase": 195.7
+    },
+    {
+      "name": "LAM2",
+      "amplitude": 0.002,
+      "phase": 345.5
+    },
+    {
+      "name": "S1",
+      "amplitude": 0.007,
+      "phase": 121.9
+    },
+    {
+      "name": "M1",
+      "amplitude": 0.004,
+      "phase": 204
+    },
+    {
+      "name": "J1",
+      "amplitude": 0.005,
+      "phase": 181.1
+    },
+    {
+      "name": "MM",
+      "amplitude": 0.017,
+      "phase": 73.9
+    },
+    {
+      "name": "SSA",
+      "amplitude": 0.016,
+      "phase": 75.1
+    },
+    {
+      "name": "SA",
+      "amplitude": 0.061,
+      "phase": 145.3
+    },
+    {
+      "name": "MSF",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MF",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "RHO",
+      "amplitude": 0.003,
+      "phase": 230.9
+    },
+    {
+      "name": "Q1",
+      "amplitude": 0.013,
+      "phase": 185.3
+    },
+    {
+      "name": "T2",
+      "amplitude": 0.009,
+      "phase": 9
+    },
+    {
+      "name": "R2",
+      "amplitude": 0.001,
+      "phase": 252.2
+    },
+    {
+      "name": "2Q1",
+      "amplitude": 0.002,
+      "phase": 172.9
+    },
+    {
+      "name": "P1",
+      "amplitude": 0.022,
+      "phase": 176.6
+    },
+    {
+      "name": "2SM2",
+      "amplitude": 0.002,
+      "phase": 48.8
+    },
+    {
+      "name": "M3",
+      "amplitude": 0.006,
+      "phase": 34.1
+    },
+    {
+      "name": "L2",
+      "amplitude": 0.011,
+      "phase": 349.9
+    },
+    {
+      "name": "2MK3",
+      "amplitude": 0.01,
+      "phase": 357.1
+    },
+    {
+      "name": "K2",
+      "amplitude": 0.03,
+      "phase": 21.7
+    },
+    {
+      "name": "M8",
+      "amplitude": 0.001,
+      "phase": 330.4
+    },
+    {
+      "name": "MS4",
+      "amplitude": 0.014,
+      "phase": 106.4
+    }
+  ]
+}

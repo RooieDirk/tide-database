@@ -1,0 +1,33 @@
+{
+  "name": "Frederica River Bridge",
+  "region": "GA",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 31.1683,
+  "longitude": -81.4133,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8677045",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8677045"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8670870",
+    "height": {
+      "type": "ratio",
+      "high": 1,
+      "low": 1.09
+    },
+    "time": {
+      "high": 43,
+      "low": 45
+    }
+  }
+}

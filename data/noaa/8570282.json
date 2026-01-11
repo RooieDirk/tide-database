@@ -1,0 +1,33 @@
+{
+  "name": "Ocean City (Isle of Wight Bay)",
+  "region": "MD",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 38.3317,
+  "longitude": -75.09,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8570282",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8570282"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8570280",
+    "height": {
+      "type": "ratio",
+      "high": 0.67,
+      "low": 0.94
+    },
+    "time": {
+      "high": 25,
+      "low": 23
+    }
+  }
+}

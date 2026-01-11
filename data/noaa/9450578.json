@@ -1,0 +1,33 @@
+{
+  "name": "Steamboat Bay, Noyes Island",
+  "region": "AK",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 55.5333,
+  "longitude": -133.637,
+  "timezone": "America/Sitka",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9450578",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9450578"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/9451600",
+    "height": {
+      "type": "ratio",
+      "high": 1.04,
+      "low": 0.93
+    },
+    "time": {
+      "high": -12,
+      "low": -13
+    }
+  }
+}

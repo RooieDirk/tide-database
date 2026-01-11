@@ -1,0 +1,33 @@
+{
+  "name": "Malina Bay, Shelikof Strait",
+  "region": "",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 58.18333333333299,
+  "longitude": -152.95,
+  "timezone": "America/Anchorage",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TWC2085",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TWC2085"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/9455500",
+    "height": {
+      "type": "ratio",
+      "high": 0.81,
+      "low": 0.81
+    },
+    "time": {
+      "high": -14,
+      "low": 0
+    }
+  }
+}

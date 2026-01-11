@@ -1,0 +1,33 @@
+{
+  "name": "Aitutaki Island",
+  "region": "",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": -18.85,
+  "longitude": -159.7833333,
+  "timezone": "Pacific/Rarotonga",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TPT2851",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TPT2851"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/1770000",
+    "height": {
+      "type": "ratio",
+      "high": 0.82,
+      "low": 0.82
+    },
+    "time": {
+      "high": 120,
+      "low": 119
+    }
+  }
+}

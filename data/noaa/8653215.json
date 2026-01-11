@@ -1,0 +1,226 @@
+{
+  "name": "Rodanthe, Pamlico Sound",
+  "region": "NC",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 35.595001220703125,
+  "longitude": -75.4717025756836,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8653215",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8653215"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "datums": {
+    "LAT": -0.208,
+    "HAT": 0.155,
+    "STND": 0,
+    "MHHW": 0.083,
+    "MHW": 0.058,
+    "DTL": -0.038,
+    "MTL": -0.03,
+    "MSL": -0.031,
+    "MLW": -0.119,
+    "MLLW": -0.16,
+    "GT": 0.243,
+    "MN": 0.178,
+    "DHQ": 0.025,
+    "DLQ": 0.041,
+    "NAVD88": -0.006
+  },
+  "type": "reference",
+  "harmonic_constituents": [
+    {
+      "name": "M2",
+      "amplitude": 0.053,
+      "phase": 86.9
+    },
+    {
+      "name": "S2",
+      "amplitude": 0.008,
+      "phase": 131.7
+    },
+    {
+      "name": "N2",
+      "amplitude": 0.01,
+      "phase": 48.3
+    },
+    {
+      "name": "K1",
+      "amplitude": 0.01,
+      "phase": 257.6
+    },
+    {
+      "name": "M4",
+      "amplitude": 0.005,
+      "phase": 128.4
+    },
+    {
+      "name": "O1",
+      "amplitude": 0.002,
+      "phase": 260.9
+    },
+    {
+      "name": "M6",
+      "amplitude": 0.002,
+      "phase": 58.9
+    },
+    {
+      "name": "MK3",
+      "amplitude": 0.002,
+      "phase": 304.5
+    },
+    {
+      "name": "S4",
+      "amplitude": 0.001,
+      "phase": 314.8
+    },
+    {
+      "name": "MN4",
+      "amplitude": 0.001,
+      "phase": 107.9
+    },
+    {
+      "name": "NU2",
+      "amplitude": 0.004,
+      "phase": 79
+    },
+    {
+      "name": "S6",
+      "amplitude": 0.001,
+      "phase": 292.2
+    },
+    {
+      "name": "MU2",
+      "amplitude": 0.002,
+      "phase": 210.9
+    },
+    {
+      "name": "2N2",
+      "amplitude": 0.003,
+      "phase": 18.8
+    },
+    {
+      "name": "OO1",
+      "amplitude": 0.003,
+      "phase": 353.1
+    },
+    {
+      "name": "LAM2",
+      "amplitude": 0.002,
+      "phase": 58.2
+    },
+    {
+      "name": "S1",
+      "amplitude": 0.013,
+      "phase": 273.7
+    },
+    {
+      "name": "M1",
+      "amplitude": 0.001,
+      "phase": 230.3
+    },
+    {
+      "name": "J1",
+      "amplitude": 0.001,
+      "phase": 248.7
+    },
+    {
+      "name": "MM",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "SSA",
+      "amplitude": 0.032,
+      "phase": 56.9
+    },
+    {
+      "name": "SA",
+      "amplitude": 0.074,
+      "phase": 154.6
+    },
+    {
+      "name": "MSF",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MF",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "RHO",
+      "amplitude": 0.002,
+      "phase": 60.2
+    },
+    {
+      "name": "Q1",
+      "amplitude": 0.002,
+      "phase": 81
+    },
+    {
+      "name": "T2",
+      "amplitude": 0.001,
+      "phase": 90.9
+    },
+    {
+      "name": "R2",
+      "amplitude": 0.002,
+      "phase": 282.6
+    },
+    {
+      "name": "2Q1",
+      "amplitude": 0.002,
+      "phase": 61.7
+    },
+    {
+      "name": "P1",
+      "amplitude": 0.007,
+      "phase": 229.5
+    },
+    {
+      "name": "2SM2",
+      "amplitude": 0.001,
+      "phase": 49.4
+    },
+    {
+      "name": "M3",
+      "amplitude": 0.001,
+      "phase": 148.5
+    },
+    {
+      "name": "L2",
+      "amplitude": 0.002,
+      "phase": 150.4
+    },
+    {
+      "name": "2MK3",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "K2",
+      "amplitude": 0.003,
+      "phase": 127.5
+    },
+    {
+      "name": "M8",
+      "amplitude": 0.001,
+      "phase": 111.9
+    },
+    {
+      "name": "MS4",
+      "amplitude": 0.002,
+      "phase": 137.8
+    }
+  ]
+}

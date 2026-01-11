@@ -1,0 +1,33 @@
+{
+  "name": "Southwest Fork, 0.5 mile above entrance",
+  "region": "FL",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 26.9433,
+  "longitude": -80.12,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8722494",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8722494"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8723178",
+    "height": {
+      "type": "ratio",
+      "high": 0.89,
+      "low": 1.42
+    },
+    "time": {
+      "high": 41,
+      "low": 95
+    }
+  }
+}

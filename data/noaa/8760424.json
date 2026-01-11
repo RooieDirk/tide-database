@@ -1,0 +1,33 @@
+{
+  "name": "Lonesome Bayou (Thomasin)",
+  "region": "LA",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 29.2283,
+  "longitude": -89.05,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8760424",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8760424"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8760551",
+    "height": {
+      "type": "ratio",
+      "high": 0.9,
+      "low": 0.9
+    },
+    "time": {
+      "high": 34,
+      "low": -29
+    }
+  }
+}

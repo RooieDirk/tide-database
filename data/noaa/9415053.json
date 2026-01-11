@@ -1,0 +1,33 @@
+{
+  "name": "Dutch Slough",
+  "region": "CA",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 38.0117,
+  "longitude": -121.638,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9415053",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9415053"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/9415144",
+    "height": {
+      "type": "ratio",
+      "high": 0.68,
+      "low": 0.72
+    },
+    "time": {
+      "high": 153,
+      "low": 166
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Bucksport",
+  "region": "ME",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 44.5717,
+  "longitude": -68.8017,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8414684",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8414684"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8413320",
+    "height": {
+      "type": "ratio",
+      "high": 1.01,
+      "low": 1
+    },
+    "time": {
+      "high": -4,
+      "low": 11
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Vaill Island",
+  "region": "ME",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 43.6767,
+  "longitude": -70.155,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8417911",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8417911"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8418150",
+    "height": {
+      "type": "ratio",
+      "high": 0.98,
+      "low": 1.03
+    },
+    "time": {
+      "high": 5,
+      "low": 1
+    }
+  }
+}

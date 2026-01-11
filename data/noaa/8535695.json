@@ -1,0 +1,33 @@
+{
+  "name": "Old Turtle Thorofare, RR. bridge",
+  "region": "NJ",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 39.0183,
+  "longitude": -74.8417,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8535695",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8535695"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8534720",
+    "height": {
+      "type": "ratio",
+      "high": 1.06,
+      "low": 1
+    },
+    "time": {
+      "high": 56,
+      "low": 70
+    }
+  }
+}

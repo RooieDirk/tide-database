@@ -1,0 +1,33 @@
+{
+  "name": "Brigantine Channel @ Hoffman Thorofare",
+  "region": "NJ",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 39.435,
+  "longitude": -74.3633,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8534496",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8534496"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8534720",
+    "height": {
+      "type": "ratio",
+      "high": 0.9,
+      "low": 0.88
+    },
+    "time": {
+      "high": 59,
+      "low": 58
+    }
+  }
+}

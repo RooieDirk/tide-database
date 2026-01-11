@@ -1,0 +1,33 @@
+{
+  "name": "South Island Plantation (C.G. Station)",
+  "region": "SC",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 33.235,
+  "longitude": -79.2033,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8662746",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8662746"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8665530",
+    "height": {
+      "type": "ratio",
+      "high": 0.74,
+      "low": 0.84
+    },
+    "time": {
+      "high": 35,
+      "low": 36
+    }
+  }
+}

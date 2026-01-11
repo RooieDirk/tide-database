@@ -1,0 +1,33 @@
+{
+  "name": "Boggy Creek, 2 mi. above entrance",
+  "region": "FL",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 30.5883,
+  "longitude": -81.6633,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8720084",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8720084"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8720030",
+    "height": {
+      "type": "ratio",
+      "high": 0.49,
+      "low": 0.89
+    },
+    "time": {
+      "high": 209,
+      "low": 230
+    }
+  }
+}

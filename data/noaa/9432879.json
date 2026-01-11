@@ -1,0 +1,33 @@
+{
+  "name": "Sitka Dock, Coos Bay",
+  "region": "OR",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 43.3767,
+  "longitude": -124.297,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9432879",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9432879"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/9432780",
+    "height": {
+      "type": "ratio",
+      "high": 1.01,
+      "low": 1.01
+    },
+    "time": {
+      "high": 7,
+      "low": 8
+    }
+  }
+}

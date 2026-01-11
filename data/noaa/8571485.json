@@ -1,0 +1,33 @@
+{
+  "name": "Whitehaven",
+  "region": "MD",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 38.2683,
+  "longitude": -75.7883,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8571485",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8571485"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8638863",
+    "height": {
+      "type": "ratio",
+      "high": 0.94,
+      "low": 1
+    },
+    "time": {
+      "high": 386,
+      "low": 406
+    }
+  }
+}

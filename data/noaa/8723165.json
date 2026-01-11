@@ -1,0 +1,228 @@
+{
+  "name": "Miami Miamarina, Biscayne Bay",
+  "region": "FL",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 25.7783,
+  "longitude": -80.185,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8723165",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8723165"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "datums": {
+    "LAT": 0.652,
+    "HAT": 1.921,
+    "STND": 0,
+    "MHHW": 1.623,
+    "MHW": 1.603,
+    "DTL": 1.261,
+    "MTL": 1.271,
+    "MSL": 1.271,
+    "MLW": 0.94,
+    "MLLW": 0.9,
+    "GT": 0.723,
+    "MN": 0.663,
+    "DHQ": 0.02,
+    "DLQ": 0.04,
+    "HWI": 1.478,
+    "LWI": 7.785,
+    "NAVD88": 1.543
+  },
+  "type": "reference",
+  "harmonic_constituents": [
+    {
+      "name": "M2",
+      "amplitude": 0.322,
+      "phase": 41
+    },
+    {
+      "name": "S2",
+      "amplitude": 0.057,
+      "phase": 72.7
+    },
+    {
+      "name": "N2",
+      "amplitude": 0.071,
+      "phase": 24.5
+    },
+    {
+      "name": "K1",
+      "amplitude": 0.033,
+      "phase": 259.7
+    },
+    {
+      "name": "M4",
+      "amplitude": 0.003,
+      "phase": 323
+    },
+    {
+      "name": "O1",
+      "amplitude": 0.028,
+      "phase": 284
+    },
+    {
+      "name": "M6",
+      "amplitude": 0.011,
+      "phase": 169
+    },
+    {
+      "name": "MK3",
+      "amplitude": 0.002,
+      "phase": 266.1
+    },
+    {
+      "name": "S4",
+      "amplitude": 0.002,
+      "phase": 315.7
+    },
+    {
+      "name": "MN4",
+      "amplitude": 0.002,
+      "phase": 289.5
+    },
+    {
+      "name": "NU2",
+      "amplitude": 0.014,
+      "phase": 11.6
+    },
+    {
+      "name": "S6",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MU2",
+      "amplitude": 0.008,
+      "phase": 52
+    },
+    {
+      "name": "2N2",
+      "amplitude": 0.008,
+      "phase": 3.3
+    },
+    {
+      "name": "OO1",
+      "amplitude": 0.002,
+      "phase": 262
+    },
+    {
+      "name": "LAM2",
+      "amplitude": 0.005,
+      "phase": 56.4
+    },
+    {
+      "name": "S1",
+      "amplitude": 0.001,
+      "phase": 316.1
+    },
+    {
+      "name": "M1",
+      "amplitude": 0.001,
+      "phase": 312.6
+    },
+    {
+      "name": "J1",
+      "amplitude": 0.002,
+      "phase": 245.1
+    },
+    {
+      "name": "MM",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "SSA",
+      "amplitude": 0.055,
+      "phase": 58.3
+    },
+    {
+      "name": "SA",
+      "amplitude": 0.083,
+      "phase": 190.6
+    },
+    {
+      "name": "MSF",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MF",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "RHO",
+      "amplitude": 0.002,
+      "phase": 288.6
+    },
+    {
+      "name": "Q1",
+      "amplitude": 0.007,
+      "phase": 285
+    },
+    {
+      "name": "T2",
+      "amplitude": 0.005,
+      "phase": 63.5
+    },
+    {
+      "name": "R2",
+      "amplitude": 0.001,
+      "phase": 268.5
+    },
+    {
+      "name": "2Q1",
+      "amplitude": 0.001,
+      "phase": 318.4
+    },
+    {
+      "name": "P1",
+      "amplitude": 0.01,
+      "phase": 257.5
+    },
+    {
+      "name": "2SM2",
+      "amplitude": 0.001,
+      "phase": 64.2
+    },
+    {
+      "name": "M3",
+      "amplitude": 0.001,
+      "phase": 84.4
+    },
+    {
+      "name": "L2",
+      "amplitude": 0.015,
+      "phase": 19.8
+    },
+    {
+      "name": "2MK3",
+      "amplitude": 0.001,
+      "phase": 277.8
+    },
+    {
+      "name": "K2",
+      "amplitude": 0.016,
+      "phase": 69.9
+    },
+    {
+      "name": "M8",
+      "amplitude": 0.001,
+      "phase": 200.6
+    },
+    {
+      "name": "MS4",
+      "amplitude": 0.001,
+      "phase": 149.3
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Burnt Coat Harbor, Swans Island",
+  "region": "ME",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 44.145,
+  "longitude": -68.45,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8413857",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8413857"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8413320",
+    "height": {
+      "type": "ratio",
+      "high": 0.89,
+      "low": 0.88
+    },
+    "time": {
+      "high": -1,
+      "low": 6
+    }
+  }
+}

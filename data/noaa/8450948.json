@@ -1,0 +1,33 @@
+{
+  "name": "Anthony Point",
+  "region": "RI",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 41.6383,
+  "longitude": -71.2117,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8450948",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8450948"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8452660",
+    "height": {
+      "type": "ratio",
+      "high": 1.09,
+      "low": 1.09
+    },
+    "time": {
+      "high": 0,
+      "low": -1
+    }
+  }
+}

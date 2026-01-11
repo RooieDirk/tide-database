@@ -1,0 +1,30 @@
+{
+  "name": "Big Salt Lake",
+  "region": "AK",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 55.6,
+  "longitude": -132.95,
+  "timezone": "America/Sitka",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9450623",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9450623"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "datums": {
+    "STND": 0,
+    "MHHW": 1.408,
+    "MHW": 1.188,
+    "DHQ": 0.22,
+    "HWI": 11.17
+  },
+  "type": "reference",
+  "harmonic_constituents": []
+}

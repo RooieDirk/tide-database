@@ -1,0 +1,227 @@
+{
+  "name": "Bangor Wharf",
+  "region": "WA",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 47.7483,
+  "longitude": -122.727,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9445133",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9445133"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "datums": {
+    "LAT": -0.57500005,
+    "HAT": 4.762,
+    "STND": 0,
+    "MHHW": 4.205,
+    "MHW": 3.934,
+    "DTL": 2.518,
+    "MTL": 2.821,
+    "MSL": 2.809,
+    "MLW": 1.708,
+    "MLLW": 0.831,
+    "GT": 3.374,
+    "MN": 2.226,
+    "DHQ": 0.271,
+    "DLQ": 0.877,
+    "HWI": 0.182,
+    "LWI": 6.561
+  },
+  "type": "reference",
+  "harmonic_constituents": [
+    {
+      "name": "M2",
+      "amplitude": 1.024,
+      "phase": 4.1
+    },
+    {
+      "name": "S2",
+      "amplitude": 0.257,
+      "phase": 29.5
+    },
+    {
+      "name": "N2",
+      "amplitude": 0.208,
+      "phase": 333.5
+    },
+    {
+      "name": "K1",
+      "amplitude": 0.835,
+      "phase": 274.8
+    },
+    {
+      "name": "M4",
+      "amplitude": 0.027,
+      "phase": 183.4
+    },
+    {
+      "name": "O1",
+      "amplitude": 0.466,
+      "phase": 251.9
+    },
+    {
+      "name": "M6",
+      "amplitude": 0.009,
+      "phase": 85.1
+    },
+    {
+      "name": "MK3",
+      "amplitude": 0.029,
+      "phase": 73
+    },
+    {
+      "name": "S4",
+      "amplitude": 0.004,
+      "phase": 211.5
+    },
+    {
+      "name": "MN4",
+      "amplitude": 0.011,
+      "phase": 141
+    },
+    {
+      "name": "NU2",
+      "amplitude": 0.044,
+      "phase": 345.1
+    },
+    {
+      "name": "S6",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MU2",
+      "amplitude": 0.035,
+      "phase": 237.2
+    },
+    {
+      "name": "2N2",
+      "amplitude": 0.024,
+      "phase": 318.2
+    },
+    {
+      "name": "OO1",
+      "amplitude": 0.034,
+      "phase": 320.2
+    },
+    {
+      "name": "LAM2",
+      "amplitude": 0.02,
+      "phase": 37.9
+    },
+    {
+      "name": "S1",
+      "amplitude": 0.012,
+      "phase": 42.1
+    },
+    {
+      "name": "M1",
+      "amplitude": 0.02,
+      "phase": 308.6
+    },
+    {
+      "name": "J1",
+      "amplitude": 0.034,
+      "phase": 307.9
+    },
+    {
+      "name": "MM",
+      "amplitude": 0.023,
+      "phase": 187.7
+    },
+    {
+      "name": "SSA",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "SA",
+      "amplitude": 0.101,
+      "phase": 287.6
+    },
+    {
+      "name": "MSF",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MF",
+      "amplitude": 0.014,
+      "phase": 146.8
+    },
+    {
+      "name": "RHO",
+      "amplitude": 0.017,
+      "phase": 247.1
+    },
+    {
+      "name": "Q1",
+      "amplitude": 0.08,
+      "phase": 247.2
+    },
+    {
+      "name": "T2",
+      "amplitude": 0.014,
+      "phase": 33.6
+    },
+    {
+      "name": "R2",
+      "amplitude": 0.002,
+      "phase": 30.4
+    },
+    {
+      "name": "2Q1",
+      "amplitude": 0.01,
+      "phase": 236.2
+    },
+    {
+      "name": "P1",
+      "amplitude": 0.26,
+      "phase": 273.9
+    },
+    {
+      "name": "2SM2",
+      "amplitude": 0.007,
+      "phase": 271.2
+    },
+    {
+      "name": "M3",
+      "amplitude": 0.009,
+      "phase": 350.4
+    },
+    {
+      "name": "L2",
+      "amplitude": 0.04,
+      "phase": 65.4
+    },
+    {
+      "name": "2MK3",
+      "amplitude": 0.033,
+      "phase": 48.8
+    },
+    {
+      "name": "K2",
+      "amplitude": 0.073,
+      "phase": 28.5
+    },
+    {
+      "name": "M8",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MS4",
+      "amplitude": 0.016,
+      "phase": 199.9
+    }
+  ]
+}

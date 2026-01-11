@@ -1,0 +1,33 @@
+{
+  "name": "Block Island, Tlevak Narrows",
+  "region": "AK",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 55.263301849365234,
+  "longitude": -133.11500549316406,
+  "timezone": "America/Sitka",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9450406",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9450406"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/9451600",
+    "height": {
+      "type": "ratio",
+      "high": 1.2,
+      "low": 1
+    },
+    "time": {
+      "high": 7,
+      "low": 2
+    }
+  }
+}

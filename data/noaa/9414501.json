@@ -1,0 +1,33 @@
+{
+  "name": "Redwood Creek Marker 8",
+  "region": "CA",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 37.5333,
+  "longitude": -122.193,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9414501",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9414501"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/9414290",
+    "height": {
+      "type": "ratio",
+      "high": 1.41,
+      "low": 1.05
+    },
+    "time": {
+      "high": 53,
+      "low": 88
+    }
+  }
+}

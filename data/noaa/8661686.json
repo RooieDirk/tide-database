@@ -1,0 +1,33 @@
+{
+  "name": "Black River (south of Dunbar)",
+  "region": "SC",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 33.5117,
+  "longitude": -79.3417,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8661686",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8661686"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8665530",
+    "height": {
+      "type": "ratio",
+      "high": 0.47,
+      "low": 0.89
+    },
+    "time": {
+      "high": 209,
+      "low": 249
+    }
+  }
+}

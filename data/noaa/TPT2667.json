@@ -1,0 +1,33 @@
+{
+  "name": "Satawan Anchorage, Nomoi Islands",
+  "region": "",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 5.333333333333304,
+  "longitude": 153.7333333333299,
+  "timezone": "Pacific/Chuuk",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TPT2667",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TPT2667"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/1840000",
+    "height": {
+      "type": "ratio",
+      "high": 0.96,
+      "low": 0.96
+    },
+    "time": {
+      "high": -3,
+      "low": 25
+    }
+  }
+}

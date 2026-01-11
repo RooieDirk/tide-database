@@ -1,0 +1,33 @@
+{
+  "name": "Prospect Harbor",
+  "region": "ME",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 44.4,
+  "longitude": -68.0217,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8412932",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8412932"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8418150",
+    "height": {
+      "type": "ratio",
+      "high": 1.15,
+      "low": 1.15
+    },
+    "time": {
+      "high": -24,
+      "low": -15
+    }
+  }
+}

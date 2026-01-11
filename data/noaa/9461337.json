@@ -1,0 +1,33 @@
+{
+  "name": "Bay of Waterfalls",
+  "region": "AK",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 51.6417,
+  "longitude": -176.825,
+  "timezone": "America/Adak",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9461337",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9461337"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/9461380",
+    "height": {
+      "type": "ratio",
+      "high": 0.95,
+      "low": 0.95
+    },
+    "time": {
+      "high": -80,
+      "low": -124
+    }
+  }
+}

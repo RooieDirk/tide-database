@@ -1,0 +1,33 @@
+{
+  "name": "Jacksonboro Camp",
+  "region": "SC",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 32.7533,
+  "longitude": -80.45,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8665737",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8665737"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8670870",
+    "height": {
+      "type": "ratio",
+      "high": 0.59,
+      "low": 0.86
+    },
+    "time": {
+      "high": 166,
+      "low": 214
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Steamboat Slough, Snug Harbor Marina",
+  "region": "CA",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 38.1833,
+  "longitude": -121.655,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9415414",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9415414"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/9415144",
+    "height": {
+      "type": "ratio",
+      "high": 0.8,
+      "low": 0.65
+    },
+    "time": {
+      "high": 144,
+      "low": 168
+    }
+  }
+}

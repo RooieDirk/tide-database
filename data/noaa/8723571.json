@@ -1,0 +1,33 @@
+{
+  "name": "Main Key, Barnes Sound",
+  "region": "FL",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 25.24,
+  "longitude": -80.4,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8723571",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8723571"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8723178",
+    "height": {
+      "type": "ratio",
+      "high": 0.19,
+      "low": 0.36
+    },
+    "time": {
+      "high": 304,
+      "low": 376
+    }
+  }
+}

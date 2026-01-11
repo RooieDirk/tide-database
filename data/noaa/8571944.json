@@ -1,0 +1,33 @@
+{
+  "name": "Dover Bridge",
+  "region": "MD",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 38.7567,
+  "longitude": -75.9983,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8571944",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8571944"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8574680",
+    "height": {
+      "type": "ratio",
+      "high": 1.54,
+      "low": 1.68
+    },
+    "time": {
+      "high": -18,
+      "low": -41
+    }
+  }
+}

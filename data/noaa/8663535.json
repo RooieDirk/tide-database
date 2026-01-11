@@ -1,0 +1,33 @@
+{
+  "name": "Quinby Creek bridge, East Branch",
+  "region": "SC",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 33.095,
+  "longitude": -79.8083,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8663535",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8663535"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8665530",
+    "height": {
+      "type": "ratio",
+      "high": 0.56,
+      "low": 1.42
+    },
+    "time": {
+      "high": 277,
+      "low": 252
+    }
+  }
+}

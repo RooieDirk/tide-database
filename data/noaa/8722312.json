@@ -1,0 +1,33 @@
+{
+  "name": "Eden, Nettles Island",
+  "region": "FL",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 27.2867,
+  "longitude": -80.2267,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8722312",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8722312"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8723178",
+    "height": {
+      "type": "ratio",
+      "high": 0.45,
+      "low": 0.92
+    },
+    "time": {
+      "high": 155,
+      "low": 211
+    }
+  }
+}

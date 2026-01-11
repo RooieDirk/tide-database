@@ -1,0 +1,33 @@
+{
+  "name": "La Isabela",
+  "region": "",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 22.933333333332993,
+  "longitude": -80,
+  "timezone": "America/Havana",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TEC4645",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TEC4645"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8638610",
+    "height": {
+      "type": "ratio",
+      "high": 0.64,
+      "low": 0.64
+    },
+    "time": {
+      "high": 20,
+      "low": 16
+    }
+  }
+}

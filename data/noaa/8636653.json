@@ -1,0 +1,227 @@
+{
+  "name": "Lester Manor",
+  "region": "VA",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 37.5833,
+  "longitude": -76.99,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8636653",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8636653"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "datums": {
+    "LAT": -0.715,
+    "HAT": 0.578,
+    "STND": 0,
+    "MHHW": 0.428,
+    "MHW": 0.375,
+    "DTL": -0.075,
+    "MTL": -0.086,
+    "MSL": -0.051,
+    "MLW": -0.547,
+    "MLLW": -0.578,
+    "GT": 1.006,
+    "MN": 0.922,
+    "DHQ": 0.053,
+    "DLQ": 0.031,
+    "HWI": 6.48,
+    "LWI": 0.6
+  },
+  "type": "reference",
+  "harmonic_constituents": [
+    {
+      "name": "M2",
+      "amplitude": 0.399,
+      "phase": 186.6
+    },
+    {
+      "name": "S2",
+      "amplitude": 0.064,
+      "phase": 228.7
+    },
+    {
+      "name": "N2",
+      "amplitude": 0.084,
+      "phase": 179.6
+    },
+    {
+      "name": "K1",
+      "amplitude": 0.054,
+      "phase": 250
+    },
+    {
+      "name": "M4",
+      "amplitude": 0.035,
+      "phase": 220.4
+    },
+    {
+      "name": "O1",
+      "amplitude": 0.021,
+      "phase": 286.9
+    },
+    {
+      "name": "M6",
+      "amplitude": 0.014,
+      "phase": 235.8
+    },
+    {
+      "name": "MK3",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "S4",
+      "amplitude": 0.009,
+      "phase": 349.2
+    },
+    {
+      "name": "MN4",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "NU2",
+      "amplitude": 0.016,
+      "phase": 180.6
+    },
+    {
+      "name": "S6",
+      "amplitude": 0.001,
+      "phase": 48.4
+    },
+    {
+      "name": "MU2",
+      "amplitude": 0.01,
+      "phase": 350.6
+    },
+    {
+      "name": "2N2",
+      "amplitude": 0.011,
+      "phase": 172.6
+    },
+    {
+      "name": "OO1",
+      "amplitude": 0.001,
+      "phase": 213.1
+    },
+    {
+      "name": "LAM2",
+      "amplitude": 0.003,
+      "phase": 206.1
+    },
+    {
+      "name": "S1",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "M1",
+      "amplitude": 0.002,
+      "phase": 268.3
+    },
+    {
+      "name": "J1",
+      "amplitude": 0.002,
+      "phase": 231.7
+    },
+    {
+      "name": "MM",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "SSA",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "SA",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MSF",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MF",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "RHO",
+      "amplitude": 0.001,
+      "phase": 302.8
+    },
+    {
+      "name": "Q1",
+      "amplitude": 0.004,
+      "phase": 305.3
+    },
+    {
+      "name": "T2",
+      "amplitude": 0.004,
+      "phase": 227
+    },
+    {
+      "name": "R2",
+      "amplitude": 0.001,
+      "phase": 230.3
+    },
+    {
+      "name": "2Q1",
+      "amplitude": 0.001,
+      "phase": 323.6
+    },
+    {
+      "name": "P1",
+      "amplitude": 0.018,
+      "phase": 252.8
+    },
+    {
+      "name": "2SM2",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "M3",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "L2",
+      "amplitude": 0.011,
+      "phase": 193.6
+    },
+    {
+      "name": "2MK3",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "K2",
+      "amplitude": 0.018,
+      "phase": 232.1
+    },
+    {
+      "name": "M8",
+      "amplitude": 0.003,
+      "phase": 252.9
+    },
+    {
+      "name": "MS4",
+      "amplitude": 0,
+      "phase": 0
+    }
+  ]
+}

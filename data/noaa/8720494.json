@@ -1,0 +1,228 @@
+{
+  "name": "Tolomato River (ICWW)",
+  "region": "FL",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 29.994400024414062,
+  "longitude": -81.32949829101562,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8720494",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8720494"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "datums": {
+    "LAT": -1.2360001,
+    "HAT": 0.987,
+    "STND": 0,
+    "MHHW": 0.598,
+    "MHW": 0.506,
+    "DTL": -0.127,
+    "MTL": -0.141,
+    "MSL": -0.097,
+    "MLW": -0.789,
+    "MLLW": -0.853,
+    "GT": 1.452,
+    "MN": 1.296,
+    "DHQ": 0.092,
+    "DLQ": 0.064,
+    "HWI": 1.924,
+    "LWI": 8.077,
+    "NAVD88": -0.008
+  },
+  "type": "reference",
+  "harmonic_constituents": [
+    {
+      "name": "M2",
+      "amplitude": 0.601,
+      "phase": 53.4
+    },
+    {
+      "name": "S2",
+      "amplitude": 0.079,
+      "phase": 85.1
+    },
+    {
+      "name": "N2",
+      "amplitude": 0.114,
+      "phase": 41.4
+    },
+    {
+      "name": "K1",
+      "amplitude": 0.096,
+      "phase": 223.9
+    },
+    {
+      "name": "M4",
+      "amplitude": 0.035,
+      "phase": 270
+    },
+    {
+      "name": "O1",
+      "amplitude": 0.073,
+      "phase": 228
+    },
+    {
+      "name": "M6",
+      "amplitude": 0.023,
+      "phase": 160.5
+    },
+    {
+      "name": "MK3",
+      "amplitude": 0.019,
+      "phase": 80.4
+    },
+    {
+      "name": "S4",
+      "amplitude": 0.004,
+      "phase": 338.6
+    },
+    {
+      "name": "MN4",
+      "amplitude": 0.014,
+      "phase": 263.6
+    },
+    {
+      "name": "NU2",
+      "amplitude": 0.035,
+      "phase": 25.4
+    },
+    {
+      "name": "S6",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MU2",
+      "amplitude": 0.022,
+      "phase": 126
+    },
+    {
+      "name": "2N2",
+      "amplitude": 0.026,
+      "phase": 14.2
+    },
+    {
+      "name": "OO1",
+      "amplitude": 0.004,
+      "phase": 226.6
+    },
+    {
+      "name": "LAM2",
+      "amplitude": 0.012,
+      "phase": 52.1
+    },
+    {
+      "name": "S1",
+      "amplitude": 0.012,
+      "phase": 190.8
+    },
+    {
+      "name": "M1",
+      "amplitude": 0.006,
+      "phase": 316.3
+    },
+    {
+      "name": "J1",
+      "amplitude": 0.005,
+      "phase": 254
+    },
+    {
+      "name": "MM",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "SSA",
+      "amplitude": 0.093,
+      "phase": 52.8
+    },
+    {
+      "name": "SA",
+      "amplitude": 0.114,
+      "phase": 188.2
+    },
+    {
+      "name": "MSF",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MF",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "RHO",
+      "amplitude": 0.003,
+      "phase": 251.7
+    },
+    {
+      "name": "Q1",
+      "amplitude": 0.018,
+      "phase": 213.9
+    },
+    {
+      "name": "T2",
+      "amplitude": 0.012,
+      "phase": 50.3
+    },
+    {
+      "name": "R2",
+      "amplitude": 0.012,
+      "phase": 334.9
+    },
+    {
+      "name": "2Q1",
+      "amplitude": 0.001,
+      "phase": 247.5
+    },
+    {
+      "name": "P1",
+      "amplitude": 0.029,
+      "phase": 220.9
+    },
+    {
+      "name": "2SM2",
+      "amplitude": 0.002,
+      "phase": 112.4
+    },
+    {
+      "name": "M3",
+      "amplitude": 0.004,
+      "phase": 224.8
+    },
+    {
+      "name": "L2",
+      "amplitude": 0.031,
+      "phase": 37.6
+    },
+    {
+      "name": "2MK3",
+      "amplitude": 0.018,
+      "phase": 77.3
+    },
+    {
+      "name": "K2",
+      "amplitude": 0.019,
+      "phase": 83.9
+    },
+    {
+      "name": "M8",
+      "amplitude": 0.003,
+      "phase": 350.7
+    },
+    {
+      "name": "MS4",
+      "amplitude": 0.008,
+      "phase": 294.1
+    }
+  ]
+}

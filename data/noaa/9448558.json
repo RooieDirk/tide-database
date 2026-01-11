@@ -1,0 +1,33 @@
+{
+  "name": "La Conner, Swinomish Channel",
+  "region": "WA",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 48.3917,
+  "longitude": -122.497,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9448558",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9448558"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/9447130",
+    "height": {
+      "type": "ratio",
+      "high": 0.9,
+      "low": 0.95
+    },
+    "time": {
+      "high": 21,
+      "low": 39
+    }
+  }
+}

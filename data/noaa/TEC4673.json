@@ -1,0 +1,33 @@
+{
+  "name": "Manzanillo, Golfo de Guacanayabo",
+  "region": "",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 20.35,
+  "longitude": -77.116666666667,
+  "timezone": "America/Havana",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TEC4673",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TEC4673"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/9755371",
+    "height": {
+      "type": "fixed",
+      "high": 0.42,
+      "low": 0.42
+    },
+    "time": {
+      "high": 101,
+      "low": 98
+    }
+  }
+}

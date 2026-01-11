@@ -1,0 +1,227 @@
+{
+  "name": "Lynn, Lynn Harbor",
+  "region": "MA",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 42.4583,
+  "longitude": -70.9433,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8443187",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8443187"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "datums": {
+    "LAT": 0.27600002,
+    "HAT": 4.726,
+    "STND": 0,
+    "MHHW": 4.04,
+    "MHW": 3.905,
+    "DTL": 2.525,
+    "MTL": 2.509,
+    "MSL": 2.532,
+    "MLW": 1.113,
+    "MLLW": 1.01,
+    "GT": 3.031,
+    "MN": 2.792,
+    "DHQ": 0.136,
+    "DLQ": 0.103,
+    "HWI": 3.748,
+    "LWI": 9.878
+  },
+  "type": "reference",
+  "harmonic_constituents": [
+    {
+      "name": "M2",
+      "amplitude": 1.338,
+      "phase": 109.7
+    },
+    {
+      "name": "S2",
+      "amplitude": 0.238,
+      "phase": 151.5
+    },
+    {
+      "name": "N2",
+      "amplitude": 0.328,
+      "phase": 78.1
+    },
+    {
+      "name": "K1",
+      "amplitude": 0.135,
+      "phase": 208
+    },
+    {
+      "name": "M4",
+      "amplitude": 0.019,
+      "phase": 28.9
+    },
+    {
+      "name": "O1",
+      "amplitude": 0.118,
+      "phase": 185.3
+    },
+    {
+      "name": "M6",
+      "amplitude": 0.024,
+      "phase": 285.9
+    },
+    {
+      "name": "MK3",
+      "amplitude": 0.005,
+      "phase": 244.1
+    },
+    {
+      "name": "S4",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MN4",
+      "amplitude": 0.012,
+      "phase": 8.3
+    },
+    {
+      "name": "NU2",
+      "amplitude": 0.051,
+      "phase": 83.2
+    },
+    {
+      "name": "S6",
+      "amplitude": 0.001,
+      "phase": 347
+    },
+    {
+      "name": "MU2",
+      "amplitude": 0.017,
+      "phase": 72.4
+    },
+    {
+      "name": "2N2",
+      "amplitude": 0.038,
+      "phase": 61.6
+    },
+    {
+      "name": "OO1",
+      "amplitude": 0.005,
+      "phase": 201.6
+    },
+    {
+      "name": "LAM2",
+      "amplitude": 0.022,
+      "phase": 152.1
+    },
+    {
+      "name": "S1",
+      "amplitude": 0.019,
+      "phase": 139.9
+    },
+    {
+      "name": "M1",
+      "amplitude": 0.008,
+      "phase": 199.6
+    },
+    {
+      "name": "J1",
+      "amplitude": 0.012,
+      "phase": 204.3
+    },
+    {
+      "name": "MM",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "SSA",
+      "amplitude": 0.018,
+      "phase": 89.8
+    },
+    {
+      "name": "SA",
+      "amplitude": 0.032,
+      "phase": 126.3
+    },
+    {
+      "name": "MSF",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MF",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "RHO",
+      "amplitude": 0.005,
+      "phase": 91.9
+    },
+    {
+      "name": "Q1",
+      "amplitude": 0.024,
+      "phase": 186.4
+    },
+    {
+      "name": "T2",
+      "amplitude": 0.032,
+      "phase": 146.3
+    },
+    {
+      "name": "R2",
+      "amplitude": 0.045,
+      "phase": 10.3
+    },
+    {
+      "name": "2Q1",
+      "amplitude": 0.004,
+      "phase": 162
+    },
+    {
+      "name": "P1",
+      "amplitude": 0.046,
+      "phase": 217
+    },
+    {
+      "name": "2SM2",
+      "amplitude": 0.006,
+      "phase": 113.5
+    },
+    {
+      "name": "M3",
+      "amplitude": 0.005,
+      "phase": 137.4
+    },
+    {
+      "name": "L2",
+      "amplitude": 0.073,
+      "phase": 168.3
+    },
+    {
+      "name": "2MK3",
+      "amplitude": 0.008,
+      "phase": 202.8
+    },
+    {
+      "name": "K2",
+      "amplitude": 0.06,
+      "phase": 127
+    },
+    {
+      "name": "M8",
+      "amplitude": 0.004,
+      "phase": 220.5
+    },
+    {
+      "name": "MS4",
+      "amplitude": 0.007,
+      "phase": 70.8
+    }
+  ]
+}

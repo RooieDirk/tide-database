@@ -1,0 +1,33 @@
+{
+  "name": "Gold Street Bridge, Alviso Slough",
+  "region": "CA",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 37.4233,
+  "longitude": -121.975,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9414551",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9414551"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/9414290",
+    "height": {
+      "type": "ratio",
+      "high": 1.67,
+      "low": 0.96
+    },
+    "time": {
+      "high": 63,
+      "low": 141
+    }
+  }
+}

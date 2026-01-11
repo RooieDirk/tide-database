@@ -1,0 +1,33 @@
+{
+  "name": "Dorothy Cove, Necker Bay",
+  "region": "AK",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 56.7217,
+  "longitude": -135.075,
+  "timezone": "America/Sitka",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9451376",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9451376"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/9451600",
+    "height": {
+      "type": "ratio",
+      "high": 0.97,
+      "low": 0.95
+    },
+    "time": {
+      "high": -2,
+      "low": -2
+    }
+  }
+}

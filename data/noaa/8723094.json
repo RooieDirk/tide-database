@@ -1,0 +1,33 @@
+{
+  "name": "Indian Creek Golf Club, ICWW",
+  "region": "FL",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 25.875,
+  "longitude": -80.1433,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8723094",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8723094"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8723178",
+    "height": {
+      "type": "ratio",
+      "high": 0.92,
+      "low": 0.92
+    },
+    "time": {
+      "high": 73,
+      "low": 106
+    }
+  }
+}

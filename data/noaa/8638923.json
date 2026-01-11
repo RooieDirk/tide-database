@@ -1,0 +1,33 @@
+{
+  "name": "Broad Bay Canal",
+  "region": "VA",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 36.9017,
+  "longitude": -76.0617,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8638923",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8638923"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8638863",
+    "height": {
+      "type": "ratio",
+      "high": 0.56,
+      "low": 0.92
+    },
+    "time": {
+      "high": 125,
+      "low": 120
+    }
+  }
+}

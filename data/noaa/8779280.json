@@ -1,0 +1,224 @@
+{
+  "name": "Realitos Pennisula, Laguna Madre",
+  "region": "TX",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 26.262399673461914,
+  "longitude": -97.2853012084961,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8779280",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8779280"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "These data and associated tidal datums are derived from the Texas Coastal Ocean Observation Network (TCOON), a state-wide coastal observing system. Leveling information used to verify vertical positioning for navigational purposes may not meet NOS standards. Subsequent review of these data based upon field inspections may result in revisions. Data users are cautioned before using these data for critical decisions such as those that concern physical or public safety.",
+  "datums": {
+    "LAT": 4.6,
+    "HAT": 5.099,
+    "STND": 0,
+    "MHHW": 4.933,
+    "MHW": 4.93,
+    "MTL": 4.849,
+    "MSL": 4.854,
+    "MLW": 4.767,
+    "MLLW": 4.761,
+    "GT": 0.172,
+    "MN": 0.163,
+    "DHQ": 0.003,
+    "DLQ": 0.006
+  },
+  "type": "reference",
+  "harmonic_constituents": [
+    {
+      "name": "M2",
+      "amplitude": 0.014,
+      "phase": 41.6
+    },
+    {
+      "name": "S2",
+      "amplitude": 0.002,
+      "phase": 17.1
+    },
+    {
+      "name": "N2",
+      "amplitude": 0.003,
+      "phase": 10.2
+    },
+    {
+      "name": "K1",
+      "amplitude": 0.052,
+      "phase": 107.4
+    },
+    {
+      "name": "M4",
+      "amplitude": 0.001,
+      "phase": 275.4
+    },
+    {
+      "name": "O1",
+      "amplitude": 0.055,
+      "phase": 101.6
+    },
+    {
+      "name": "M6",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MK3",
+      "amplitude": 0.001,
+      "phase": 351.8
+    },
+    {
+      "name": "S4",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MN4",
+      "amplitude": 0.001,
+      "phase": 282.8
+    },
+    {
+      "name": "NU2",
+      "amplitude": 0.002,
+      "phase": 355.5
+    },
+    {
+      "name": "S6",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MU2",
+      "amplitude": 0.001,
+      "phase": 170.9
+    },
+    {
+      "name": "2N2",
+      "amplitude": 0.004,
+      "phase": 86.4
+    },
+    {
+      "name": "OO1",
+      "amplitude": 0.004,
+      "phase": 100.2
+    },
+    {
+      "name": "LAM2",
+      "amplitude": 0.001,
+      "phase": 98.9
+    },
+    {
+      "name": "S1",
+      "amplitude": 0.006,
+      "phase": 229.9
+    },
+    {
+      "name": "M1",
+      "amplitude": 0.003,
+      "phase": 167.9
+    },
+    {
+      "name": "J1",
+      "amplitude": 0.002,
+      "phase": 84.1
+    },
+    {
+      "name": "MM",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "SSA",
+      "amplitude": 0.069,
+      "phase": 58.8
+    },
+    {
+      "name": "SA",
+      "amplitude": 0.055,
+      "phase": 196.1
+    },
+    {
+      "name": "MSF",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MF",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "RHO",
+      "amplitude": 0.001,
+      "phase": 49.8
+    },
+    {
+      "name": "Q1",
+      "amplitude": 0.01,
+      "phase": 87.9
+    },
+    {
+      "name": "T2",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "R2",
+      "amplitude": 0.001,
+      "phase": 87.4
+    },
+    {
+      "name": "2Q1",
+      "amplitude": 0.002,
+      "phase": 159.5
+    },
+    {
+      "name": "P1",
+      "amplitude": 0.016,
+      "phase": 122.9
+    },
+    {
+      "name": "2SM2",
+      "amplitude": 0.001,
+      "phase": 194.7
+    },
+    {
+      "name": "M3",
+      "amplitude": 0.001,
+      "phase": 244.2
+    },
+    {
+      "name": "L2",
+      "amplitude": 0.001,
+      "phase": 31.4
+    },
+    {
+      "name": "2MK3",
+      "amplitude": 0.002,
+      "phase": 352.7
+    },
+    {
+      "name": "K2",
+      "amplitude": 0.005,
+      "phase": 19.6
+    },
+    {
+      "name": "M8",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MS4",
+      "amplitude": 0.001,
+      "phase": 290.2
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "St. Barthelemy",
+  "region": "",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 17.9,
+  "longitude": -62.85,
+  "timezone": "America/St_Barthelemy",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TEC4765",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TEC4765"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/9751401",
+    "height": {
+      "type": "ratio",
+      "high": 1.87,
+      "low": 1
+    },
+    "time": {
+      "high": -206,
+      "low": -71
+    }
+  }
+}

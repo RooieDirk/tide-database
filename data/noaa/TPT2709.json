@@ -1,0 +1,33 @@
+{
+  "name": "Bikar (Dawson) Atoll",
+  "region": "",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 12.25,
+  "longitude": 170.13333333332992,
+  "timezone": "Pacific/Majuro",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TPT2709",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TPT2709"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/1820000",
+    "height": {
+      "type": "fixed",
+      "high": 0,
+      "low": 0
+    },
+    "time": {
+      "high": -10,
+      "low": -10
+    }
+  }
+}

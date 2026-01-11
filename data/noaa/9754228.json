@@ -1,0 +1,225 @@
+{
+  "name": "Yabucoa Harbor",
+  "region": "PR",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 18.05508333333333,
+  "longitude": -65.833,
+  "timezone": "America/Puerto_Rico",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9754228",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9754228"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "These data are measured by the Puerto Rico Seismic Network (PRSN), located at the University of Puerto Rico Mayaguez. PRSN is a National Ocean Service (NOS) partner that adheres to NOS data collection standards. For more information on the PRSN, visit their <a href=\"http://tidesandcurrents.noaa.gov/redirect.shtml?url=45\">website</a>.",
+  "datums": {
+    "LAT": 3.205,
+    "HAT": 3.689,
+    "STND": 0,
+    "MHHW": 3.565,
+    "MHW": 3.561,
+    "DTL": 3.456,
+    "MTL": 3.459,
+    "MSL": 3.454,
+    "MLW": 3.356,
+    "MLLW": 3.347,
+    "GT": 0.218,
+    "MN": 0.205,
+    "DHQ": 0.004,
+    "DLQ": 0.009
+  },
+  "type": "reference",
+  "harmonic_constituents": [
+    {
+      "name": "M2",
+      "amplitude": 0.016,
+      "phase": 18.1
+    },
+    {
+      "name": "S2",
+      "amplitude": 0.007,
+      "phase": 0.5
+    },
+    {
+      "name": "N2",
+      "amplitude": 0.003,
+      "phase": 85
+    },
+    {
+      "name": "K1",
+      "amplitude": 0.082,
+      "phase": 231.8
+    },
+    {
+      "name": "M4",
+      "amplitude": 0.002,
+      "phase": 281.3
+    },
+    {
+      "name": "O1",
+      "amplitude": 0.061,
+      "phase": 227.8
+    },
+    {
+      "name": "M6",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MK3",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "S4",
+      "amplitude": 0.001,
+      "phase": 81.1
+    },
+    {
+      "name": "MN4",
+      "amplitude": 0.001,
+      "phase": 192.2
+    },
+    {
+      "name": "NU2",
+      "amplitude": 0.002,
+      "phase": 51.7
+    },
+    {
+      "name": "S6",
+      "amplitude": 0.001,
+      "phase": 65.6
+    },
+    {
+      "name": "MU2",
+      "amplitude": 0.002,
+      "phase": 132.7
+    },
+    {
+      "name": "2N2",
+      "amplitude": 0.001,
+      "phase": 84.4
+    },
+    {
+      "name": "OO1",
+      "amplitude": 0.003,
+      "phase": 240.3
+    },
+    {
+      "name": "LAM2",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "S1",
+      "amplitude": 0.004,
+      "phase": 215.8
+    },
+    {
+      "name": "M1",
+      "amplitude": 0.004,
+      "phase": 257
+    },
+    {
+      "name": "J1",
+      "amplitude": 0.005,
+      "phase": 230.5
+    },
+    {
+      "name": "MM",
+      "amplitude": 0.006,
+      "phase": 318
+    },
+    {
+      "name": "SSA",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "SA",
+      "amplitude": 0.054,
+      "phase": 184.5
+    },
+    {
+      "name": "MSF",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MF",
+      "amplitude": 0.015,
+      "phase": 352.9
+    },
+    {
+      "name": "RHO",
+      "amplitude": 0.003,
+      "phase": 216.4
+    },
+    {
+      "name": "Q1",
+      "amplitude": 0.011,
+      "phase": 211.7
+    },
+    {
+      "name": "T2",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "R2",
+      "amplitude": 0.001,
+      "phase": 123.9
+    },
+    {
+      "name": "2Q1",
+      "amplitude": 0.002,
+      "phase": 204
+    },
+    {
+      "name": "P1",
+      "amplitude": 0.026,
+      "phase": 231.3
+    },
+    {
+      "name": "2SM2",
+      "amplitude": 0.001,
+      "phase": 103.5
+    },
+    {
+      "name": "M3",
+      "amplitude": 0.001,
+      "phase": 51.6
+    },
+    {
+      "name": "L2",
+      "amplitude": 0.001,
+      "phase": 50.3
+    },
+    {
+      "name": "2MK3",
+      "amplitude": 0.001,
+      "phase": 276.1
+    },
+    {
+      "name": "K2",
+      "amplitude": 0.003,
+      "phase": 336.6
+    },
+    {
+      "name": "M8",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MS4",
+      "amplitude": 0.001,
+      "phase": 356.5
+    }
+  ]
+}

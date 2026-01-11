@@ -1,0 +1,228 @@
+{
+  "name": "PORT CHICAGO, SUISUN BAY",
+  "region": "CA",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 38.056,
+  "longitude": -122.0395,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9415144",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9415144"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "datums": {
+    "LAT": 1.0120559,
+    "HAT": 3.101056,
+    "STND": 0,
+    "MHHW": 2.713,
+    "MHW": 2.558,
+    "DTL": 1.964,
+    "MTL": 1.999,
+    "MSL": 1.996,
+    "MLW": 1.441,
+    "MLLW": 1.215,
+    "GT": 1.498,
+    "MN": 1.117,
+    "DHQ": 0.155,
+    "DLQ": 0.226,
+    "HWI": 10.009,
+    "LWI": 3.895,
+    "NAVD88": 0.88
+  },
+  "type": "reference",
+  "harmonic_constituents": [
+    {
+      "name": "M2",
+      "amplitude": 0.496,
+      "phase": 283.2
+    },
+    {
+      "name": "S2",
+      "amplitude": 0.097,
+      "phase": 298.1
+    },
+    {
+      "name": "N2",
+      "amplitude": 0.093,
+      "phase": 258.8
+    },
+    {
+      "name": "K1",
+      "amplitude": 0.275,
+      "phase": 271
+    },
+    {
+      "name": "M4",
+      "amplitude": 0.011,
+      "phase": 125
+    },
+    {
+      "name": "O1",
+      "amplitude": 0.158,
+      "phase": 255.4
+    },
+    {
+      "name": "M6",
+      "amplitude": 0.011,
+      "phase": 250.4
+    },
+    {
+      "name": "MK3",
+      "amplitude": 0.032,
+      "phase": 128.8
+    },
+    {
+      "name": "S4",
+      "amplitude": 0.001,
+      "phase": 189.7
+    },
+    {
+      "name": "MN4",
+      "amplitude": 0.004,
+      "phase": 104
+    },
+    {
+      "name": "NU2",
+      "amplitude": 0.024,
+      "phase": 268.3
+    },
+    {
+      "name": "S6",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MU2",
+      "amplitude": 0.021,
+      "phase": 90.5
+    },
+    {
+      "name": "2N2",
+      "amplitude": 0.008,
+      "phase": 236.6
+    },
+    {
+      "name": "OO1",
+      "amplitude": 0.007,
+      "phase": 328.5
+    },
+    {
+      "name": "LAM2",
+      "amplitude": 0.013,
+      "phase": 279.2
+    },
+    {
+      "name": "S1",
+      "amplitude": 0.013,
+      "phase": 298.3
+    },
+    {
+      "name": "M1",
+      "amplitude": 0.008,
+      "phase": 350.5
+    },
+    {
+      "name": "J1",
+      "amplitude": 0.004,
+      "phase": 349.9
+    },
+    {
+      "name": "MM",
+      "amplitude": 0.016,
+      "phase": 34.4
+    },
+    {
+      "name": "SSA",
+      "amplitude": 0.042,
+      "phase": 264.8
+    },
+    {
+      "name": "SA",
+      "amplitude": 0.027,
+      "phase": 144.6
+    },
+    {
+      "name": "MSF",
+      "amplitude": 0.03,
+      "phase": 18.1
+    },
+    {
+      "name": "MF",
+      "amplitude": 0.041,
+      "phase": 184.3
+    },
+    {
+      "name": "RHO",
+      "amplitude": 0.008,
+      "phase": 247.7
+    },
+    {
+      "name": "Q1",
+      "amplitude": 0.025,
+      "phase": 263.4
+    },
+    {
+      "name": "T2",
+      "amplitude": 0.006,
+      "phase": 265.1
+    },
+    {
+      "name": "R2",
+      "amplitude": 0.003,
+      "phase": 172.7
+    },
+    {
+      "name": "2Q1",
+      "amplitude": 0.003,
+      "phase": 264.9
+    },
+    {
+      "name": "P1",
+      "amplitude": 0.079,
+      "phase": 269.9
+    },
+    {
+      "name": "2SM2",
+      "amplitude": 0.005,
+      "phase": 123
+    },
+    {
+      "name": "M3",
+      "amplitude": 0.007,
+      "phase": 210.1
+    },
+    {
+      "name": "L2",
+      "amplitude": 0.033,
+      "phase": 298.9
+    },
+    {
+      "name": "2MK3",
+      "amplitude": 0.042,
+      "phase": 118.6
+    },
+    {
+      "name": "K2",
+      "amplitude": 0.046,
+      "phase": 287.8
+    },
+    {
+      "name": "M8",
+      "amplitude": 0.001,
+      "phase": 57.3
+    },
+    {
+      "name": "MS4",
+      "amplitude": 0.008,
+      "phase": 150.8
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Gooseneck Point, bridge",
+  "region": "NJ",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 40.3267,
+  "longitude": -74.0167,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8531925",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8531925"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8531680",
+    "height": {
+      "type": "ratio",
+      "high": 0.55,
+      "low": 0.55
+    },
+    "time": {
+      "high": 138,
+      "low": 161
+    }
+  }
+}

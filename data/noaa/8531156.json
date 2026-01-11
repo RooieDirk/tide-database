@@ -1,0 +1,33 @@
+{
+  "name": "Woodbridge Creek, 0.8 n.mi. above entrance",
+  "region": "NJ",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 40.545,
+  "longitude": -74.265,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8531156",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8531156"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8531680",
+    "height": {
+      "type": "ratio",
+      "high": 1.1,
+      "low": 1
+    },
+    "time": {
+      "high": 9,
+      "low": 21
+    }
+  }
+}

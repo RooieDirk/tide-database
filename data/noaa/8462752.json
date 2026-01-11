@@ -1,0 +1,33 @@
+{
+  "name": "Saybrook Point",
+  "region": "CT",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 41.2833,
+  "longitude": -72.35,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8462752",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8462752"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8461490",
+    "height": {
+      "type": "ratio",
+      "high": 1.24,
+      "low": 1.25
+    },
+    "time": {
+      "high": 71,
+      "low": 53
+    }
+  }
+}

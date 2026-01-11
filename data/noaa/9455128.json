@@ -1,0 +1,33 @@
+{
+  "name": "Bear Cove, Aialik Peninsula",
+  "region": "AK",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 59.8017,
+  "longitude": -149.615,
+  "timezone": "America/Anchorage",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9455128",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9455128"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/9455090",
+    "height": {
+      "type": "ratio",
+      "high": 1,
+      "low": 0.97
+    },
+    "time": {
+      "high": 1,
+      "low": 1
+    }
+  }
+}

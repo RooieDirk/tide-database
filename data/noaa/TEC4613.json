@@ -1,0 +1,33 @@
+{
+  "name": "Fresh Creek, Andros Island",
+  "region": "",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 24.733333333332993,
+  "longitude": -77.8,
+  "timezone": "America/Nassau",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TEC4613",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TEC4613"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/9710441",
+    "height": {
+      "type": "ratio",
+      "high": 0.97,
+      "low": 1.11
+    },
+    "time": {
+      "high": 5,
+      "low": -8
+    }
+  }
+}

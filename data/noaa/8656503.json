@@ -1,0 +1,33 @@
+{
+  "name": "Harkers Island Bridge",
+  "region": "NC",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 34.715,
+  "longitude": -76.5783,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8656503",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8656503"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8654400",
+    "height": {
+      "type": "ratio",
+      "high": 0.52,
+      "low": 0.67
+    },
+    "time": {
+      "high": 128,
+      "low": 151
+    }
+  }
+}

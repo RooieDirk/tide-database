@@ -1,0 +1,33 @@
+{
+  "name": "Cornfield Creek, Magothy River",
+  "region": "MD",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 39.1,
+  "longitude": -76.445,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8575109",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8575109"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8574680",
+    "height": {
+      "type": "ratio",
+      "high": 0.89,
+      "low": 0.95
+    },
+    "time": {
+      "high": -29,
+      "low": -38
+    }
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "name": "Safety Harbor, Old Tampa Bay",
+  "region": "FL",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 27.9883,
+  "longitude": -82.685,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8726738",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8726738"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "datums": {
+    "LAT": 0.24600005,
+    "HAT": 1.6700001,
+    "STND": 0,
+    "MHHW": 1.422,
+    "MHW": 1.316,
+    "DTL": 0.997,
+    "MTL": 1.024,
+    "MSL": 1.024,
+    "MLW": 0.733,
+    "MLLW": 0.572,
+    "GT": 0.85,
+    "MN": 0.583,
+    "DHQ": 0.106,
+    "DLQ": 0.161,
+    "NAVD88": 1.109
+  },
+  "type": "reference",
+  "harmonic_constituents": [
+    {
+      "name": "M2",
+      "amplitude": 0.207,
+      "phase": 242.2
+    },
+    {
+      "name": "S2",
+      "amplitude": 0.075,
+      "phase": 262
+    },
+    {
+      "name": "N2",
+      "amplitude": 0.038,
+      "phase": 237.9
+    },
+    {
+      "name": "K1",
+      "amplitude": 0.197,
+      "phase": 68.7
+    },
+    {
+      "name": "M4",
+      "amplitude": 0.008,
+      "phase": 17
+    },
+    {
+      "name": "O1",
+      "amplitude": 0.162,
+      "phase": 57.9
+    },
+    {
+      "name": "M6",
+      "amplitude": 0.001,
+      "phase": 69.4
+    },
+    {
+      "name": "S4",
+      "amplitude": 0.001,
+      "phase": 137.3
+    },
+    {
+      "name": "NU2",
+      "amplitude": 0.008,
+      "phase": 238.5
+    },
+    {
+      "name": "S6",
+      "amplitude": 0.001,
+      "phase": 242.1
+    },
+    {
+      "name": "MU2",
+      "amplitude": 0.005,
+      "phase": 58.5
+    },
+    {
+      "name": "2N2",
+      "amplitude": 0.005,
+      "phase": 233.5
+    },
+    {
+      "name": "OO1",
+      "amplitude": 0.007,
+      "phase": 78.8
+    },
+    {
+      "name": "LAM2",
+      "amplitude": 0.001,
+      "phase": 250.8
+    },
+    {
+      "name": "M1",
+      "amplitude": 0.012,
+      "phase": 63.2
+    },
+    {
+      "name": "J1",
+      "amplitude": 0.013,
+      "phase": 73.5
+    },
+    {
+      "name": "RHO",
+      "amplitude": 0.006,
+      "phase": 53.4
+    },
+    {
+      "name": "Q1",
+      "amplitude": 0.031,
+      "phase": 52.7
+    },
+    {
+      "name": "T2",
+      "amplitude": 0.004,
+      "phase": 261.2
+    },
+    {
+      "name": "R2",
+      "amplitude": 0.001,
+      "phase": 263
+    },
+    {
+      "name": "2Q1",
+      "amplitude": 0.004,
+      "phase": 47.5
+    },
+    {
+      "name": "P1",
+      "amplitude": 0.065,
+      "phase": 67.8
+    },
+    {
+      "name": "L2",
+      "amplitude": 0.006,
+      "phase": 246.4
+    },
+    {
+      "name": "K2",
+      "amplitude": 0.02,
+      "phase": 263.6
+    },
+    {
+      "name": "M8",
+      "amplitude": 0.001,
+      "phase": 205.8
+    }
+  ]
+}

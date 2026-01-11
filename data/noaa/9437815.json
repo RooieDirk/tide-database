@@ -1,0 +1,33 @@
+{
+  "name": "Brighton",
+  "region": "OR",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 45.67,
+  "longitude": -123.925,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9437815",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9437815"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/9419750",
+    "height": {
+      "type": "ratio",
+      "high": 1.13,
+      "low": 1
+    },
+    "time": {
+      "high": 51,
+      "low": 54
+    }
+  }
+}

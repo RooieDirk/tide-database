@@ -1,0 +1,33 @@
+{
+  "name": "Pointe-a-Pitre, Guadeloupe",
+  "region": "",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 16.233333333332993,
+  "longitude": -61.53333333333299,
+  "timezone": "America/Guadeloupe",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TEC4769",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TEC4769"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/9751401",
+    "height": {
+      "type": "ratio",
+      "high": 3.24,
+      "low": 1.8
+    },
+    "time": {
+      "high": -268,
+      "low": -33
+    }
+  }
+}

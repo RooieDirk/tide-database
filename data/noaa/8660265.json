@@ -1,0 +1,33 @@
+{
+  "name": "Cherry Grove (inside)",
+  "region": "SC",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 33.835,
+  "longitude": -78.6333,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8660265",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8660265"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8661070",
+    "height": {
+      "type": "ratio",
+      "high": 0.92,
+      "low": 0.74
+    },
+    "time": {
+      "high": 40,
+      "low": 44
+    }
+  }
+}

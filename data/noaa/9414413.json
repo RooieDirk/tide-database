@@ -1,0 +1,33 @@
+{
+  "name": "Seaplane Harbor",
+  "region": "CA",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 37.6367,
+  "longitude": -122.383,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9414413",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9414413"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/9414290",
+    "height": {
+      "type": "fixed",
+      "high": 0.43,
+      "low": 0
+    },
+    "time": {
+      "high": 42,
+      "low": 63
+    }
+  }
+}

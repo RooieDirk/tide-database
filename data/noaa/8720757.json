@@ -1,0 +1,228 @@
+{
+  "name": "Bings Landing, Matanzas River",
+  "region": "FL",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 29.615,
+  "longitude": -81.205,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8720757",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8720757"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "These raw data are derived from the water level network operated by the Florida Department of Environmental Protection (FDEP), Bureau of Surveying and Mapping (BSM), a coastal observing system that uses National Ocean Service (NOS) data collection procedures. These stations transmit data via GOES once every three hours. Tidal datums and predictions are produced by CO-OPS, derived from the raw data collected by BSM. NOTE: most of these stations have a station zero of NAVD88, resulting in a negative value for MLLW. For information on the BSM, go to <A HREF=\"http://tidesandcurrents.noaa.gov/redirect.shtml?url=47\">BSM</A>.",
+  "datums": {
+    "LAT": -0.561,
+    "HAT": 0.57699996,
+    "STND": 0,
+    "MHHW": 0.201,
+    "MHW": 0.157,
+    "DTL": -0.066,
+    "MTL": -0.066,
+    "MSL": -0.05,
+    "MLW": -0.29,
+    "MLLW": -0.334,
+    "GT": 0.536,
+    "MN": 0.449,
+    "DHQ": 0.044,
+    "DLQ": 0.044,
+    "HWI": 3.679,
+    "LWI": 10.178,
+    "NAVD88": 0
+  },
+  "type": "reference",
+  "harmonic_constituents": [
+    {
+      "name": "M2",
+      "amplitude": 0.207,
+      "phase": 104
+    },
+    {
+      "name": "S2",
+      "amplitude": 0.024,
+      "phase": 139.5
+    },
+    {
+      "name": "N2",
+      "amplitude": 0.041,
+      "phase": 101.1
+    },
+    {
+      "name": "K1",
+      "amplitude": 0.048,
+      "phase": 264.1
+    },
+    {
+      "name": "M4",
+      "amplitude": 0.011,
+      "phase": 89.4
+    },
+    {
+      "name": "O1",
+      "amplitude": 0.04,
+      "phase": 265.8
+    },
+    {
+      "name": "M6",
+      "amplitude": 0.009,
+      "phase": 2.2
+    },
+    {
+      "name": "MK3",
+      "amplitude": 0.004,
+      "phase": 168.7
+    },
+    {
+      "name": "S4",
+      "amplitude": 0.001,
+      "phase": 15.8
+    },
+    {
+      "name": "MN4",
+      "amplitude": 0.005,
+      "phase": 78.6
+    },
+    {
+      "name": "NU2",
+      "amplitude": 0.011,
+      "phase": 95.3
+    },
+    {
+      "name": "S6",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MU2",
+      "amplitude": 0.011,
+      "phase": 186.2
+    },
+    {
+      "name": "2N2",
+      "amplitude": 0.004,
+      "phase": 46.3
+    },
+    {
+      "name": "OO1",
+      "amplitude": 0.001,
+      "phase": 306.3
+    },
+    {
+      "name": "LAM2",
+      "amplitude": 0.008,
+      "phase": 108.3
+    },
+    {
+      "name": "S1",
+      "amplitude": 0.008,
+      "phase": 244
+    },
+    {
+      "name": "M1",
+      "amplitude": 0.003,
+      "phase": 341.1
+    },
+    {
+      "name": "J1",
+      "amplitude": 0.001,
+      "phase": 253.8
+    },
+    {
+      "name": "MM",
+      "amplitude": 0.058,
+      "phase": 79.2
+    },
+    {
+      "name": "SSA",
+      "amplitude": 0.084,
+      "phase": 22.6
+    },
+    {
+      "name": "SA",
+      "amplitude": 0.145,
+      "phase": 206.9
+    },
+    {
+      "name": "MSF",
+      "amplitude": 0.03,
+      "phase": 82
+    },
+    {
+      "name": "MF",
+      "amplitude": 0.02,
+      "phase": 113
+    },
+    {
+      "name": "RHO",
+      "amplitude": 0.002,
+      "phase": 263.3
+    },
+    {
+      "name": "Q1",
+      "amplitude": 0.008,
+      "phase": 260.3
+    },
+    {
+      "name": "T2",
+      "amplitude": 0.002,
+      "phase": 134.5
+    },
+    {
+      "name": "R2",
+      "amplitude": 0.002,
+      "phase": 32.9
+    },
+    {
+      "name": "2Q1",
+      "amplitude": 0.001,
+      "phase": 258.3
+    },
+    {
+      "name": "P1",
+      "amplitude": 0.014,
+      "phase": 257.6
+    },
+    {
+      "name": "2SM2",
+      "amplitude": 0.002,
+      "phase": 299.3
+    },
+    {
+      "name": "M3",
+      "amplitude": 0.001,
+      "phase": 73.6
+    },
+    {
+      "name": "L2",
+      "amplitude": 0.016,
+      "phase": 93.9
+    },
+    {
+      "name": "2MK3",
+      "amplitude": 0.004,
+      "phase": 156.6
+    },
+    {
+      "name": "K2",
+      "amplitude": 0.006,
+      "phase": 131.6
+    },
+    {
+      "name": "M8",
+      "amplitude": 0.001,
+      "phase": 217.6
+    },
+    {
+      "name": "MS4",
+      "amplitude": 0.003,
+      "phase": 134.1
+    }
+  ]
+}

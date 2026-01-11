@@ -1,0 +1,33 @@
+{
+  "name": "Beesleys Point",
+  "region": "NJ",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 39.2883,
+  "longitude": -74.6283,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8534975",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8534975"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8534720",
+    "height": {
+      "type": "ratio",
+      "high": 0.87,
+      "low": 1
+    },
+    "time": {
+      "high": 55,
+      "low": 92
+    }
+  }
+}

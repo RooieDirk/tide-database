@@ -1,0 +1,227 @@
+{
+  "name": "Port Moller",
+  "region": "AK",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 55.9858333,
+  "longitude": -160.5736111,
+  "timezone": "America/Anchorage",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9463502",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9463502"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "datums": {
+    "LAT": 7.846,
+    "HAT": 12.943,
+    "STND": 0,
+    "MHHW": 12.095,
+    "MHW": 11.831,
+    "DTL": 10.497,
+    "MTL": 10.697,
+    "MSL": 10.682,
+    "MLW": 9.563,
+    "MLLW": 8.9,
+    "GT": 3.196,
+    "MN": 2.268,
+    "DHQ": 0.264,
+    "DLQ": 0.664,
+    "HWI": 7.257,
+    "LWI": 1.095
+  },
+  "type": "reference",
+  "harmonic_constituents": [
+    {
+      "name": "M2",
+      "amplitude": 1.04,
+      "phase": 207.5
+    },
+    {
+      "name": "S2",
+      "amplitude": 0.012,
+      "phase": 8.3
+    },
+    {
+      "name": "N2",
+      "amplitude": 0.343,
+      "phase": 156.1
+    },
+    {
+      "name": "K1",
+      "amplitude": 0.655,
+      "phase": 4
+    },
+    {
+      "name": "M4",
+      "amplitude": 0.023,
+      "phase": 229.1
+    },
+    {
+      "name": "O1",
+      "amplitude": 0.405,
+      "phase": 343.2
+    },
+    {
+      "name": "M6",
+      "amplitude": 0.016,
+      "phase": 316.2
+    },
+    {
+      "name": "MK3",
+      "amplitude": 0.011,
+      "phase": 174.3
+    },
+    {
+      "name": "S4",
+      "amplitude": 0.002,
+      "phase": 222.2
+    },
+    {
+      "name": "MN4",
+      "amplitude": 0.011,
+      "phase": 189.3
+    },
+    {
+      "name": "NU2",
+      "amplitude": 0.064,
+      "phase": 168.7
+    },
+    {
+      "name": "S6",
+      "amplitude": 0.001,
+      "phase": 43.9
+    },
+    {
+      "name": "MU2",
+      "amplitude": 0.049,
+      "phase": 75.5
+    },
+    {
+      "name": "2N2",
+      "amplitude": 0.054,
+      "phase": 111.5
+    },
+    {
+      "name": "OO1",
+      "amplitude": 0.021,
+      "phase": 36.7
+    },
+    {
+      "name": "LAM2",
+      "amplitude": 0.017,
+      "phase": 247.9
+    },
+    {
+      "name": "S1",
+      "amplitude": 0.017,
+      "phase": 160.9
+    },
+    {
+      "name": "M1",
+      "amplitude": 0.021,
+      "phase": 37.2
+    },
+    {
+      "name": "J1",
+      "amplitude": 0.023,
+      "phase": 20.8
+    },
+    {
+      "name": "MM",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "SSA",
+      "amplitude": 0.014,
+      "phase": 219
+    },
+    {
+      "name": "SA",
+      "amplitude": 0.084,
+      "phase": 253.2
+    },
+    {
+      "name": "MSF",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MF",
+      "amplitude": 0.027,
+      "phase": 173.4
+    },
+    {
+      "name": "RHO",
+      "amplitude": 0.012,
+      "phase": 343.7
+    },
+    {
+      "name": "Q1",
+      "amplitude": 0.07,
+      "phase": 341.7
+    },
+    {
+      "name": "T2",
+      "amplitude": 0.01,
+      "phase": 114.4
+    },
+    {
+      "name": "R2",
+      "amplitude": 0.002,
+      "phase": 208.9
+    },
+    {
+      "name": "2Q1",
+      "amplitude": 0.009,
+      "phase": 338.6
+    },
+    {
+      "name": "P1",
+      "amplitude": 0.209,
+      "phase": 0.6
+    },
+    {
+      "name": "2SM2",
+      "amplitude": 0.004,
+      "phase": 81.1
+    },
+    {
+      "name": "M3",
+      "amplitude": 0.011,
+      "phase": 358.2
+    },
+    {
+      "name": "L2",
+      "amplitude": 0.052,
+      "phase": 268.2
+    },
+    {
+      "name": "2MK3",
+      "amplitude": 0.017,
+      "phase": 229.6
+    },
+    {
+      "name": "K2",
+      "amplitude": 0.012,
+      "phase": 224.2
+    },
+    {
+      "name": "M8",
+      "amplitude": 0.003,
+      "phase": 12.5
+    },
+    {
+      "name": "MS4",
+      "amplitude": 0.007,
+      "phase": 265.5
+    }
+  ]
+}

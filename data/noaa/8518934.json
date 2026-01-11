@@ -1,0 +1,227 @@
+{
+  "name": "Beacon, Flushkill",
+  "region": "NY",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 41.5,
+  "longitude": -73.9833,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8518934",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8518934"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "datums": {
+    "LAT": 5.518,
+    "HAT": 7.103,
+    "STND": 0,
+    "MHHW": 6.807,
+    "MHW": 6.7,
+    "DTL": 6.248,
+    "MTL": 6.223,
+    "MSL": 6.242,
+    "MLW": 5.746,
+    "MLLW": 5.689,
+    "GT": 1.118,
+    "MN": 0.954,
+    "DHQ": 0.107,
+    "DLQ": 0.057,
+    "HWI": 4.453,
+    "LWI": 11.027
+  },
+  "type": "reference",
+  "harmonic_constituents": [
+    {
+      "name": "M2",
+      "amplitude": 0.46,
+      "phase": 124.7
+    },
+    {
+      "name": "S2",
+      "amplitude": 0.074,
+      "phase": 148.3
+    },
+    {
+      "name": "N2",
+      "amplitude": 0.091,
+      "phase": 104.5
+    },
+    {
+      "name": "K1",
+      "amplitude": 0.114,
+      "phase": 244.7
+    },
+    {
+      "name": "M4",
+      "amplitude": 0.022,
+      "phase": 145.5
+    },
+    {
+      "name": "O1",
+      "amplitude": 0.058,
+      "phase": 265.7
+    },
+    {
+      "name": "M6",
+      "amplitude": 0.017,
+      "phase": 111.9
+    },
+    {
+      "name": "MK3",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "S4",
+      "amplitude": 0.003,
+      "phase": 318.8
+    },
+    {
+      "name": "MN4",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "NU2",
+      "amplitude": 0.018,
+      "phase": 107.2
+    },
+    {
+      "name": "S6",
+      "amplitude": 0.001,
+      "phase": 342.2
+    },
+    {
+      "name": "MU2",
+      "amplitude": 0.011,
+      "phase": 101
+    },
+    {
+      "name": "2N2",
+      "amplitude": 0.012,
+      "phase": 84.3
+    },
+    {
+      "name": "OO1",
+      "amplitude": 0.002,
+      "phase": 223.9
+    },
+    {
+      "name": "LAM2",
+      "amplitude": 0.003,
+      "phase": 135.7
+    },
+    {
+      "name": "S1",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "M1",
+      "amplitude": 0.004,
+      "phase": 255
+    },
+    {
+      "name": "J1",
+      "amplitude": 0.005,
+      "phase": 234.5
+    },
+    {
+      "name": "MM",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "SSA",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "SA",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MSF",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MF",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "RHO",
+      "amplitude": 0.002,
+      "phase": 274.5
+    },
+    {
+      "name": "Q1",
+      "amplitude": 0.011,
+      "phase": 275.8
+    },
+    {
+      "name": "T2",
+      "amplitude": 0.004,
+      "phase": 147.2
+    },
+    {
+      "name": "R2",
+      "amplitude": 0.001,
+      "phase": 149.3
+    },
+    {
+      "name": "2Q1",
+      "amplitude": 0.001,
+      "phase": 284.8
+    },
+    {
+      "name": "P1",
+      "amplitude": 0.038,
+      "phase": 246.3
+    },
+    {
+      "name": "2SM2",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "M3",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "L2",
+      "amplitude": 0.013,
+      "phase": 145
+    },
+    {
+      "name": "2MK3",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "K2",
+      "amplitude": 0.02,
+      "phase": 150.2
+    },
+    {
+      "name": "M8",
+      "amplitude": 0.001,
+      "phase": 77.3
+    },
+    {
+      "name": "MS4",
+      "amplitude": 0,
+      "phase": 0
+    }
+  ]
+}

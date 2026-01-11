@@ -1,0 +1,227 @@
+{
+  "name": "San Mateo Bridge (west end)",
+  "region": "CA",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 37.58,
+  "longitude": -122.253,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9414458",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9414458"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "datums": {
+    "LAT": 3.825,
+    "HAT": 7.2799997,
+    "STND": 0,
+    "MHHW": 6.838,
+    "MHW": 6.644,
+    "DTL": 5.661,
+    "MTL": 5.745,
+    "MSL": 5.737,
+    "MLW": 4.846,
+    "MLLW": 4.484,
+    "GT": 2.353,
+    "MN": 1.799,
+    "DHQ": 0.193,
+    "DLQ": 0.361,
+    "HWI": 8.26,
+    "LWI": 2.03
+  },
+  "type": "reference",
+  "harmonic_constituents": [
+    {
+      "name": "M2",
+      "amplitude": 0.826,
+      "phase": 238
+    },
+    {
+      "name": "S2",
+      "amplitude": 0.182,
+      "phase": 253.3
+    },
+    {
+      "name": "N2",
+      "amplitude": 0.166,
+      "phase": 216
+    },
+    {
+      "name": "K1",
+      "amplitude": 0.401,
+      "phase": 239.5
+    },
+    {
+      "name": "M4",
+      "amplitude": 0.012,
+      "phase": 340.4
+    },
+    {
+      "name": "O1",
+      "amplitude": 0.241,
+      "phase": 223.9
+    },
+    {
+      "name": "M6",
+      "amplitude": 0.009,
+      "phase": 48.2
+    },
+    {
+      "name": "MK3",
+      "amplitude": 0.021,
+      "phase": 83
+    },
+    {
+      "name": "S4",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MN4",
+      "amplitude": 0.006,
+      "phase": 318.3
+    },
+    {
+      "name": "NU2",
+      "amplitude": 0.039,
+      "phase": 216.5
+    },
+    {
+      "name": "S6",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MU2",
+      "amplitude": 0.017,
+      "phase": 9
+    },
+    {
+      "name": "2N2",
+      "amplitude": 0.017,
+      "phase": 199.1
+    },
+    {
+      "name": "OO1",
+      "amplitude": 0.015,
+      "phase": 281.7
+    },
+    {
+      "name": "LAM2",
+      "amplitude": 0.017,
+      "phase": 218.6
+    },
+    {
+      "name": "S1",
+      "amplitude": 0.011,
+      "phase": 229
+    },
+    {
+      "name": "M1",
+      "amplitude": 0.014,
+      "phase": 274.4
+    },
+    {
+      "name": "J1",
+      "amplitude": 0.02,
+      "phase": 275.4
+    },
+    {
+      "name": "MM",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "SSA",
+      "amplitude": 0.039,
+      "phase": 286.9
+    },
+    {
+      "name": "SA",
+      "amplitude": 0.038,
+      "phase": 221.4
+    },
+    {
+      "name": "MSF",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MF",
+      "amplitude": 0.013,
+      "phase": 139.6
+    },
+    {
+      "name": "RHO",
+      "amplitude": 0.009,
+      "phase": 217.3
+    },
+    {
+      "name": "Q1",
+      "amplitude": 0.043,
+      "phase": 221.4
+    },
+    {
+      "name": "T2",
+      "amplitude": 0.01,
+      "phase": 225.9
+    },
+    {
+      "name": "R2",
+      "amplitude": 0.004,
+      "phase": 47.5
+    },
+    {
+      "name": "2Q1",
+      "amplitude": 0.005,
+      "phase": 236.1
+    },
+    {
+      "name": "P1",
+      "amplitude": 0.126,
+      "phase": 238.8
+    },
+    {
+      "name": "2SM2",
+      "amplitude": 0.008,
+      "phase": 56.2
+    },
+    {
+      "name": "M3",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "L2",
+      "amplitude": 0.038,
+      "phase": 233.2
+    },
+    {
+      "name": "2MK3",
+      "amplitude": 0.035,
+      "phase": 65.7
+    },
+    {
+      "name": "K2",
+      "amplitude": 0.062,
+      "phase": 238.9
+    },
+    {
+      "name": "M8",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MS4",
+      "amplitude": 0.008,
+      "phase": 3
+    }
+  ]
+}

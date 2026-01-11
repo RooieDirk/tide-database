@@ -1,0 +1,33 @@
+{
+  "name": "Taio Hae Bay, Nuku Hiva Island",
+  "region": "",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": -8.933333333333334,
+  "longitude": -140.1,
+  "timezone": "Pacific/Marquesas",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TPT2831",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TPT2831"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/1770000",
+    "height": {
+      "type": "ratio",
+      "high": 1.56,
+      "low": 1.56
+    },
+    "time": {
+      "high": -211,
+      "low": -208
+    }
+  }
+}

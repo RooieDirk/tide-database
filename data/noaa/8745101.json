@@ -1,0 +1,225 @@
+{
+  "name": "Handsboro Bridge, Bernard Bayou",
+  "region": "MS",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 30.4067,
+  "longitude": -89.0267,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8745101",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8745101"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "datums": {
+    "LAT": 0.06700003,
+    "HAT": 1.237,
+    "STND": 0,
+    "MHHW": 0.991,
+    "MHW": 0.946,
+    "DTL": 0.69,
+    "MTL": 0.695,
+    "MSL": 0.702,
+    "MLW": 0.445,
+    "MLLW": 0.388,
+    "GT": 0.603,
+    "MN": 0.501,
+    "DHQ": 0.045,
+    "DLQ": 0.056
+  },
+  "type": "reference",
+  "harmonic_constituents": [
+    {
+      "name": "M2",
+      "amplitude": 0.061,
+      "phase": 200
+    },
+    {
+      "name": "S2",
+      "amplitude": 0.035,
+      "phase": 222.7
+    },
+    {
+      "name": "N2",
+      "amplitude": 0.016,
+      "phase": 188.5
+    },
+    {
+      "name": "K1",
+      "amplitude": 0.157,
+      "phase": 65.6
+    },
+    {
+      "name": "M4",
+      "amplitude": 0.011,
+      "phase": 248
+    },
+    {
+      "name": "O1",
+      "amplitude": 0.156,
+      "phase": 44.1
+    },
+    {
+      "name": "M6",
+      "amplitude": 0.001,
+      "phase": 326.2
+    },
+    {
+      "name": "MK3",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "S4",
+      "amplitude": 0.004,
+      "phase": 320.5
+    },
+    {
+      "name": "MN4",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "NU2",
+      "amplitude": 0.003,
+      "phase": 190.4
+    },
+    {
+      "name": "S6",
+      "amplitude": 0.001,
+      "phase": 212.3
+    },
+    {
+      "name": "MU2",
+      "amplitude": 0.001,
+      "phase": 176.3
+    },
+    {
+      "name": "2N2",
+      "amplitude": 0.001,
+      "phase": 173.1
+    },
+    {
+      "name": "OO1",
+      "amplitude": 0.005,
+      "phase": 78.5
+    },
+    {
+      "name": "LAM2",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "S1",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "M1",
+      "amplitude": 0.011,
+      "phase": 52.9
+    },
+    {
+      "name": "J1",
+      "amplitude": 0.011,
+      "phase": 70.4
+    },
+    {
+      "name": "MM",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "SSA",
+      "amplitude": 0.059,
+      "phase": 57
+    },
+    {
+      "name": "SA",
+      "amplitude": 0.079,
+      "phase": 139.3
+    },
+    {
+      "name": "MSF",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MF",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "RHO",
+      "amplitude": 0.006,
+      "phase": 36
+    },
+    {
+      "name": "Q1",
+      "amplitude": 0.031,
+      "phase": 34.9
+    },
+    {
+      "name": "T2",
+      "amplitude": 0.002,
+      "phase": 220.7
+    },
+    {
+      "name": "R2",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "2Q1",
+      "amplitude": 0.004,
+      "phase": 26.5
+    },
+    {
+      "name": "P1",
+      "amplitude": 0.052,
+      "phase": 64.1
+    },
+    {
+      "name": "2SM2",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "M3",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "L2",
+      "amplitude": 0.002,
+      "phase": 205.3
+    },
+    {
+      "name": "2MK3",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "K2",
+      "amplitude": 0.009,
+      "phase": 224.6
+    },
+    {
+      "name": "M8",
+      "amplitude": 0.001,
+      "phase": 320.6
+    },
+    {
+      "name": "MS4",
+      "amplitude": 0,
+      "phase": 0
+    }
+  ]
+}

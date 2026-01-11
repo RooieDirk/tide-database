@@ -1,0 +1,33 @@
+{
+  "name": "Wright Island Landing",
+  "region": "VA",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 37.345,
+  "longitude": -76.875,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8638441",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8638441"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8638610",
+    "height": {
+      "type": "ratio",
+      "high": 0.9,
+      "low": 0.83
+    },
+    "time": {
+      "high": 284,
+      "low": 303
+    }
+  }
+}

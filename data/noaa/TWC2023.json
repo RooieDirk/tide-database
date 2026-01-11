@@ -1,0 +1,33 @@
+{
+  "name": "Izhut Bay",
+  "region": "",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 58.21666666666701,
+  "longitude": -152.31666666667007,
+  "timezone": "America/Anchorage",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TWC2023",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TWC2023"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/9457292",
+    "height": {
+      "type": "fixed",
+      "high": 0.03,
+      "low": 0
+    },
+    "time": {
+      "high": 12,
+      "low": 21
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Sumner Island",
+  "region": "AK",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 56.41,
+  "longitude": -133.793,
+  "timezone": "America/Sitka",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9451163",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9451163"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/9451600",
+    "height": {
+      "type": "fixed",
+      "high": 0.79,
+      "low": 0
+    },
+    "time": {
+      "high": -19,
+      "low": -12
+    }
+  }
+}

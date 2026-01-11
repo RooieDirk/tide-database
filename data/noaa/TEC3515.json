@@ -1,0 +1,33 @@
+{
+  "name": "Allied Chemical Corp. docks",
+  "region": "",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 31.183333333332993,
+  "longitude": -81.516666666667,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TEC3515",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TEC3515"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8670870",
+    "height": {
+      "type": "ratio",
+      "high": 1.1,
+      "low": 1.09
+    },
+    "time": {
+      "high": 63,
+      "low": 42
+    }
+  }
+}

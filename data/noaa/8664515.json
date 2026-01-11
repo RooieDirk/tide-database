@@ -1,0 +1,33 @@
+{
+  "name": "Snow Point, 0.4 mi. North of",
+  "region": "SC",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 32.9483,
+  "longitude": -79.9317,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8664515",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8664515"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8665530",
+    "height": {
+      "type": "ratio",
+      "high": 1.02,
+      "low": 1.05
+    },
+    "time": {
+      "high": 59,
+      "low": 45
+    }
+  }
+}

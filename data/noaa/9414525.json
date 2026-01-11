@@ -1,0 +1,33 @@
+{
+  "name": "Palo Alto Yacht Harbor",
+  "region": "CA",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 37.4583,
+  "longitude": -122.105,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9414525",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9414525"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/9414290",
+    "height": {
+      "type": "ratio",
+      "high": 1.34,
+      "low": 0.68
+    },
+    "time": {
+      "high": 59,
+      "low": 134
+    }
+  }
+}

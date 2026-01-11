@@ -1,0 +1,135 @@
+{
+  "name": "Barbuda",
+  "region": "",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 17.59083366394043,
+  "longitude": -61.820556640625,
+  "timezone": "America/Antigua",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9761115",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9761115"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "datums": {
+    "LAT": 8.364,
+    "HAT": 8.846,
+    "STND": 0,
+    "MHHW": 8.757,
+    "MHW": 8.751,
+    "DTL": 8.645,
+    "MTL": 8.659,
+    "MSL": 8.665,
+    "MLW": 8.567,
+    "MLLW": 8.532,
+    "GT": 0.225,
+    "MN": 0.185,
+    "DHQ": 0.006,
+    "DLQ": 0.035
+  },
+  "type": "reference",
+  "harmonic_constituents": [
+    {
+      "name": "M2",
+      "amplitude": 0.042,
+      "phase": 289.9
+    },
+    {
+      "name": "S2",
+      "amplitude": 0.014,
+      "phase": 280.6
+    },
+    {
+      "name": "N2",
+      "amplitude": 0.011,
+      "phase": 262.2
+    },
+    {
+      "name": "K1",
+      "amplitude": 0.073,
+      "phase": 229.7
+    },
+    {
+      "name": "O1",
+      "amplitude": 0.062,
+      "phase": 225
+    },
+    {
+      "name": "NU2",
+      "amplitude": 0.002,
+      "phase": 259.1
+    },
+    {
+      "name": "2N2",
+      "amplitude": 0.002,
+      "phase": 222
+    },
+    {
+      "name": "OO1",
+      "amplitude": 0.004,
+      "phase": 239.2
+    },
+    {
+      "name": "S1",
+      "amplitude": 0.002,
+      "phase": 156.8
+    },
+    {
+      "name": "M1",
+      "amplitude": 0.004,
+      "phase": 261.2
+    },
+    {
+      "name": "J1",
+      "amplitude": 0.005,
+      "phase": 225
+    },
+    {
+      "name": "SSA",
+      "amplitude": 0.02,
+      "phase": 84.2
+    },
+    {
+      "name": "SA",
+      "amplitude": 0.05,
+      "phase": 165.9
+    },
+    {
+      "name": "RHO",
+      "amplitude": 0.003,
+      "phase": 203.8
+    },
+    {
+      "name": "Q1",
+      "amplitude": 0.011,
+      "phase": 205.1
+    },
+    {
+      "name": "T2",
+      "amplitude": 0.002,
+      "phase": 320.7
+    },
+    {
+      "name": "P1",
+      "amplitude": 0.024,
+      "phase": 228.8
+    },
+    {
+      "name": "L2",
+      "amplitude": 0.003,
+      "phase": 350.6
+    },
+    {
+      "name": "K2",
+      "amplitude": 0.003,
+      "phase": 276.1
+    }
+  ]
+}

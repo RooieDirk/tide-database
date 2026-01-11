@@ -1,0 +1,33 @@
+{
+  "name": "Folly Creek, Metompkin Inlet",
+  "region": "VA",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 37.6967,
+  "longitude": -75.635,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8630839",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8630839"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8570280",
+    "height": {
+      "type": "ratio",
+      "high": 0.97,
+      "low": 0.63
+    },
+    "time": {
+      "high": 84,
+      "low": 72
+    }
+  }
+}

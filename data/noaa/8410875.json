@@ -1,0 +1,33 @@
+{
+  "name": "Birch Islands",
+  "region": "ME",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 44.875,
+  "longitude": -67.1583,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8410875",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8410875"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8410140",
+    "height": {
+      "type": "ratio",
+      "high": 0.94,
+      "low": 0.75
+    },
+    "time": {
+      "high": 59,
+      "low": 73
+    }
+  }
+}

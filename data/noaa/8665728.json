@@ -1,0 +1,33 @@
+{
+  "name": "Fort Sumter",
+  "region": "SC",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 32.7533,
+  "longitude": -79.8767,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8665728",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8665728"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8665530",
+    "height": {
+      "type": "ratio",
+      "high": 0.97,
+      "low": 0.95
+    },
+    "time": {
+      "high": 2,
+      "low": -1
+    }
+  }
+}

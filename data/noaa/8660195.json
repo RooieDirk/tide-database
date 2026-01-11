@@ -1,0 +1,33 @@
+{
+  "name": "Dunn Sound, west end",
+  "region": "SC",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 33.8517,
+  "longitude": -78.5883,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8660195",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8660195"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8661070",
+    "height": {
+      "type": "ratio",
+      "high": 0.96,
+      "low": 1
+    },
+    "time": {
+      "high": 29,
+      "low": 36
+    }
+  }
+}

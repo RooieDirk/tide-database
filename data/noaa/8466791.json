@@ -1,0 +1,33 @@
+{
+  "name": "Sniffens Point",
+  "region": "CT",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 41.1867,
+  "longitude": -73.1133,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8466791",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8466791"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8467150",
+    "height": {
+      "type": "ratio",
+      "high": 0.96,
+      "low": 1
+    },
+    "time": {
+      "high": 10,
+      "low": 9
+    }
+  }
+}

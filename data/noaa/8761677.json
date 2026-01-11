@@ -1,0 +1,33 @@
+{
+  "name": "Independence Island",
+  "region": "LA",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 29.31,
+  "longitude": -89.9383,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8761677",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8761677"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8761724",
+    "height": {
+      "type": "ratio",
+      "high": 0.85,
+      "low": 0.85
+    },
+    "time": {
+      "high": 149,
+      "low": 119
+    }
+  }
+}

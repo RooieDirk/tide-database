@@ -1,0 +1,227 @@
+{
+  "name": "Port Reading, Arthur Kill",
+  "region": "NJ",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 40.55500030517578,
+  "longitude": -74.24500274658203,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8531142",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8531142"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "datums": {
+    "LAT": 0.9029999,
+    "HAT": 3.547,
+    "STND": 0,
+    "MHHW": 3.129,
+    "MHW": 3.023,
+    "DTL": 2.232,
+    "MTL": 2.217,
+    "MSL": 2.241,
+    "MLW": 1.41,
+    "MLLW": 1.335,
+    "GT": 1.794,
+    "MN": 1.612,
+    "DHQ": 0.106,
+    "DLQ": 0.076,
+    "HWI": 0.506,
+    "LWI": 7.031
+  },
+  "type": "reference",
+  "harmonic_constituents": [
+    {
+      "name": "M2",
+      "amplitude": 0.761,
+      "phase": 10.9
+    },
+    {
+      "name": "S2",
+      "amplitude": 0.144,
+      "phase": 41.9
+    },
+    {
+      "name": "N2",
+      "amplitude": 0.17,
+      "phase": 355
+    },
+    {
+      "name": "K1",
+      "amplitude": 0.119,
+      "phase": 179.1
+    },
+    {
+      "name": "M4",
+      "amplitude": 0.031,
+      "phase": 275.1
+    },
+    {
+      "name": "O1",
+      "amplitude": 0.052,
+      "phase": 169.3
+    },
+    {
+      "name": "M6",
+      "amplitude": 0.03,
+      "phase": 117
+    },
+    {
+      "name": "MK3",
+      "amplitude": 0.004,
+      "phase": 25.5
+    },
+    {
+      "name": "S4",
+      "amplitude": 0.016,
+      "phase": 49.8
+    },
+    {
+      "name": "MN4",
+      "amplitude": 0.016,
+      "phase": 278.7
+    },
+    {
+      "name": "NU2",
+      "amplitude": 0.029,
+      "phase": 0.5
+    },
+    {
+      "name": "S6",
+      "amplitude": 0.001,
+      "phase": 132.1
+    },
+    {
+      "name": "MU2",
+      "amplitude": 0.029,
+      "phase": 37.9
+    },
+    {
+      "name": "2N2",
+      "amplitude": 0.028,
+      "phase": 341.1
+    },
+    {
+      "name": "OO1",
+      "amplitude": 0.002,
+      "phase": 221.3
+    },
+    {
+      "name": "LAM2",
+      "amplitude": 0.015,
+      "phase": 352.9
+    },
+    {
+      "name": "S1",
+      "amplitude": 0.039,
+      "phase": 106.7
+    },
+    {
+      "name": "M1",
+      "amplitude": 0.002,
+      "phase": 162.2
+    },
+    {
+      "name": "J1",
+      "amplitude": 0.008,
+      "phase": 215.8
+    },
+    {
+      "name": "MM",
+      "amplitude": 0.019,
+      "phase": 339.1
+    },
+    {
+      "name": "SSA",
+      "amplitude": 0.028,
+      "phase": 42.9
+    },
+    {
+      "name": "SA",
+      "amplitude": 0.067,
+      "phase": 129.1
+    },
+    {
+      "name": "MSF",
+      "amplitude": 0.017,
+      "phase": 233.5
+    },
+    {
+      "name": "MF",
+      "amplitude": 0.026,
+      "phase": 219.2
+    },
+    {
+      "name": "RHO",
+      "amplitude": 0.002,
+      "phase": 154.6
+    },
+    {
+      "name": "Q1",
+      "amplitude": 0.015,
+      "phase": 193.7
+    },
+    {
+      "name": "T2",
+      "amplitude": 0.015,
+      "phase": 11
+    },
+    {
+      "name": "R2",
+      "amplitude": 0.005,
+      "phase": 283.3
+    },
+    {
+      "name": "2Q1",
+      "amplitude": 0.005,
+      "phase": 319
+    },
+    {
+      "name": "P1",
+      "amplitude": 0.025,
+      "phase": 172.8
+    },
+    {
+      "name": "2SM2",
+      "amplitude": 0.003,
+      "phase": 93.5
+    },
+    {
+      "name": "M3",
+      "amplitude": 0.011,
+      "phase": 60.3
+    },
+    {
+      "name": "L2",
+      "amplitude": 0.039,
+      "phase": 18.5
+    },
+    {
+      "name": "2MK3",
+      "amplitude": 0.01,
+      "phase": 40.8
+    },
+    {
+      "name": "K2",
+      "amplitude": 0.041,
+      "phase": 40.7
+    },
+    {
+      "name": "M8",
+      "amplitude": 0.003,
+      "phase": 48.2
+    },
+    {
+      "name": "MS4",
+      "amplitude": 0.019,
+      "phase": 255.8
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Folly River Bridge, Folly Island",
+  "region": "SC",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 32.6617,
+  "longitude": -79.945,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8666652",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8666652"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8665530",
+    "height": {
+      "type": "ratio",
+      "high": 1.01,
+      "low": 0.95
+    },
+    "time": {
+      "high": 21,
+      "low": -3
+    }
+  }
+}

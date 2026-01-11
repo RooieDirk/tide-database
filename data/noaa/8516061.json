@@ -1,0 +1,227 @@
+{
+  "name": "Cold Spring Harbor",
+  "region": "NY",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 40.87329864501953,
+  "longitude": -73.47000122070312,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8516061",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8516061"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "datums": {
+    "LAT": 1.1980001,
+    "HAT": 4.718,
+    "STND": 0,
+    "MHHW": 4.153,
+    "MHW": 4.042,
+    "DTL": 2.952,
+    "MTL": 2.931,
+    "MSL": 2.933,
+    "MLW": 1.819,
+    "MLLW": 1.751,
+    "GT": 2.402,
+    "MN": 2.224,
+    "DHQ": 0.111,
+    "DLQ": 0.068,
+    "HWI": 3.663,
+    "LWI": 10.185
+  },
+  "type": "reference",
+  "harmonic_constituents": [
+    {
+      "name": "M2",
+      "amplitude": 1.139,
+      "phase": 115.8
+    },
+    {
+      "name": "S2",
+      "amplitude": 0.189,
+      "phase": 144.5
+    },
+    {
+      "name": "N2",
+      "amplitude": 0.232,
+      "phase": 90.3
+    },
+    {
+      "name": "K1",
+      "amplitude": 0.101,
+      "phase": 188
+    },
+    {
+      "name": "M4",
+      "amplitude": 0.023,
+      "phase": 146.9
+    },
+    {
+      "name": "O1",
+      "amplitude": 0.065,
+      "phase": 221.1
+    },
+    {
+      "name": "M6",
+      "amplitude": 0.034,
+      "phase": 173.2
+    },
+    {
+      "name": "MK3",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "S4",
+      "amplitude": 0.002,
+      "phase": 148.8
+    },
+    {
+      "name": "MN4",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "NU2",
+      "amplitude": 0.045,
+      "phase": 93.7
+    },
+    {
+      "name": "S6",
+      "amplitude": 0.001,
+      "phase": 291
+    },
+    {
+      "name": "MU2",
+      "amplitude": 0.027,
+      "phase": 300.1
+    },
+    {
+      "name": "2N2",
+      "amplitude": 0.031,
+      "phase": 64.7
+    },
+    {
+      "name": "OO1",
+      "amplitude": 0.003,
+      "phase": 155
+    },
+    {
+      "name": "LAM2",
+      "amplitude": 0.008,
+      "phase": 129.1
+    },
+    {
+      "name": "S1",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "M1",
+      "amplitude": 0.005,
+      "phase": 204.4
+    },
+    {
+      "name": "J1",
+      "amplitude": 0.005,
+      "phase": 171.6
+    },
+    {
+      "name": "MM",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "SSA",
+      "amplitude": 0.024,
+      "phase": 60.1
+    },
+    {
+      "name": "SA",
+      "amplitude": 0.065,
+      "phase": 135.5
+    },
+    {
+      "name": "MSF",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MF",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "RHO",
+      "amplitude": 0.002,
+      "phase": 235.3
+    },
+    {
+      "name": "Q1",
+      "amplitude": 0.013,
+      "phase": 237.6
+    },
+    {
+      "name": "T2",
+      "amplitude": 0.011,
+      "phase": 143.4
+    },
+    {
+      "name": "R2",
+      "amplitude": 0.001,
+      "phase": 145.7
+    },
+    {
+      "name": "2Q1",
+      "amplitude": 0.002,
+      "phase": 254
+    },
+    {
+      "name": "P1",
+      "amplitude": 0.033,
+      "phase": 190.5
+    },
+    {
+      "name": "2SM2",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "M3",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "L2",
+      "amplitude": 0.032,
+      "phase": 141.4
+    },
+    {
+      "name": "2MK3",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "K2",
+      "amplitude": 0.051,
+      "phase": 146.9
+    },
+    {
+      "name": "M8",
+      "amplitude": 0.004,
+      "phase": 279.6
+    },
+    {
+      "name": "MS4",
+      "amplitude": 0,
+      "phase": 0
+    }
+  ]
+}
