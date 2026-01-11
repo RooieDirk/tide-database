@@ -85,11 +85,8 @@ async function buildStation(meta: any): Promise<StationData> {
       harmonic_constituents: data.harmonicConstituents.HarmonicConstituents.map(
         (h: any) => ({
           name: h.name,
-          description: h.description,
           amplitude: h.amplitude,
           phase: h.phase_GMT,
-          speed: h.speed,
-          // TODO: add comments
         }),
       ),
       datums: {

@@ -171,10 +171,6 @@
             "type": "string",
             "description": "Harmonic Constituent code (i.e. M2) - should be upper-case"
           },
-          "description": {
-            "type": ["string", "number", "null"],
-            "description": "Human-friendly description of the constituent"
-          },
           "amplitude": {
             "type": "number",
             "description": "Amplitude"
@@ -182,13 +178,6 @@
           "phase": {
             "type": "number",
             "description": "Phase in UTC"
-          },
-          "speed": {
-            "type": "number",
-            "description": "Angular speed"
-          },
-          "comments": {
-            "type": "string"
           }
         }
       }
