@@ -1,0 +1,33 @@
+{
+  "name": "Niue Island (N.Z.)",
+  "region": "",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": -19.03333333333299,
+  "longitude": 169.91666666667007,
+  "timezone": "Pacific/Efate",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TPT2891",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TPT2891"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/1770000",
+    "height": {
+      "type": "fixed",
+      "high": 0.41,
+      "low": 0.41
+    },
+    "time": {
+      "high": 48,
+      "low": 47
+    }
+  }
+}

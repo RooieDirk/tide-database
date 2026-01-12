@@ -1,0 +1,33 @@
+{
+  "name": "Carapachibey, Isla de Pinos",
+  "region": "",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 21.45,
+  "longitude": -82.91666666666701,
+  "timezone": "America/Havana",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TEC4681",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TEC4681"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/9755371",
+    "height": {
+      "type": "ratio",
+      "high": 0.54,
+      "low": 0.54
+    },
+    "time": {
+      "high": 43,
+      "low": 52
+    }
+  }
+}

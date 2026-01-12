@@ -1,0 +1,33 @@
+{
+  "name": "Hix Bridge, East Branch",
+  "region": "MA",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 41.57,
+  "longitude": -71.0733,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8447791",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8447791"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8452660",
+    "height": {
+      "type": "ratio",
+      "high": 0.77,
+      "low": 0.77
+    },
+    "time": {
+      "high": 100,
+      "low": 150
+    }
+  }
+}

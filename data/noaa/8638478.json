@@ -1,0 +1,33 @@
+{
+  "name": "Haxall",
+  "region": "VA",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 37.3733,
+  "longitude": -77.2433,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8638478",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8638478"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8594900",
+    "height": {
+      "type": "ratio",
+      "high": 0.99,
+      "low": 1.33
+    },
+    "time": {
+      "high": -250,
+      "low": -293
+    }
+  }
+}

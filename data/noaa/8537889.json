@@ -1,0 +1,33 @@
+{
+  "name": "Quinton",
+  "region": "NJ",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 39.5483,
+  "longitude": -75.415,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8537889",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8537889"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8551910",
+    "height": {
+      "type": "ratio",
+      "high": 0.69,
+      "low": 0.69
+    },
+    "time": {
+      "high": 144,
+      "low": 90
+    }
+  }
+}

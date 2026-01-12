@@ -1,0 +1,33 @@
+{
+  "name": "Kashega Bay",
+  "region": "",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 53.46666666666701,
+  "longitude": -167.08333333332993,
+  "timezone": "America/Nome",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TWC2187",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TWC2187"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/9462620",
+    "height": {
+      "type": "ratio",
+      "high": 1.08,
+      "low": 1.19
+    },
+    "time": {
+      "high": -8,
+      "low": -24
+    }
+  }
+}

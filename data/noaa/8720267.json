@@ -1,0 +1,33 @@
+{
+  "name": "Pablo Creek, ICWW bridge",
+  "region": "FL",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 30.3233,
+  "longitude": -81.4383,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8720267",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8720267"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8720218",
+    "height": {
+      "type": "ratio",
+      "high": 0.84,
+      "low": 1
+    },
+    "time": {
+      "high": 74,
+      "low": 80
+    }
+  }
+}

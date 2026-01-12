@@ -1,0 +1,33 @@
+{
+  "name": "Upshur Neck, south end",
+  "region": "VA",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 37.4667,
+  "longitude": -75.8,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8631287",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8631287"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8570280",
+    "height": {
+      "type": "ratio",
+      "high": 1.31,
+      "low": 1.25
+    },
+    "time": {
+      "high": 69,
+      "low": 74
+    }
+  }
+}

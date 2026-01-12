@@ -1,0 +1,33 @@
+{
+  "name": "Holkham Bay, Tracy Arm Entrance",
+  "region": "AK",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 57.76,
+  "longitude": -133.603,
+  "timezone": "America/Juneau",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9452067",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9452067"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/9452210",
+    "height": {
+      "type": "ratio",
+      "high": 0.96,
+      "low": 0.96
+    },
+    "time": {
+      "high": 1,
+      "low": 2
+    }
+  }
+}

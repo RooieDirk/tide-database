@@ -1,0 +1,33 @@
+{
+  "name": "Port Morant",
+  "region": "",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 17.883333333332992,
+  "longitude": -76.33333333333299,
+  "timezone": "America/Jamaica",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TEC4695",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TEC4695"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8771450",
+    "height": {
+      "type": "ratio",
+      "high": 0.57,
+      "low": 0.57
+    },
+    "time": {
+      "high": -465,
+      "low": -465
+    }
+  }
+}

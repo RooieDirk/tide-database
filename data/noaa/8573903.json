@@ -1,0 +1,227 @@
+{
+  "name": "Town Point Wharf",
+  "region": "MD",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 39.5033,
+  "longitude": -75.9167,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8573903",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8573903"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "datums": {
+    "LAT": 0.73999995,
+    "HAT": 1.822,
+    "STND": 0,
+    "MHHW": 1.701,
+    "MHW": 1.605,
+    "DTL": 1.293,
+    "MTL": 1.274,
+    "MSL": 1.267,
+    "MLW": 0.943,
+    "MLLW": 0.884,
+    "GT": 0.817,
+    "MN": 0.662,
+    "DHQ": 0.096,
+    "DLQ": 0.059,
+    "HWI": 2.409,
+    "LWI": 8.677
+  },
+  "type": "reference",
+  "harmonic_constituents": [
+    {
+      "name": "M2",
+      "amplitude": 0.3,
+      "phase": 70.6
+    },
+    {
+      "name": "S2",
+      "amplitude": 0.044,
+      "phase": 112.9
+    },
+    {
+      "name": "N2",
+      "amplitude": 0.055,
+      "phase": 43.1
+    },
+    {
+      "name": "K1",
+      "amplitude": 0.061,
+      "phase": 21.1
+    },
+    {
+      "name": "M4",
+      "amplitude": 0.011,
+      "phase": 120.5
+    },
+    {
+      "name": "O1",
+      "amplitude": 0.047,
+      "phase": 37.8
+    },
+    {
+      "name": "M6",
+      "amplitude": 0.004,
+      "phase": 196.8
+    },
+    {
+      "name": "MK3",
+      "amplitude": 0.007,
+      "phase": 299.3
+    },
+    {
+      "name": "S4",
+      "amplitude": 0.002,
+      "phase": 224.9
+    },
+    {
+      "name": "MN4",
+      "amplitude": 0.004,
+      "phase": 98.6
+    },
+    {
+      "name": "NU2",
+      "amplitude": 0.015,
+      "phase": 40.1
+    },
+    {
+      "name": "S6",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MU2",
+      "amplitude": 0.007,
+      "phase": 210.3
+    },
+    {
+      "name": "2N2",
+      "amplitude": 0.005,
+      "phase": 34.8
+    },
+    {
+      "name": "OO1",
+      "amplitude": 0.005,
+      "phase": 35.1
+    },
+    {
+      "name": "LAM2",
+      "amplitude": 0.007,
+      "phase": 114.3
+    },
+    {
+      "name": "S1",
+      "amplitude": 0.015,
+      "phase": 317.9
+    },
+    {
+      "name": "M1",
+      "amplitude": 0.003,
+      "phase": 112.7
+    },
+    {
+      "name": "J1",
+      "amplitude": 0.003,
+      "phase": 261.2
+    },
+    {
+      "name": "MM",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "SSA",
+      "amplitude": 0.032,
+      "phase": 53.2
+    },
+    {
+      "name": "SA",
+      "amplitude": 0.108,
+      "phase": 127.9
+    },
+    {
+      "name": "MSF",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MF",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "RHO",
+      "amplitude": 0.008,
+      "phase": 10.2
+    },
+    {
+      "name": "Q1",
+      "amplitude": 0.006,
+      "phase": 22.5
+    },
+    {
+      "name": "T2",
+      "amplitude": 0.008,
+      "phase": 99.1
+    },
+    {
+      "name": "R2",
+      "amplitude": 0.004,
+      "phase": 320
+    },
+    {
+      "name": "2Q1",
+      "amplitude": 0.004,
+      "phase": 185
+    },
+    {
+      "name": "P1",
+      "amplitude": 0.024,
+      "phase": 12.4
+    },
+    {
+      "name": "2SM2",
+      "amplitude": 0.003,
+      "phase": 11.8
+    },
+    {
+      "name": "M3",
+      "amplitude": 0.004,
+      "phase": 205.4
+    },
+    {
+      "name": "L2",
+      "amplitude": 0.037,
+      "phase": 84.1
+    },
+    {
+      "name": "2MK3",
+      "amplitude": 0.008,
+      "phase": 296.3
+    },
+    {
+      "name": "K2",
+      "amplitude": 0.015,
+      "phase": 99.5
+    },
+    {
+      "name": "M8",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MS4",
+      "amplitude": 0.004,
+      "phase": 154.1
+    }
+  ]
+}

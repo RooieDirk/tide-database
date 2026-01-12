@@ -1,0 +1,227 @@
+{
+  "name": "Pumpkin Bay",
+  "region": "FL",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 25.895,
+  "longitude": -81.5583,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8724963",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8724963"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "datums": {
+    "LAT": 0.051,
+    "HAT": 1.961,
+    "STND": 0,
+    "MHHW": 1.64,
+    "MHW": 1.55,
+    "DTL": 1.065,
+    "MTL": 1.11,
+    "MSL": 1.113,
+    "MLW": 0.671,
+    "MLLW": 0.49,
+    "GT": 1.149,
+    "MN": 0.879,
+    "DHQ": 0.09,
+    "DLQ": 0.18,
+    "HWI": 6.58,
+    "LWI": 0.65
+  },
+  "type": "reference",
+  "harmonic_constituents": [
+    {
+      "name": "M2",
+      "amplitude": 0.409,
+      "phase": 193.1
+    },
+    {
+      "name": "S2",
+      "amplitude": 0.132,
+      "phase": 215.2
+    },
+    {
+      "name": "N2",
+      "amplitude": 0.067,
+      "phase": 183.6
+    },
+    {
+      "name": "K1",
+      "amplitude": 0.177,
+      "phase": 35.2
+    },
+    {
+      "name": "M4",
+      "amplitude": 0.016,
+      "phase": 287.5
+    },
+    {
+      "name": "O1",
+      "amplitude": 0.14,
+      "phase": 25.8
+    },
+    {
+      "name": "M6",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MK3",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "S4",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MN4",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "NU2",
+      "amplitude": 0.013,
+      "phase": 184.9
+    },
+    {
+      "name": "S6",
+      "amplitude": 0.001,
+      "phase": 350.6
+    },
+    {
+      "name": "MU2",
+      "amplitude": 0.01,
+      "phase": 171
+    },
+    {
+      "name": "2N2",
+      "amplitude": 0.009,
+      "phase": 174.8
+    },
+    {
+      "name": "OO1",
+      "amplitude": 0.006,
+      "phase": 44.1
+    },
+    {
+      "name": "LAM2",
+      "amplitude": 0.003,
+      "phase": 203.3
+    },
+    {
+      "name": "S1",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "M1",
+      "amplitude": 0.01,
+      "phase": 30.4
+    },
+    {
+      "name": "J1",
+      "amplitude": 0.011,
+      "phase": 39.4
+    },
+    {
+      "name": "MM",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "SSA",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "SA",
+      "amplitude": 0.082,
+      "phase": 150.7
+    },
+    {
+      "name": "MSF",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MF",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "RHO",
+      "amplitude": 0.005,
+      "phase": 21.9
+    },
+    {
+      "name": "Q1",
+      "amplitude": 0.027,
+      "phase": 21.3
+    },
+    {
+      "name": "T2",
+      "amplitude": 0.008,
+      "phase": 214.4
+    },
+    {
+      "name": "R2",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "2Q1",
+      "amplitude": 0.004,
+      "phase": 16.8
+    },
+    {
+      "name": "P1",
+      "amplitude": 0.059,
+      "phase": 34.5
+    },
+    {
+      "name": "2SM2",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "M3",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "L2",
+      "amplitude": 0.011,
+      "phase": 202
+    },
+    {
+      "name": "2MK3",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "K2",
+      "amplitude": 0.036,
+      "phase": 217
+    },
+    {
+      "name": "M8",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MS4",
+      "amplitude": 0,
+      "phase": 0
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Highlands, Route 36 bridge",
+  "region": "NJ",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 40.3967,
+  "longitude": -73.9817,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8531712",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8531712"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8531680",
+    "height": {
+      "type": "ratio",
+      "high": 0.9,
+      "low": 0.9
+    },
+    "time": {
+      "high": 17,
+      "low": 14
+    }
+  }
+}

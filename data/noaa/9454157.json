@@ -1,0 +1,33 @@
+{
+  "name": "Comfort Cove, Port Gravina",
+  "region": "AK",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 60.71,
+  "longitude": -146.085,
+  "timezone": "America/Anchorage",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9454157",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9454157"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/9454050",
+    "height": {
+      "type": "fixed",
+      "high": -0.21,
+      "low": -0.03
+    },
+    "time": {
+      "high": -16,
+      "low": -6
+    }
+  }
+}

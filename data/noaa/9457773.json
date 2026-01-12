@@ -1,0 +1,33 @@
+{
+  "name": "Moser Bay (Trap Point)",
+  "region": "AK",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 57.0017,
+  "longitude": -154.148,
+  "timezone": "America/Anchorage",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9457773",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9457773"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/9457804",
+    "height": {
+      "type": "ratio",
+      "high": 0.99,
+      "low": 1.01
+    },
+    "time": {
+      "high": 11,
+      "low": 10
+    }
+  }
+}

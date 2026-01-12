@@ -1,0 +1,33 @@
+{
+  "name": "Beach Creek ent., Cumberland Island",
+  "region": "GA",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 30.7267,
+  "longitude": -81.4767,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8679945",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8679945"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8720030",
+    "height": {
+      "type": "ratio",
+      "high": 0.98,
+      "low": 0.95
+    },
+    "time": {
+      "high": 0,
+      "low": -4
+    }
+  }
+}

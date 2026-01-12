@@ -1,0 +1,33 @@
+{
+  "name": "Nannaquaket Neck",
+  "region": "RI",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 41.6183,
+  "longitude": -71.2033,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8450954",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8450954"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8452660",
+    "height": {
+      "type": "ratio",
+      "high": 1.01,
+      "low": 1.01
+    },
+    "time": {
+      "high": -12,
+      "low": -13
+    }
+  }
+}

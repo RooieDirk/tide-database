@@ -1,0 +1,33 @@
+{
+  "name": "San Francisco, North Point, Pier 41",
+  "region": "CA",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 37.81,
+  "longitude": -122.413,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9414305",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9414305"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/9414290",
+    "height": {
+      "type": "fixed",
+      "high": 0.06,
+      "low": 0
+    },
+    "time": {
+      "high": 13,
+      "low": 11
+    }
+  }
+}

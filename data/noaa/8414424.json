@@ -1,0 +1,33 @@
+{
+  "name": "Little Deer Isle",
+  "region": "ME",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 44.2917,
+  "longitude": -68.6933,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8414424",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8414424"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8413320",
+    "height": {
+      "type": "ratio",
+      "high": 0.94,
+      "low": 0.93
+    },
+    "time": {
+      "high": 16,
+      "low": 14
+    }
+  }
+}

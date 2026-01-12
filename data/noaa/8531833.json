@@ -1,0 +1,225 @@
+{
+  "name": "Red Bank, Navesink River",
+  "region": "NJ",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 40.355,
+  "longitude": -74.065,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8531833",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8531833"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "datums": {
+    "STND": 0,
+    "MHHW": 2.09,
+    "MHW": 2,
+    "DTL": 1.493,
+    "MTL": 1.465,
+    "MSL": 1.453,
+    "MLW": 0.93,
+    "MLLW": 0.895,
+    "GT": 1.196,
+    "MN": 1.07,
+    "DHQ": 0.091,
+    "DLQ": 0.035,
+    "HWI": 1.568,
+    "LWI": 8.576
+  },
+  "type": "reference",
+  "harmonic_constituents": [
+    {
+      "name": "M2",
+      "amplitude": 0.513,
+      "phase": 52.3
+    },
+    {
+      "name": "S2",
+      "amplitude": 0.075,
+      "phase": 91.7
+    },
+    {
+      "name": "N2",
+      "amplitude": 0.093,
+      "phase": 32.1
+    },
+    {
+      "name": "K1",
+      "amplitude": 0.082,
+      "phase": 209.9
+    },
+    {
+      "name": "M4",
+      "amplitude": 0.056,
+      "phase": 40.9
+    },
+    {
+      "name": "O1",
+      "amplitude": 0.046,
+      "phase": 210.2
+    },
+    {
+      "name": "M6",
+      "amplitude": 0.018,
+      "phase": 165.6
+    },
+    {
+      "name": "MK3",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "S4",
+      "amplitude": 0.003,
+      "phase": 89.6
+    },
+    {
+      "name": "MN4",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "NU2",
+      "amplitude": 0.018,
+      "phase": 34.8
+    },
+    {
+      "name": "S6",
+      "amplitude": 0.001,
+      "phase": 128.5
+    },
+    {
+      "name": "MU2",
+      "amplitude": 0.012,
+      "phase": 12.3
+    },
+    {
+      "name": "2N2",
+      "amplitude": 0.012,
+      "phase": 12.1
+    },
+    {
+      "name": "OO1",
+      "amplitude": 0.002,
+      "phase": 209.6
+    },
+    {
+      "name": "LAM2",
+      "amplitude": 0.004,
+      "phase": 70.9
+    },
+    {
+      "name": "S1",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "M1",
+      "amplitude": 0.003,
+      "phase": 210
+    },
+    {
+      "name": "J1",
+      "amplitude": 0.004,
+      "phase": 209.7
+    },
+    {
+      "name": "MM",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "SSA",
+      "amplitude": 0.036,
+      "phase": 71.5
+    },
+    {
+      "name": "SA",
+      "amplitude": 0.098,
+      "phase": 142.3
+    },
+    {
+      "name": "MSF",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MF",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "RHO",
+      "amplitude": 0.002,
+      "phase": 210.4
+    },
+    {
+      "name": "Q1",
+      "amplitude": 0.009,
+      "phase": 210.4
+    },
+    {
+      "name": "T2",
+      "amplitude": 0.004,
+      "phase": 90.3
+    },
+    {
+      "name": "R2",
+      "amplitude": 0.001,
+      "phase": 90.4
+    },
+    {
+      "name": "2Q1",
+      "amplitude": 0.001,
+      "phase": 210.6
+    },
+    {
+      "name": "P1",
+      "amplitude": 0.027,
+      "phase": 209.9
+    },
+    {
+      "name": "2SM2",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "M3",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "L2",
+      "amplitude": 0.014,
+      "phase": 72.7
+    },
+    {
+      "name": "2MK3",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "K2",
+      "amplitude": 0.02,
+      "phase": 94.9
+    },
+    {
+      "name": "M8",
+      "amplitude": 0.007,
+      "phase": 162.6
+    },
+    {
+      "name": "MS4",
+      "amplitude": 0,
+      "phase": 0
+    }
+  ]
+}

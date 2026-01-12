@@ -1,0 +1,33 @@
+{
+  "name": "Kittery Point",
+  "region": "ME",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 43.0817,
+  "longitude": -70.7033,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8419807",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8419807"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8418150",
+    "height": {
+      "type": "ratio",
+      "high": 0.96,
+      "low": 0.96
+    },
+    "time": {
+      "high": -7,
+      "low": 1
+    }
+  }
+}

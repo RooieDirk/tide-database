@@ -1,0 +1,33 @@
+{
+  "name": "Pearlington, Pearl River",
+  "region": "MS",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 30.24,
+  "longitude": -89.615,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8749704",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8749704"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8760551",
+    "height": {
+      "type": "ratio",
+      "high": 0.99,
+      "low": 0.99
+    },
+    "time": {
+      "high": 351,
+      "low": 331
+    }
+  }
+}

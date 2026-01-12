@@ -1,0 +1,33 @@
+{
+  "name": "Water Keys, south end, Harbor Channel",
+  "region": "FL",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 24.7467,
+  "longitude": -81.45,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8724273",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8724273"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8724580",
+    "height": {
+      "type": "ratio",
+      "high": 1.52,
+      "low": 1
+    },
+    "time": {
+      "high": 222,
+      "low": 341
+    }
+  }
+}

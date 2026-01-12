@@ -1,0 +1,33 @@
+{
+  "name": "Tatoosh Island, Cape Flattery",
+  "region": "WA",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 48.391700744628906,
+  "longitude": -124.73699951171875,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9442971",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9442971"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/9443090",
+    "height": {
+      "type": "ratio",
+      "high": 1.01,
+      "low": 1
+    },
+    "time": {
+      "high": -8,
+      "low": -10
+    }
+  }
+}

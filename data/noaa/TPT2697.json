@@ -1,0 +1,33 @@
+{
+  "name": "Kwajalein Atoll (Namur Island)",
+  "region": "",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 9.4,
+  "longitude": 167.4833333333299,
+  "timezone": "Pacific/Kwajalein",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TPT2697",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TPT2697"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/1820000",
+    "height": {
+      "type": "fixed",
+      "high": 0,
+      "low": 0
+    },
+    "time": {
+      "high": -2,
+      "low": -5
+    }
+  }
+}

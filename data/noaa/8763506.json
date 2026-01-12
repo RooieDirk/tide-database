@@ -1,0 +1,33 @@
+{
+  "name": "Raccoon Point, Caillou Bay",
+  "region": "LA",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 29.0633,
+  "longitude": -90.9617,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8763506",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8763506"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8761724",
+    "height": {
+      "type": "ratio",
+      "high": 1.6,
+      "low": 1.6
+    },
+    "time": {
+      "high": -3,
+      "low": -20
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Yacht Harbor, Cowpens Anchorage, Plantation Key",
+  "region": "FL",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 24.965,
+  "longitude": -80.5683,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8723776",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8723776"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8723178",
+    "height": {
+      "type": "ratio",
+      "high": 0.23,
+      "low": 0.29
+    },
+    "time": {
+      "high": 165,
+      "low": 240
+    }
+  }
+}

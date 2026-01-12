@@ -1,0 +1,33 @@
+{
+  "name": "Santa Ana River entrance (inside)",
+  "region": "CA",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 33.63,
+  "longitude": -117.958,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9410599",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9410599"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/9410660",
+    "height": {
+      "type": "ratio",
+      "high": 0.54,
+      "low": 0.2
+    },
+    "time": {
+      "high": 23,
+      "low": 107
+    }
+  }
+}

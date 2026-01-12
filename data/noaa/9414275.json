@@ -1,0 +1,33 @@
+{
+  "name": "Ocean Beach, outer coast",
+  "region": "CA",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 37.775,
+  "longitude": -122.513,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9414275",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9414275"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/9414290",
+    "height": {
+      "type": "fixed",
+      "high": 0.03,
+      "low": 0
+    },
+    "time": {
+      "high": -49,
+      "low": -35
+    }
+  }
+}

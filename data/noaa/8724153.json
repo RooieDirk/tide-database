@@ -1,0 +1,33 @@
+{
+  "name": "Johnson Keys, south end",
+  "region": "FL",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 24.7433,
+  "longitude": -81.3,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8724153",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8724153"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8724580",
+    "height": {
+      "type": "ratio",
+      "high": 0.72,
+      "low": 0.96
+    },
+    "time": {
+      "high": 216,
+      "low": 153
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Canton Island",
+  "region": "",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": -2.799999952316284,
+  "longitude": -171.71670532226562,
+  "timezone": "Pacific/Kanton",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TPT2855",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TPT2855"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/1770000",
+    "height": {
+      "type": "ratio",
+      "high": 1.3,
+      "low": 1.3
+    },
+    "time": {
+      "high": 22,
+      "low": 20
+    }
+  }
+}

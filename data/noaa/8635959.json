@@ -1,0 +1,33 @@
+{
+  "name": "Sunnybank, Little Wicomico River",
+  "region": "VA",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 37.8867,
+  "longitude": -76.2667,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8635959",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8635959"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8638863",
+    "height": {
+      "type": "ratio",
+      "high": 0.3,
+      "low": 0.3
+    },
+    "time": {
+      "high": 401,
+      "low": 405
+    }
+  }
+}

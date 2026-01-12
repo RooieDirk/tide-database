@@ -1,0 +1,33 @@
+{
+  "name": "Newburgh",
+  "region": "NY",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 41.5,
+  "longitude": -74.0067,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8518935",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8518935"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8518750",
+    "height": {
+      "type": "ratio",
+      "high": 0.62,
+      "low": 0.64
+    },
+    "time": {
+      "high": 226,
+      "low": 243
+    }
+  }
+}

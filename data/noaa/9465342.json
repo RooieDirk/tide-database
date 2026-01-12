@@ -1,0 +1,33 @@
+{
+  "name": "Kvichak",
+  "region": "AK",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 58.97,
+  "longitude": -156.947,
+  "timezone": "America/Anchorage",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9465342",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9465342"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/9463502",
+    "height": {
+      "type": "ratio",
+      "high": 1.54,
+      "low": 0.41
+    },
+    "time": {
+      "high": 321,
+      "low": 469
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Rowayton, Fivemile River",
+  "region": "CT",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 41.065,
+  "longitude": -73.445,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8468609",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8468609"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8467150",
+    "height": {
+      "type": "ratio",
+      "high": 1.05,
+      "low": 1.08
+    },
+    "time": {
+      "high": 0,
+      "low": 5
+    }
+  }
+}

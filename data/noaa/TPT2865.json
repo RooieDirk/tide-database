@@ -1,0 +1,33 @@
+{
+  "name": "Tau Island, Manua Islands",
+  "region": "",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": -14.21666666666667,
+  "longitude": -169.5333333333333,
+  "timezone": "Pacific/Pago_Pago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TPT2865",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TPT2865"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/1770000",
+    "height": {
+      "type": "ratio",
+      "high": 1.43,
+      "low": 1
+    },
+    "time": {
+      "high": -25,
+      "low": -24
+    }
+  }
+}

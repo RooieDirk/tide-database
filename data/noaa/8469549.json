@@ -1,0 +1,33 @@
+{
+  "name": "Cos Cob Harbor",
+  "region": "CT",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 41.0167,
+  "longitude": -73.5967,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8469549",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8469549"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8467150",
+    "height": {
+      "type": "ratio",
+      "high": 1.07,
+      "low": 1.08
+    },
+    "time": {
+      "high": 5,
+      "low": 11
+    }
+  }
+}

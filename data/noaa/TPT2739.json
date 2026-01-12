@@ -1,0 +1,33 @@
+{
+  "name": "Palmyra Island",
+  "region": "",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 5.883333333333304,
+  "longitude": -162.08333333332993,
+  "timezone": "Etc/GMT+11",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TPT2739",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TPT2739"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/1612340",
+    "height": {
+      "type": "fixed",
+      "high": 0.18,
+      "low": -0.06
+    },
+    "time": {
+      "high": 79,
+      "low": 73
+    }
+  }
+}

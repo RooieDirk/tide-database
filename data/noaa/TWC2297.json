@@ -1,0 +1,33 @@
+{
+  "name": "Gareloi Island",
+  "region": "",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 51.75,
+  "longitude": -178.8,
+  "timezone": "America/Adak",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TWC2297",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TWC2297"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/9461380",
+    "height": {
+      "type": "ratio",
+      "high": 1,
+      "low": 1
+    },
+    "time": {
+      "high": -8,
+      "low": -30
+    }
+  }
+}

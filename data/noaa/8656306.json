@@ -1,0 +1,33 @@
+{
+  "name": "Newport River (Yacht Club)",
+  "region": "NC",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 34.7683,
+  "longitude": -76.6717,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8656306",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8656306"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8654400",
+    "height": {
+      "type": "ratio",
+      "high": 1.03,
+      "low": 1
+    },
+    "time": {
+      "high": 63,
+      "low": 73
+    }
+  }
+}

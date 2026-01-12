@@ -1,0 +1,33 @@
+{
+  "name": "Pemaquid Harbor, Johns Bay",
+  "region": "ME",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 43.8767,
+  "longitude": -69.525,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8416581",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8416581"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8418150",
+    "height": {
+      "type": "ratio",
+      "high": 0.97,
+      "low": 0.97
+    },
+    "time": {
+      "high": -5,
+      "low": -4
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "North End, Bay Oil pier",
+  "region": "RI",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 41.6517,
+  "longitude": -71.21,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8450898",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8450898"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8452660",
+    "height": {
+      "type": "ratio",
+      "high": 1.2,
+      "low": 1.07
+    },
+    "time": {
+      "high": 20,
+      "low": 1
+    }
+  }
+}

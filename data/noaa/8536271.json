@@ -1,0 +1,33 @@
+{
+  "name": "North Highlands Beach",
+  "region": "NJ",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 39.0183,
+  "longitude": -74.9533,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8536271",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8536271"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8557380",
+    "height": {
+      "type": "ratio",
+      "high": 1.26,
+      "low": 1.26
+    },
+    "time": {
+      "high": 4,
+      "low": 14
+    }
+  }
+}

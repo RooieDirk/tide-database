@@ -1,0 +1,227 @@
+{
+  "name": "Rio Vista",
+  "region": "CA",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 38.145,
+  "longitude": -121.692,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9415316",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9415316"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "datums": {
+    "LAT": 3.629,
+    "HAT": 5.322,
+    "STND": 0,
+    "MHHW": 5.127,
+    "MHW": 4.982,
+    "DTL": 4.506,
+    "MTL": 4.523,
+    "MSL": 4.533,
+    "MLW": 4.063,
+    "MLLW": 3.884,
+    "GT": 1.243,
+    "MN": 0.919,
+    "DHQ": 0.145,
+    "DLQ": 0.179,
+    "HWI": 11.793,
+    "LWI": 5.911
+  },
+  "type": "reference",
+  "harmonic_constituents": [
+    {
+      "name": "M2",
+      "amplitude": 0.369,
+      "phase": 338.5
+    },
+    {
+      "name": "S2",
+      "amplitude": 0.066,
+      "phase": 355.9
+    },
+    {
+      "name": "N2",
+      "amplitude": 0.068,
+      "phase": 304.3
+    },
+    {
+      "name": "K1",
+      "amplitude": 0.221,
+      "phase": 302.5
+    },
+    {
+      "name": "M4",
+      "amplitude": 0.026,
+      "phase": 213
+    },
+    {
+      "name": "O1",
+      "amplitude": 0.111,
+      "phase": 294.2
+    },
+    {
+      "name": "M6",
+      "amplitude": 0.009,
+      "phase": 17.3
+    },
+    {
+      "name": "MK3",
+      "amplitude": 0.032,
+      "phase": 199.8
+    },
+    {
+      "name": "S4",
+      "amplitude": 0.002,
+      "phase": 238.6
+    },
+    {
+      "name": "MN4",
+      "amplitude": 0.01,
+      "phase": 191.8
+    },
+    {
+      "name": "NU2",
+      "amplitude": 0.009,
+      "phase": 333.2
+    },
+    {
+      "name": "S6",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MU2",
+      "amplitude": 0.02,
+      "phase": 151.5
+    },
+    {
+      "name": "2N2",
+      "amplitude": 0.01,
+      "phase": 311.7
+    },
+    {
+      "name": "OO1",
+      "amplitude": 0.003,
+      "phase": 62.5
+    },
+    {
+      "name": "LAM2",
+      "amplitude": 0.014,
+      "phase": 326.5
+    },
+    {
+      "name": "S1",
+      "amplitude": 0.023,
+      "phase": 267.7
+    },
+    {
+      "name": "M1",
+      "amplitude": 0.004,
+      "phase": 209.4
+    },
+    {
+      "name": "J1",
+      "amplitude": 0.009,
+      "phase": 43.6
+    },
+    {
+      "name": "MM",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "SSA",
+      "amplitude": 0.06,
+      "phase": 285.7
+    },
+    {
+      "name": "SA",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MSF",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MF",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "RHO",
+      "amplitude": 0.005,
+      "phase": 287
+    },
+    {
+      "name": "Q1",
+      "amplitude": 0.016,
+      "phase": 295.7
+    },
+    {
+      "name": "T2",
+      "amplitude": 0.007,
+      "phase": 352.4
+    },
+    {
+      "name": "R2",
+      "amplitude": 0.007,
+      "phase": 65.6
+    },
+    {
+      "name": "2Q1",
+      "amplitude": 0.005,
+      "phase": 315.9
+    },
+    {
+      "name": "P1",
+      "amplitude": 0.082,
+      "phase": 308.1
+    },
+    {
+      "name": "2SM2",
+      "amplitude": 0.004,
+      "phase": 171.2
+    },
+    {
+      "name": "M3",
+      "amplitude": 0.01,
+      "phase": 280.7
+    },
+    {
+      "name": "L2",
+      "amplitude": 0.031,
+      "phase": 355.6
+    },
+    {
+      "name": "2MK3",
+      "amplitude": 0.029,
+      "phase": 191.3
+    },
+    {
+      "name": "K2",
+      "amplitude": 0.029,
+      "phase": 337
+    },
+    {
+      "name": "M8",
+      "amplitude": 0.002,
+      "phase": 251.6
+    },
+    {
+      "name": "MS4",
+      "amplitude": 0.012,
+      "phase": 240.5
+    }
+  ]
+}

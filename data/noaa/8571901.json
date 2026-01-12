@@ -1,0 +1,33 @@
+{
+  "name": "Avalon, Dogwood Harbor",
+  "region": "MD",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 38.71,
+  "longitude": -76.335,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8571901",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8571901"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8574680",
+    "height": {
+      "type": "ratio",
+      "high": 1.18,
+      "low": 1.36
+    },
+    "time": {
+      "high": -174,
+      "low": -168
+    }
+  }
+}

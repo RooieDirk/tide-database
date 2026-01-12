@@ -1,0 +1,33 @@
+{
+  "name": "Nomans Land",
+  "region": "MA",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 41.2617,
+  "longitude": -70.8183,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8449287",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8449287"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8452660",
+    "height": {
+      "type": "ratio",
+      "high": 0.85,
+      "low": 0.85
+    },
+    "time": {
+      "high": -19,
+      "low": 18
+    }
+  }
+}

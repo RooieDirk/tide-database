@@ -1,0 +1,33 @@
+{
+  "name": "Roseau, Dominica",
+  "region": "",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 15.3,
+  "longitude": -61.4,
+  "timezone": "America/Dominica",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TEC4771",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TEC4771"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8724580",
+    "height": {
+      "type": "ratio",
+      "high": 0.65,
+      "low": 0.65
+    },
+    "time": {
+      "high": -389,
+      "low": -365
+    }
+  }
+}

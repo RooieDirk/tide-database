@@ -1,0 +1,225 @@
+{
+  "name": "Bayou Faleau",
+  "region": "LA",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 29.47038888888889,
+  "longitude": -90.34222222222222,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8762329",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8762329"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "datums": {
+    "LAT": 8.995,
+    "HAT": 9.536,
+    "STND": 0,
+    "MHHW": 9.403,
+    "MHW": 9.404,
+    "DTL": 9.294,
+    "MTL": 9.295,
+    "MSL": 9.285,
+    "MLW": 9.186,
+    "MLLW": 9.184,
+    "GT": 0.219,
+    "MN": 0.218,
+    "DHQ": 0,
+    "DLQ": 0.002
+  },
+  "type": "reference",
+  "harmonic_constituents": [
+    {
+      "name": "M2",
+      "amplitude": 0.001,
+      "phase": 184.3
+    },
+    {
+      "name": "S2",
+      "amplitude": 0.003,
+      "phase": 322.8
+    },
+    {
+      "name": "N2",
+      "amplitude": 0.003,
+      "phase": 226.3
+    },
+    {
+      "name": "K1",
+      "amplitude": 0.062,
+      "phase": 151.5
+    },
+    {
+      "name": "M4",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "O1",
+      "amplitude": 0.05,
+      "phase": 131.2
+    },
+    {
+      "name": "M6",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MK3",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "S4",
+      "amplitude": 0.001,
+      "phase": 252.3
+    },
+    {
+      "name": "MN4",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "NU2",
+      "amplitude": 0.001,
+      "phase": 221.8
+    },
+    {
+      "name": "S6",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MU2",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "2N2",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "OO1",
+      "amplitude": 0.002,
+      "phase": 171.1
+    },
+    {
+      "name": "LAM2",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "S1",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "M1",
+      "amplitude": 0.004,
+      "phase": 141.1
+    },
+    {
+      "name": "J1",
+      "amplitude": 0.004,
+      "phase": 161.2
+    },
+    {
+      "name": "MM",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "SSA",
+      "amplitude": 0.06,
+      "phase": 49.7
+    },
+    {
+      "name": "SA",
+      "amplitude": 0.087,
+      "phase": 149.7
+    },
+    {
+      "name": "MSF",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MF",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "RHO",
+      "amplitude": 0.002,
+      "phase": 123.6
+    },
+    {
+      "name": "Q1",
+      "amplitude": 0.01,
+      "phase": 121.2
+    },
+    {
+      "name": "T2",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "R2",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "2Q1",
+      "amplitude": 0.001,
+      "phase": 112.4
+    },
+    {
+      "name": "P1",
+      "amplitude": 0.02,
+      "phase": 150.1
+    },
+    {
+      "name": "2SM2",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "M3",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "L2",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "2MK3",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "K2",
+      "amplitude": 0.001,
+      "phase": 313.8
+    },
+    {
+      "name": "M8",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MS4",
+      "amplitude": 0,
+      "phase": 0
+    }
+  ]
+}

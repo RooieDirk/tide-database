@@ -1,0 +1,33 @@
+{
+  "name": "Westville, Rt. 47 bridge, Big Timber Creek, N.J.",
+  "region": "NJ",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 39.8733,
+  "longitude": -75.1233,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8538601",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8538601"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8545240",
+    "height": {
+      "type": "ratio",
+      "high": 0.97,
+      "low": 1
+    },
+    "time": {
+      "high": 2,
+      "low": 3
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Roanoke Sound Channel",
+  "region": "NC",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 35.7983,
+  "longitude": -75.5833,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8652591",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8652591"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8652587",
+    "height": {
+      "type": "ratio",
+      "high": 0.47,
+      "low": 0.14
+    },
+    "time": {
+      "high": 97,
+      "low": 77
+    }
+  }
+}

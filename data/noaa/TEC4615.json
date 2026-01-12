@@ -1,0 +1,33 @@
+{
+  "name": "North Cat Cay",
+  "region": "",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 25.55,
+  "longitude": -79.28333333333299,
+  "timezone": "America/Nassau",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TEC4615",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TEC4615"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/9710441",
+    "height": {
+      "type": "ratio",
+      "high": 0.86,
+      "low": 1.11
+    },
+    "time": {
+      "high": 22,
+      "low": 32
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Breach Inlet, Isle of Palms",
+  "region": "SC",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 32.7767,
+  "longitude": -79.8117,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8665552",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8665552"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8665530",
+    "height": {
+      "type": "ratio",
+      "high": 0.95,
+      "low": 1.05
+    },
+    "time": {
+      "high": -5,
+      "low": -14
+    }
+  }
+}

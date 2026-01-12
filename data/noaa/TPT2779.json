@@ -1,0 +1,33 @@
+{
+  "name": "Laie Bay",
+  "region": "",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 21.65,
+  "longitude": -157.93333333332993,
+  "timezone": "Pacific/Honolulu",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TPT2779",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TPT2779"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/1612480",
+    "height": {
+      "type": "ratio",
+      "high": 1,
+      "low": 0.75
+    },
+    "time": {
+      "high": -21,
+      "low": -32
+    }
+  }
+}

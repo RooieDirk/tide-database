@@ -1,0 +1,33 @@
+{
+  "name": "Tillamook, Hoquarten Slough",
+  "region": "OR",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 45.46,
+  "longitude": -123.845,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9437331",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9437331"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/9419750",
+    "height": {
+      "type": "ratio",
+      "high": 0.94,
+      "low": 0.58
+    },
+    "time": {
+      "high": 112,
+      "low": 195
+    }
+  }
+}

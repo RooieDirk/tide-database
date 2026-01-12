@@ -1,0 +1,33 @@
+{
+  "name": "Dupont, Dean Hall",
+  "region": "SC",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 33.0583,
+  "longitude": -79.9367,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8663757",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8663757"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8665530",
+    "height": {
+      "type": "ratio",
+      "high": 0.68,
+      "low": 1.58
+    },
+    "time": {
+      "high": 141,
+      "low": 127
+    }
+  }
+}

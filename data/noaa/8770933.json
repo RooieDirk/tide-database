@@ -1,0 +1,220 @@
+{
+  "name": "Clear Lake",
+  "region": "TX",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 29.5633,
+  "longitude": -95.0667,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8770933",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8770933"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "These data and associated tidal datums are derived from the Texas Coastal Ocean Observation Network (TCOON), a state-wide coastal observing system. Leveling information used to verify vertical positioning for navigational purposes may not meet NOS standards. Subsequent review of these data based upon field inspections may result in revisions. Data users are cautioned before using these data for critical decisions such as those that concern physical or public safety.",
+  "datums": {
+    "LAT": 1.235,
+    "HAT": 2.078,
+    "STND": 0,
+    "MHHW": 1.904,
+    "MHW": 1.887,
+    "MTL": 1.73,
+    "MSL": 1.74,
+    "MLW": 1.572,
+    "MLLW": 1.547
+  },
+  "type": "reference",
+  "harmonic_constituents": [
+    {
+      "name": "M2",
+      "amplitude": 0.037,
+      "phase": 94.7
+    },
+    {
+      "name": "S2",
+      "amplitude": 0.008,
+      "phase": 81.3
+    },
+    {
+      "name": "N2",
+      "amplitude": 0.01,
+      "phase": 96.4
+    },
+    {
+      "name": "K1",
+      "amplitude": 0.105,
+      "phase": 133
+    },
+    {
+      "name": "M4",
+      "amplitude": 0.003,
+      "phase": 313.9
+    },
+    {
+      "name": "O1",
+      "amplitude": 0.105,
+      "phase": 118.2
+    },
+    {
+      "name": "M6",
+      "amplitude": 0.001,
+      "phase": 282.4
+    },
+    {
+      "name": "MK3",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "S4",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MN4",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "NU2",
+      "amplitude": 0.003,
+      "phase": 155.2
+    },
+    {
+      "name": "S6",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MU2",
+      "amplitude": 0.002,
+      "phase": 305.4
+    },
+    {
+      "name": "2N2",
+      "amplitude": 0.006,
+      "phase": 260
+    },
+    {
+      "name": "OO1",
+      "amplitude": 0.014,
+      "phase": 136.4
+    },
+    {
+      "name": "LAM2",
+      "amplitude": 0.004,
+      "phase": 239.8
+    },
+    {
+      "name": "S1",
+      "amplitude": 0.004,
+      "phase": 36.2
+    },
+    {
+      "name": "M1",
+      "amplitude": 0.002,
+      "phase": 282.1
+    },
+    {
+      "name": "J1",
+      "amplitude": 0.003,
+      "phase": 166.6
+    },
+    {
+      "name": "MM",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "SSA",
+      "amplitude": 0.115,
+      "phase": 68.1
+    },
+    {
+      "name": "SA",
+      "amplitude": 0.067,
+      "phase": 126.4
+    },
+    {
+      "name": "MSF",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MF",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "RHO",
+      "amplitude": 0.007,
+      "phase": 117.7
+    },
+    {
+      "name": "Q1",
+      "amplitude": 0.025,
+      "phase": 115.2
+    },
+    {
+      "name": "T2",
+      "amplitude": 0.002,
+      "phase": 193.7
+    },
+    {
+      "name": "R2",
+      "amplitude": 0.001,
+      "phase": 51
+    },
+    {
+      "name": "2Q1",
+      "amplitude": 0.006,
+      "phase": 256.7
+    },
+    {
+      "name": "P1",
+      "amplitude": 0.027,
+      "phase": 140.1
+    },
+    {
+      "name": "2SM2",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "M3",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "L2",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "2MK3",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "K2",
+      "amplitude": 0.01,
+      "phase": 110.5
+    },
+    {
+      "name": "M8",
+      "amplitude": 0.001,
+      "phase": 160.5
+    },
+    {
+      "name": "MS4",
+      "amplitude": 0,
+      "phase": 0
+    }
+  ]
+}

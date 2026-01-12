@@ -1,0 +1,33 @@
+{
+  "name": "North Bimini",
+  "region": "",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 25.733333333332993,
+  "longitude": -79.3,
+  "timezone": "America/Nassau",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TEC4617",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TEC4617"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/9710441",
+    "height": {
+      "type": "ratio",
+      "high": 0.9,
+      "low": 1.11
+    },
+    "time": {
+      "high": 5,
+      "low": 22
+    }
+  }
+}

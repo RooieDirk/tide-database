@@ -1,0 +1,33 @@
+{
+  "name": "Cornwells Heights, Pa.",
+  "region": "PA",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 40.0683,
+  "longitude": -74.9383,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8547333",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8547333"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8545240",
+    "height": {
+      "type": "ratio",
+      "high": 1.17,
+      "low": 1
+    },
+    "time": {
+      "high": 46,
+      "low": 58
+    }
+  }
+}

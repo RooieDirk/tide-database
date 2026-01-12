@@ -1,0 +1,33 @@
+{
+  "name": "Takanis Bay",
+  "region": "AK",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 57.9283,
+  "longitude": -136.52,
+  "timezone": "America/Juneau",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9452671",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9452671"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/9452634",
+    "height": {
+      "type": "ratio",
+      "high": 0.9,
+      "low": 1.03
+    },
+    "time": {
+      "high": -4,
+      "low": -1
+    }
+  }
+}

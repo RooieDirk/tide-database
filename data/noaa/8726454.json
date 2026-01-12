@@ -1,0 +1,33 @@
+{
+  "name": "Point Pinellas",
+  "region": "FL",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 27.7017,
+  "longitude": -82.64,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8726454",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8726454"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8726520",
+    "height": {
+      "type": "ratio",
+      "high": 0.86,
+      "low": 0.86
+    },
+    "time": {
+      "high": -22,
+      "low": -29
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Fox Bay, Kupreanof Peninsula",
+  "region": "",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 55.63333333333299,
+  "longitude": -159.61666666667008,
+  "timezone": "America/Anchorage",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TWC2111",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TWC2111"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/9457292",
+    "height": {
+      "type": "ratio",
+      "high": 0.86,
+      "low": 1.19
+    },
+    "time": {
+      "high": 18,
+      "low": 33
+    }
+  }
+}

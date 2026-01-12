@@ -1,0 +1,33 @@
+{
+  "name": "Ailinglapalap Atoll",
+  "region": "",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 7.283333333333304,
+  "longitude": 168.75,
+  "timezone": "Pacific/Majuro",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TPT2701",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TPT2701"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/1820000",
+    "height": {
+      "type": "fixed",
+      "high": 0.12,
+      "low": 0.09
+    },
+    "time": {
+      "high": 8,
+      "low": 7
+    }
+  }
+}

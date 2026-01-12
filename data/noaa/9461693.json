@@ -1,0 +1,33 @@
+{
+  "name": "Martin Harbor, Korovin Bay",
+  "region": "AK",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 52.2267,
+  "longitude": -174.292,
+  "timezone": "America/Adak",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9461693",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9461693"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/9461380",
+    "height": {
+      "type": "ratio",
+      "high": 0.87,
+      "low": 0.87
+    },
+    "time": {
+      "high": 19,
+      "low": 21
+    }
+  }
+}

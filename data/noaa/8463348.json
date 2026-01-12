@@ -1,0 +1,33 @@
+{
+  "name": "Tylerville",
+  "region": "CT",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 41.4517,
+  "longitude": -72.465,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8463348",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8463348"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8461490",
+    "height": {
+      "type": "ratio",
+      "high": 1.02,
+      "low": 1.02
+    },
+    "time": {
+      "high": 158,
+      "low": 171
+    }
+  }
+}

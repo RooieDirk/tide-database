@@ -1,0 +1,33 @@
+{
+  "name": "Point St. Albans",
+  "region": "AK",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 56.0817,
+  "longitude": -133.97,
+  "timezone": "America/Sitka",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9450943",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9450943"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/9451600",
+    "height": {
+      "type": "fixed",
+      "high": 0.43,
+      "low": 0
+    },
+    "time": {
+      "high": -17,
+      "low": -13
+    }
+  }
+}

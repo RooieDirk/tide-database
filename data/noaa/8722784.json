@@ -1,0 +1,33 @@
+{
+  "name": "Yamato, ICWW",
+  "region": "FL",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 26.4033,
+  "longitude": -80.07,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8722784",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8722784"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8723178",
+    "height": {
+      "type": "ratio",
+      "high": 1.02,
+      "low": 1.14
+    },
+    "time": {
+      "high": 82,
+      "low": 117
+    }
+  }
+}

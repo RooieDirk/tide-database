@@ -1,0 +1,227 @@
+{
+  "name": "Uzkosti Point",
+  "region": "AK",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 57.9283,
+  "longitude": -152.812,
+  "timezone": "America/Anchorage",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9457376",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9457376"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "datums": {
+    "LAT": 0.4000001,
+    "HAT": 5.8789997,
+    "STND": 0,
+    "MHHW": 4.874,
+    "MHW": 4.588,
+    "DTL": 3.151,
+    "MTL": 3.266,
+    "MSL": 3.279,
+    "MLW": 1.944,
+    "MLLW": 1.428,
+    "GT": 3.445,
+    "MN": 2.644,
+    "DHQ": 0.285,
+    "DLQ": 0.516,
+    "HWI": 10.564,
+    "LWI": 5.231
+  },
+  "type": "reference",
+  "harmonic_constituents": [
+    {
+      "name": "M2",
+      "amplitude": 1.234,
+      "phase": 317.5
+    },
+    {
+      "name": "S2",
+      "amplitude": 0.438,
+      "phase": 355.5
+    },
+    {
+      "name": "N2",
+      "amplitude": 0.261,
+      "phase": 297.5
+    },
+    {
+      "name": "K1",
+      "amplitude": 0.439,
+      "phase": 287.4
+    },
+    {
+      "name": "M4",
+      "amplitude": 0.095,
+      "phase": 184.1
+    },
+    {
+      "name": "O1",
+      "amplitude": 0.319,
+      "phase": 267.7
+    },
+    {
+      "name": "M6",
+      "amplitude": 0.026,
+      "phase": 37.8
+    },
+    {
+      "name": "MK3",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "S4",
+      "amplitude": 0.003,
+      "phase": 217.7
+    },
+    {
+      "name": "MN4",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "NU2",
+      "amplitude": 0.051,
+      "phase": 300.2
+    },
+    {
+      "name": "S6",
+      "amplitude": 0.005,
+      "phase": 206.7
+    },
+    {
+      "name": "MU2",
+      "amplitude": 0.03,
+      "phase": 279.5
+    },
+    {
+      "name": "2N2",
+      "amplitude": 0.035,
+      "phase": 277.6
+    },
+    {
+      "name": "OO1",
+      "amplitude": 0.014,
+      "phase": 307.2
+    },
+    {
+      "name": "LAM2",
+      "amplitude": 0.009,
+      "phase": 335.1
+    },
+    {
+      "name": "S1",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "M1",
+      "amplitude": 0.023,
+      "phase": 277.6
+    },
+    {
+      "name": "J1",
+      "amplitude": 0.025,
+      "phase": 297.3
+    },
+    {
+      "name": "MM",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "SSA",
+      "amplitude": 0.015,
+      "phase": 151.7
+    },
+    {
+      "name": "SA",
+      "amplitude": 0.078,
+      "phase": 262.1
+    },
+    {
+      "name": "MSF",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MF",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "RHO",
+      "amplitude": 0.012,
+      "phase": 259.2
+    },
+    {
+      "name": "Q1",
+      "amplitude": 0.062,
+      "phase": 257.9
+    },
+    {
+      "name": "T2",
+      "amplitude": 0.026,
+      "phase": 353.9
+    },
+    {
+      "name": "R2",
+      "amplitude": 0.004,
+      "phase": 357
+    },
+    {
+      "name": "2Q1",
+      "amplitude": 0.008,
+      "phase": 248
+    },
+    {
+      "name": "P1",
+      "amplitude": 0.145,
+      "phase": 286
+    },
+    {
+      "name": "2SM2",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "M3",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "L2",
+      "amplitude": 0.035,
+      "phase": 337.4
+    },
+    {
+      "name": "2MK3",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "K2",
+      "amplitude": 0.119,
+      "phase": 358.5
+    },
+    {
+      "name": "M8",
+      "amplitude": 0.01,
+      "phase": 81.4
+    },
+    {
+      "name": "MS4",
+      "amplitude": 0,
+      "phase": 0
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Johnstone Passage, Yakutat Bay",
+  "region": "AK",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 59.5817,
+  "longitude": -139.702,
+  "timezone": "America/Yakutat",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9453215",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9453215"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/9453220",
+    "height": {
+      "type": "ratio",
+      "high": 1,
+      "low": 1
+    },
+    "time": {
+      "high": 1,
+      "low": 3
+    }
+  }
+}

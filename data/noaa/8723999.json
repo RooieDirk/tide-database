@@ -1,0 +1,33 @@
+{
+  "name": "Sombrero Key, Hawk Channel",
+  "region": "FL",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 24.6267,
+  "longitude": -81.1117,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8723999",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8723999"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8724580",
+    "height": {
+      "type": "ratio",
+      "high": 1.18,
+      "low": 0.79
+    },
+    "time": {
+      "high": -63,
+      "low": -39
+    }
+  }
+}

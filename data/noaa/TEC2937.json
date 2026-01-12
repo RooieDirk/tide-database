@@ -1,0 +1,33 @@
+{
+  "name": "Frazier Point",
+  "region": "",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 33.31666666666701,
+  "longitude": -79.28333333333299,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TEC2937",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TEC2937"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8665530",
+    "height": {
+      "type": "ratio",
+      "high": 0.66,
+      "low": 0.68
+    },
+    "time": {
+      "high": 86,
+      "low": 127
+    }
+  }
+}

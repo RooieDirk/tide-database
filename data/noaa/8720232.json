@@ -1,0 +1,33 @@
+{
+  "name": "Pablo Creek entrance",
+  "region": "FL",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 30.3767,
+  "longitude": -81.4483,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8720232",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8720232"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8720218",
+    "height": {
+      "type": "ratio",
+      "high": 0.85,
+      "low": 0.73
+    },
+    "time": {
+      "high": 29,
+      "low": 33
+    }
+  }
+}

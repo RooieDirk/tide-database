@@ -1,0 +1,33 @@
+{
+  "name": "Fort McRee Breakwater",
+  "region": "FL",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 30.3267,
+  "longitude": -87.3117,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8729887",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8729887"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8729840",
+    "height": {
+      "type": "ratio",
+      "high": 0.8,
+      "low": 0.8
+    },
+    "time": {
+      "high": -83,
+      "low": -34
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Coos Bay",
+  "region": "OR",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 43.38,
+  "longitude": -124.215,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9432845",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9432845"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/9432780",
+    "height": {
+      "type": "ratio",
+      "high": 0.96,
+      "low": 0.88
+    },
+    "time": {
+      "high": 86,
+      "low": 88
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Delaware City Branch Channel bridge",
+  "region": "DE",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 39.57,
+  "longitude": -75.59,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8551851",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8551851"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8551910",
+    "height": {
+      "type": "ratio",
+      "high": 1.02,
+      "low": 0.89
+    },
+    "time": {
+      "high": 0,
+      "low": 5
+    }
+  }
+}

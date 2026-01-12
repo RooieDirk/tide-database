@@ -1,0 +1,33 @@
+{
+  "name": "Cuba Island",
+  "region": "NY",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 40.62,
+  "longitude": -73.5233,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8516221",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8516221"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8531680",
+    "height": {
+      "type": "ratio",
+      "high": 0.49,
+      "low": 0.5
+    },
+    "time": {
+      "high": 67,
+      "low": 82
+    }
+  }
+}

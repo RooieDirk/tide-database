@@ -1,0 +1,33 @@
+{
+  "name": "Hillsboro Beach, ICWW",
+  "region": "FL",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 26.2733,
+  "longitude": -80.08,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8722854",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8722854"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8723178",
+    "height": {
+      "type": "ratio",
+      "high": 1.06,
+      "low": 1.07
+    },
+    "time": {
+      "high": 2,
+      "low": 34
+    }
+  }
+}

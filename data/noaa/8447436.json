@@ -1,0 +1,33 @@
+{
+  "name": "Georges Shoal, Texas Tower",
+  "region": "MA",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 41.6883,
+  "longitude": -67.76,
+  "timezone": "Etc/GMT+5",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8447436",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8447436"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8443970",
+    "height": {
+      "type": "ratio",
+      "high": 0.44,
+      "low": 0.44
+    },
+    "time": {
+      "high": -47,
+      "low": -43
+    }
+  }
+}

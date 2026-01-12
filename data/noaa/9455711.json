@@ -1,0 +1,227 @@
+{
+  "name": "Cape Kasilof",
+  "region": "AK",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 60.3367,
+  "longitude": -151.38,
+  "timezone": "America/Anchorage",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9455711",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9455711"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "datums": {
+    "LAT": -4.305,
+    "HAT": 5.621,
+    "STND": 0,
+    "MHHW": 3.788,
+    "MHW": 3.587,
+    "DTL": 0.727,
+    "MTL": 0.936,
+    "MSL": 0.981,
+    "MLW": -1.716,
+    "MLLW": -2.334,
+    "GT": 6.123,
+    "MN": 5.303,
+    "DHQ": 0.201,
+    "DLQ": 0.619,
+    "HWI": 0.31,
+    "LWI": 6.79
+  },
+  "type": "reference",
+  "harmonic_constituents": [
+    {
+      "name": "M2",
+      "amplitude": 2.484,
+      "phase": 8.9
+    },
+    {
+      "name": "S2",
+      "amplitude": 0.957,
+      "phase": 40.6
+    },
+    {
+      "name": "N2",
+      "amplitude": 0.546,
+      "phase": 339.9
+    },
+    {
+      "name": "K1",
+      "amplitude": 0.579,
+      "phase": 297.2
+    },
+    {
+      "name": "M4",
+      "amplitude": 0.084,
+      "phase": 260.8
+    },
+    {
+      "name": "O1",
+      "amplitude": 0.382,
+      "phase": 280.8
+    },
+    {
+      "name": "M6",
+      "amplitude": 0.047,
+      "phase": 108.6
+    },
+    {
+      "name": "MK3",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "S4",
+      "amplitude": 0.01,
+      "phase": 345.6
+    },
+    {
+      "name": "MN4",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "NU2",
+      "amplitude": 0.106,
+      "phase": 343.8
+    },
+    {
+      "name": "S6",
+      "amplitude": 0.004,
+      "phase": 316.9
+    },
+    {
+      "name": "MU2",
+      "amplitude": 0.06,
+      "phase": 337.1
+    },
+    {
+      "name": "2N2",
+      "amplitude": 0.073,
+      "phase": 310.9
+    },
+    {
+      "name": "OO1",
+      "amplitude": 0.016,
+      "phase": 313.6
+    },
+    {
+      "name": "LAM2",
+      "amplitude": 0.017,
+      "phase": 23.6
+    },
+    {
+      "name": "S1",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "M1",
+      "amplitude": 0.027,
+      "phase": 289.1
+    },
+    {
+      "name": "J1",
+      "amplitude": 0.03,
+      "phase": 305.3
+    },
+    {
+      "name": "MM",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "SSA",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "SA",
+      "amplitude": 0.12,
+      "phase": 243.7
+    },
+    {
+      "name": "MSF",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MF",
+      "amplitude": 0.028,
+      "phase": 163
+    },
+    {
+      "name": "RHO",
+      "amplitude": 0.015,
+      "phase": 273.8
+    },
+    {
+      "name": "Q1",
+      "amplitude": 0.074,
+      "phase": 272.7
+    },
+    {
+      "name": "T2",
+      "amplitude": 0.056,
+      "phase": 39.3
+    },
+    {
+      "name": "R2",
+      "amplitude": 0.008,
+      "phase": 41.9
+    },
+    {
+      "name": "2Q1",
+      "amplitude": 0.01,
+      "phase": 264.5
+    },
+    {
+      "name": "P1",
+      "amplitude": 0.192,
+      "phase": 296
+    },
+    {
+      "name": "2SM2",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "M3",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "L2",
+      "amplitude": 0.07,
+      "phase": 37.8
+    },
+    {
+      "name": "2MK3",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "K2",
+      "amplitude": 0.26,
+      "phase": 43.2
+    },
+    {
+      "name": "M8",
+      "amplitude": 0.007,
+      "phase": 293.5
+    },
+    {
+      "name": "MS4",
+      "amplitude": 0,
+      "phase": 0
+    }
+  ]
+}

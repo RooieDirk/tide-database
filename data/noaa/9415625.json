@@ -1,0 +1,33 @@
+{
+  "name": "Bodega Harbor entrance",
+  "region": "CA",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 38.3083,
+  "longitude": -123.055,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9415625",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9415625"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/9414290",
+    "height": {
+      "type": "fixed",
+      "high": -0.06,
+      "low": 0.03
+    },
+    "time": {
+      "high": -38,
+      "low": -16
+    }
+  }
+}

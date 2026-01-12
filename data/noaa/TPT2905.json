@@ -1,0 +1,33 @@
+{
+  "name": "Raoul or Sunday Island",
+  "region": "",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": -29.25,
+  "longitude": -177.93,
+  "timezone": "Pacific/Auckland",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TPT2905",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TPT2905"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/1778000",
+    "height": {
+      "type": "fixed",
+      "high": 0.58,
+      "low": 0.46
+    },
+    "time": {
+      "high": -112,
+      "low": -140
+    }
+  }
+}

@@ -1,0 +1,227 @@
+{
+  "name": "Provincetown",
+  "region": "MA",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 42.04959166666666,
+  "longitude": -70.18215833333333,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8446121",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8446121"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "datums": {
+    "LAT": 0.5869999,
+    "HAT": 4.902,
+    "STND": 0,
+    "MHHW": 4.297,
+    "MHW": 4.158,
+    "DTL": 2.761,
+    "MTL": 2.742,
+    "MSL": 2.758,
+    "MLW": 1.325,
+    "MLLW": 1.225,
+    "GT": 3.072,
+    "MN": 2.832,
+    "DHQ": 0.139,
+    "DLQ": 0.101,
+    "HWI": 3.831,
+    "LWI": 10.008
+  },
+  "type": "reference",
+  "harmonic_constituents": [
+    {
+      "name": "M2",
+      "amplitude": 1.367,
+      "phase": 112
+    },
+    {
+      "name": "S2",
+      "amplitude": 0.175,
+      "phase": 151.3
+    },
+    {
+      "name": "N2",
+      "amplitude": 0.323,
+      "phase": 78.8
+    },
+    {
+      "name": "K1",
+      "amplitude": 0.136,
+      "phase": 206.1
+    },
+    {
+      "name": "M4",
+      "amplitude": 0.022,
+      "phase": 9.7
+    },
+    {
+      "name": "O1",
+      "amplitude": 0.119,
+      "phase": 187.9
+    },
+    {
+      "name": "M6",
+      "amplitude": 0.04,
+      "phase": 294.6
+    },
+    {
+      "name": "MK3",
+      "amplitude": 0.005,
+      "phase": 245.8
+    },
+    {
+      "name": "S4",
+      "amplitude": 0.001,
+      "phase": 102.7
+    },
+    {
+      "name": "MN4",
+      "amplitude": 0.01,
+      "phase": 351.1
+    },
+    {
+      "name": "NU2",
+      "amplitude": 0.072,
+      "phase": 91.9
+    },
+    {
+      "name": "S6",
+      "amplitude": 0.001,
+      "phase": 157.6
+    },
+    {
+      "name": "MU2",
+      "amplitude": 0.004,
+      "phase": 56.5
+    },
+    {
+      "name": "2N2",
+      "amplitude": 0.032,
+      "phase": 74.7
+    },
+    {
+      "name": "OO1",
+      "amplitude": 0.005,
+      "phase": 235.5
+    },
+    {
+      "name": "LAM2",
+      "amplitude": 0.02,
+      "phase": 141.9
+    },
+    {
+      "name": "S1",
+      "amplitude": 0.005,
+      "phase": 221.2
+    },
+    {
+      "name": "M1",
+      "amplitude": 0.007,
+      "phase": 201.7
+    },
+    {
+      "name": "J1",
+      "amplitude": 0.009,
+      "phase": 211.9
+    },
+    {
+      "name": "MM",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "SSA",
+      "amplitude": 0.018,
+      "phase": 89.8
+    },
+    {
+      "name": "SA",
+      "amplitude": 0.032,
+      "phase": 126.3
+    },
+    {
+      "name": "MSF",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MF",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "RHO",
+      "amplitude": 0.003,
+      "phase": 194.4
+    },
+    {
+      "name": "Q1",
+      "amplitude": 0.018,
+      "phase": 172
+    },
+    {
+      "name": "T2",
+      "amplitude": 0.011,
+      "phase": 96.9
+    },
+    {
+      "name": "R2",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "2Q1",
+      "amplitude": 0.002,
+      "phase": 198.3
+    },
+    {
+      "name": "P1",
+      "amplitude": 0.043,
+      "phase": 201.7
+    },
+    {
+      "name": "2SM2",
+      "amplitude": 0.002,
+      "phase": 102.2
+    },
+    {
+      "name": "M3",
+      "amplitude": 0.004,
+      "phase": 152.2
+    },
+    {
+      "name": "L2",
+      "amplitude": 0.081,
+      "phase": 170.3
+    },
+    {
+      "name": "2MK3",
+      "amplitude": 0.007,
+      "phase": 216.6
+    },
+    {
+      "name": "K2",
+      "amplitude": 0.07,
+      "phase": 138.8
+    },
+    {
+      "name": "M8",
+      "amplitude": 0.001,
+      "phase": 48.6
+    },
+    {
+      "name": "MS4",
+      "amplitude": 0.007,
+      "phase": 55.6
+    }
+  ]
+}

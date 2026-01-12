@@ -1,0 +1,228 @@
+{
+  "name": "Buffalo Bluff",
+  "region": "FL",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 29.595,
+  "longitude": -81.6817,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8720767",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8720767"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "These raw data are derived from the water level network operated by the Florida Department of Environmental Protection (FDEP), Bureau of Surveying and Mapping (BSM), a coastal observing system that uses National Ocean Service (NOS) data collection procedures. These stations transmit data via GOES once every three hours. Tidal datums and predictions are produced by CO-OPS, derived from the raw data collected by BSM. NOTE: most of these stations have a station zero of NAVD88, resulting in a negative value for MLLW. For information on the BSM, go to <A HREF=\"http://tidesandcurrents.noaa.gov/redirect.shtml?url=47\">BSM</A>.",
+  "datums": {
+    "LAT": -0.449,
+    "HAT": 0.546,
+    "STND": 0,
+    "MHHW": 0.174,
+    "MHW": 0.167,
+    "DTL": 0,
+    "MTL": 0.009,
+    "MSL": 0.006,
+    "MLW": -0.148,
+    "MLLW": -0.172,
+    "GT": 0.347,
+    "MN": 0.316,
+    "DHQ": 0.007,
+    "DLQ": 0.025,
+    "HWI": 8.601,
+    "LWI": 3.347,
+    "NAVD88": 0.001
+  },
+  "type": "reference",
+  "harmonic_constituents": [
+    {
+      "name": "M2",
+      "amplitude": 0.161,
+      "phase": 242.9
+    },
+    {
+      "name": "S2",
+      "amplitude": 0.017,
+      "phase": 284.1
+    },
+    {
+      "name": "N2",
+      "amplitude": 0.028,
+      "phase": 227.3
+    },
+    {
+      "name": "K1",
+      "amplitude": 0.017,
+      "phase": 333.6
+    },
+    {
+      "name": "M4",
+      "amplitude": 0.018,
+      "phase": 82.5
+    },
+    {
+      "name": "O1",
+      "amplitude": 0.012,
+      "phase": 340.4
+    },
+    {
+      "name": "M6",
+      "amplitude": 0.015,
+      "phase": 170.4
+    },
+    {
+      "name": "MK3",
+      "amplitude": 0.004,
+      "phase": 13.5
+    },
+    {
+      "name": "S4",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MN4",
+      "amplitude": 0.005,
+      "phase": 62.7
+    },
+    {
+      "name": "NU2",
+      "amplitude": 0.009,
+      "phase": 225.2
+    },
+    {
+      "name": "S6",
+      "amplitude": 0.001,
+      "phase": 39.2
+    },
+    {
+      "name": "MU2",
+      "amplitude": 0.007,
+      "phase": 355.6
+    },
+    {
+      "name": "2N2",
+      "amplitude": 0.004,
+      "phase": 189
+    },
+    {
+      "name": "OO1",
+      "amplitude": 0.001,
+      "phase": 283.4
+    },
+    {
+      "name": "LAM2",
+      "amplitude": 0.004,
+      "phase": 261.5
+    },
+    {
+      "name": "S1",
+      "amplitude": 0.003,
+      "phase": 338.8
+    },
+    {
+      "name": "M1",
+      "amplitude": 0.002,
+      "phase": 74.6
+    },
+    {
+      "name": "J1",
+      "amplitude": 0.001,
+      "phase": 239.7
+    },
+    {
+      "name": "MM",
+      "amplitude": 0.046,
+      "phase": 128.2
+    },
+    {
+      "name": "SSA",
+      "amplitude": 0.112,
+      "phase": 13.2
+    },
+    {
+      "name": "SA",
+      "amplitude": 0.19,
+      "phase": 212.6
+    },
+    {
+      "name": "MSF",
+      "amplitude": 0.018,
+      "phase": 122
+    },
+    {
+      "name": "MF",
+      "amplitude": 0.013,
+      "phase": 113.1
+    },
+    {
+      "name": "RHO",
+      "amplitude": 0.001,
+      "phase": 343
+    },
+    {
+      "name": "Q1",
+      "amplitude": 0.002,
+      "phase": 357.8
+    },
+    {
+      "name": "T2",
+      "amplitude": 0.003,
+      "phase": 212.6
+    },
+    {
+      "name": "R2",
+      "amplitude": 0.001,
+      "phase": 195.6
+    },
+    {
+      "name": "2Q1",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "P1",
+      "amplitude": 0.003,
+      "phase": 355.9
+    },
+    {
+      "name": "2SM2",
+      "amplitude": 0.002,
+      "phase": 87.2
+    },
+    {
+      "name": "M3",
+      "amplitude": 0.003,
+      "phase": 101.9
+    },
+    {
+      "name": "L2",
+      "amplitude": 0.012,
+      "phase": 250.4
+    },
+    {
+      "name": "2MK3",
+      "amplitude": 0.006,
+      "phase": 4.4
+    },
+    {
+      "name": "K2",
+      "amplitude": 0.005,
+      "phase": 270.5
+    },
+    {
+      "name": "M8",
+      "amplitude": 0.004,
+      "phase": 355.1
+    },
+    {
+      "name": "MS4",
+      "amplitude": 0.004,
+      "phase": 132.3
+    }
+  ]
+}

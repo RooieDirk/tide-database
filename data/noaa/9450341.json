@@ -1,0 +1,33 @@
+{
+  "name": "South Pass, Sukkwan Strait",
+  "region": "AK",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 55.1667,
+  "longitude": -132.87,
+  "timezone": "America/Sitka",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9450341",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9450341"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/9451600",
+    "height": {
+      "type": "fixed",
+      "high": 0.88,
+      "low": 0.03
+    },
+    "time": {
+      "high": -2,
+      "low": 2
+    }
+  }
+}

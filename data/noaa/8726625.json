@@ -1,0 +1,33 @@
+{
+  "name": "Indian Rocks Beach (inside)",
+  "region": "FL",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 27.8767,
+  "longitude": -82.85,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8726625",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8726625"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8727520",
+    "height": {
+      "type": "ratio",
+      "high": 0.65,
+      "low": 0.63
+    },
+    "time": {
+      "high": -57,
+      "low": -53
+    }
+  }
+}

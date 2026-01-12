@@ -1,0 +1,33 @@
+{
+  "name": "Aripeka, Hammock Creek",
+  "region": "FL",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 28.4333,
+  "longitude": -82.6683,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8727097",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8727097"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8727520",
+    "height": {
+      "type": "ratio",
+      "high": 0.81,
+      "low": 0.63
+    },
+    "time": {
+      "high": -37,
+      "low": 23
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Kazakof Bay, Marmot Bay",
+  "region": "",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 58.13333333333299,
+  "longitude": -152.56666666667007,
+  "timezone": "America/Anchorage",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TWC2025",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TWC2025"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/9457292",
+    "height": {
+      "type": "fixed",
+      "high": 0.18,
+      "low": 0.06
+    },
+    "time": {
+      "high": 4,
+      "low": 6
+    }
+  }
+}

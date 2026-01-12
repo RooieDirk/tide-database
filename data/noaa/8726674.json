@@ -1,0 +1,226 @@
+{
+  "name": "East Bay, Tampa Bay",
+  "region": "FL",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 27.923099517822266,
+  "longitude": -82.42140197753906,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8726674",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8726674"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "datums": {
+    "LAT": -0.29600003,
+    "HAT": 1.106,
+    "STND": 0,
+    "MHHW": 0.864,
+    "MHW": 0.761,
+    "DTL": 0.456,
+    "MTL": 0.485,
+    "MSL": 0.494,
+    "MLW": 0.209,
+    "MLLW": 0.048,
+    "GT": 0.816,
+    "MN": 0.551,
+    "DHQ": 0.103,
+    "DLQ": 0.161,
+    "NAVD88": 0.604
+  },
+  "type": "reference",
+  "harmonic_constituents": [
+    {
+      "name": "M2",
+      "amplitude": 0.205,
+      "phase": 202.8
+    },
+    {
+      "name": "S2",
+      "amplitude": 0.069,
+      "phase": 220.9
+    },
+    {
+      "name": "N2",
+      "amplitude": 0.034,
+      "phase": 192.7
+    },
+    {
+      "name": "K1",
+      "amplitude": 0.174,
+      "phase": 50.6
+    },
+    {
+      "name": "M4",
+      "amplitude": 0.01,
+      "phase": 274.5
+    },
+    {
+      "name": "O1",
+      "amplitude": 0.155,
+      "phase": 37.8
+    },
+    {
+      "name": "M6",
+      "amplitude": 0.008,
+      "phase": 332.3
+    },
+    {
+      "name": "MK3",
+      "amplitude": 0.007,
+      "phase": 141.6
+    },
+    {
+      "name": "S4",
+      "amplitude": 0.002,
+      "phase": 336.3
+    },
+    {
+      "name": "MN4",
+      "amplitude": 0.003,
+      "phase": 256.3
+    },
+    {
+      "name": "NU2",
+      "amplitude": 0.01,
+      "phase": 202.9
+    },
+    {
+      "name": "S6",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MU2",
+      "amplitude": 0.013,
+      "phase": 22.6
+    },
+    {
+      "name": "2N2",
+      "amplitude": 0.005,
+      "phase": 202.6
+    },
+    {
+      "name": "OO1",
+      "amplitude": 0.004,
+      "phase": 91.8
+    },
+    {
+      "name": "LAM2",
+      "amplitude": 0.007,
+      "phase": 224
+    },
+    {
+      "name": "S1",
+      "amplitude": 0.021,
+      "phase": 140.7
+    },
+    {
+      "name": "M1",
+      "amplitude": 0.007,
+      "phase": 103.8
+    },
+    {
+      "name": "J1",
+      "amplitude": 0.009,
+      "phase": 79.5
+    },
+    {
+      "name": "MM",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "SSA",
+      "amplitude": 0.035,
+      "phase": 53.8
+    },
+    {
+      "name": "SA",
+      "amplitude": 0.094,
+      "phase": 154.7
+    },
+    {
+      "name": "MSF",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MF",
+      "amplitude": 0.012,
+      "phase": 278.7
+    },
+    {
+      "name": "RHO",
+      "amplitude": 0.008,
+      "phase": 13.6
+    },
+    {
+      "name": "Q1",
+      "amplitude": 0.028,
+      "phase": 27.6
+    },
+    {
+      "name": "T2",
+      "amplitude": 0.005,
+      "phase": 202.2
+    },
+    {
+      "name": "R2",
+      "amplitude": 0.003,
+      "phase": 189.4
+    },
+    {
+      "name": "2Q1",
+      "amplitude": 0.004,
+      "phase": 12.5
+    },
+    {
+      "name": "P1",
+      "amplitude": 0.048,
+      "phase": 60.2
+    },
+    {
+      "name": "2SM2",
+      "amplitude": 0.004,
+      "phase": 82.2
+    },
+    {
+      "name": "M3",
+      "amplitude": 0.002,
+      "phase": 12.3
+    },
+    {
+      "name": "L2",
+      "amplitude": 0.013,
+      "phase": 221.5
+    },
+    {
+      "name": "2MK3",
+      "amplitude": 0.007,
+      "phase": 133
+    },
+    {
+      "name": "K2",
+      "amplitude": 0.032,
+      "phase": 218
+    },
+    {
+      "name": "M8",
+      "amplitude": 0.001,
+      "phase": 108.8
+    },
+    {
+      "name": "MS4",
+      "amplitude": 0.005,
+      "phase": 297.9
+    }
+  ]
+}

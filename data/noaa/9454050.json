@@ -1,0 +1,227 @@
+{
+  "name": "CORDOVA",
+  "region": "AK",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 60.5575,
+  "longitude": -145.7554083333333,
+  "timezone": "America/Anchorage",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9454050",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9454050"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "datums": {
+    "LAT": 0.7072408,
+    "HAT": 6.847241,
+    "STND": 0,
+    "MHHW": 5.754,
+    "MHW": 5.475,
+    "DTL": 3.835,
+    "MTL": 3.925,
+    "MSL": 3.972,
+    "MLW": 2.376,
+    "MLLW": 1.916,
+    "GT": 3.838,
+    "MN": 3.099,
+    "DHQ": 0.279,
+    "DLQ": 0.459,
+    "HWI": 10.073,
+    "LWI": 3.708
+  },
+  "type": "reference",
+  "harmonic_constituents": [
+    {
+      "name": "M2",
+      "amplitude": 1.447,
+      "phase": 290.6
+    },
+    {
+      "name": "S2",
+      "amplitude": 0.496,
+      "phase": 322.5
+    },
+    {
+      "name": "N2",
+      "amplitude": 0.295,
+      "phase": 267.2
+    },
+    {
+      "name": "K1",
+      "amplitude": 0.498,
+      "phase": 273.7
+    },
+    {
+      "name": "M4",
+      "amplitude": 0.056,
+      "phase": 12.3
+    },
+    {
+      "name": "O1",
+      "amplitude": 0.304,
+      "phase": 257.4
+    },
+    {
+      "name": "M6",
+      "amplitude": 0.013,
+      "phase": 119
+    },
+    {
+      "name": "MK3",
+      "amplitude": 0.003,
+      "phase": 251.8
+    },
+    {
+      "name": "S4",
+      "amplitude": 0.015,
+      "phase": 5.7
+    },
+    {
+      "name": "MN4",
+      "amplitude": 0.016,
+      "phase": 333.4
+    },
+    {
+      "name": "NU2",
+      "amplitude": 0.057,
+      "phase": 269.2
+    },
+    {
+      "name": "S6",
+      "amplitude": 0.001,
+      "phase": 50.5
+    },
+    {
+      "name": "MU2",
+      "amplitude": 0.031,
+      "phase": 255.7
+    },
+    {
+      "name": "2N2",
+      "amplitude": 0.034,
+      "phase": 243.2
+    },
+    {
+      "name": "OO1",
+      "amplitude": 0.017,
+      "phase": 304.6
+    },
+    {
+      "name": "LAM2",
+      "amplitude": 0.01,
+      "phase": 297.7
+    },
+    {
+      "name": "S1",
+      "amplitude": 0.021,
+      "phase": 61.3
+    },
+    {
+      "name": "M1",
+      "amplitude": 0.016,
+      "phase": 283.4
+    },
+    {
+      "name": "J1",
+      "amplitude": 0.029,
+      "phase": 288.2
+    },
+    {
+      "name": "MM",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "SSA",
+      "amplitude": 0.008,
+      "phase": 12
+    },
+    {
+      "name": "SA",
+      "amplitude": 0.14,
+      "phase": 246.8
+    },
+    {
+      "name": "MSF",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MF",
+      "amplitude": 0.029,
+      "phase": 172.8
+    },
+    {
+      "name": "RHO",
+      "amplitude": 0.011,
+      "phase": 250.9
+    },
+    {
+      "name": "Q1",
+      "amplitude": 0.053,
+      "phase": 249.1
+    },
+    {
+      "name": "T2",
+      "amplitude": 0.028,
+      "phase": 311.1
+    },
+    {
+      "name": "R2",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "2Q1",
+      "amplitude": 0.006,
+      "phase": 259.5
+    },
+    {
+      "name": "P1",
+      "amplitude": 0.155,
+      "phase": 271.2
+    },
+    {
+      "name": "2SM2",
+      "amplitude": 0.004,
+      "phase": 133.1
+    },
+    {
+      "name": "M3",
+      "amplitude": 0.007,
+      "phase": 283.8
+    },
+    {
+      "name": "L2",
+      "amplitude": 0.034,
+      "phase": 304.7
+    },
+    {
+      "name": "2MK3",
+      "amplitude": 0.003,
+      "phase": 162.9
+    },
+    {
+      "name": "K2",
+      "amplitude": 0.137,
+      "phase": 315.9
+    },
+    {
+      "name": "M8",
+      "amplitude": 0.004,
+      "phase": 198
+    },
+    {
+      "name": "MS4",
+      "amplitude": 0.031,
+      "phase": 99.2
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Bald Head",
+  "region": "NC",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 33.88,
+  "longitude": -78.0017,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8658901",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8658901"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8658120",
+    "height": {
+      "type": "ratio",
+      "high": 1.05,
+      "low": 1.13
+    },
+    "time": {
+      "high": -126,
+      "low": -163
+    }
+  }
+}

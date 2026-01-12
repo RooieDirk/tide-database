@@ -1,0 +1,33 @@
+{
+  "name": "Palm Valley, ICWW",
+  "region": "FL",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 30.1333,
+  "longitude": -81.3867,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8720398",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8720398"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8720030",
+    "height": {
+      "type": "ratio",
+      "high": 0.79,
+      "low": 0.75
+    },
+    "time": {
+      "high": 120,
+      "low": 109
+    }
+  }
+}

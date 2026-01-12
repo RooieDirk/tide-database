@@ -1,0 +1,33 @@
+{
+  "name": "Johnston Key, southwest end, Turkey Basin",
+  "region": "FL",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 24.71,
+  "longitude": -81.5933,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8724397",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8724397"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8724580",
+    "height": {
+      "type": "ratio",
+      "high": 1.1,
+      "low": 0.5
+    },
+    "time": {
+      "high": 206,
+      "low": 338
+    }
+  }
+}

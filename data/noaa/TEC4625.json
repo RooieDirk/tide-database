@@ -1,0 +1,33 @@
+{
+  "name": "Eleuthera Island, west coast",
+  "region": "",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 25.25,
+  "longitude": -76.316666666667,
+  "timezone": "America/Nassau",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TEC4625",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TEC4625"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/9710441",
+    "height": {
+      "type": "ratio",
+      "high": 0.94,
+      "low": 1.11
+    },
+    "time": {
+      "high": 129,
+      "low": 153
+    }
+  }
+}

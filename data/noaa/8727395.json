@@ -1,0 +1,33 @@
+{
+  "name": "Withlacoochee River entrance",
+  "region": "FL",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 29.0017,
+  "longitude": -82.7583,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8727395",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8727395"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8727520",
+    "height": {
+      "type": "ratio",
+      "high": 0.91,
+      "low": 0.95
+    },
+    "time": {
+      "high": 7,
+      "low": 55
+    }
+  }
+}

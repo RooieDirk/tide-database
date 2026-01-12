@@ -1,0 +1,33 @@
+{
+  "name": "Wallabout Bay, Brooklyn Navy Yard",
+  "region": "NY",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 40.7067,
+  "longitude": -73.975,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8517732",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8517732"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8518750",
+    "height": {
+      "type": "ratio",
+      "high": 0.94,
+      "low": 1.05
+    },
+    "time": {
+      "high": 32,
+      "low": 22
+    }
+  }
+}

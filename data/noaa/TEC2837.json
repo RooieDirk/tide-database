@@ -1,0 +1,33 @@
+{
+  "name": "Bogue Inlet",
+  "region": "",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 34.650001525878906,
+  "longitude": -77.0999984741211,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TEC2837",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TEC2837"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8654400",
+    "height": {
+      "type": "ratio",
+      "high": 0.73,
+      "low": 0.83
+    },
+    "time": {
+      "high": 13,
+      "low": 15
+    }
+  }
+}

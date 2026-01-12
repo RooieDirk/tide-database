@@ -1,0 +1,227 @@
+{
+  "name": "Gray Gables",
+  "region": "MA",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 41.735,
+  "longitude": -70.6233,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8447295",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8447295"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "datums": {
+    "LAT": 2.664,
+    "HAT": 4.45,
+    "STND": 0,
+    "MHHW": 4.132,
+    "MHW": 4.037,
+    "DTL": 3.507,
+    "MTL": 3.486,
+    "MSL": 3.419,
+    "MLW": 2.934,
+    "MLLW": 2.882,
+    "GT": 1.25,
+    "MN": 1.103,
+    "DHQ": 0.095,
+    "DLQ": 0.052,
+    "HWI": 0.879,
+    "LWI": 7.189
+  },
+  "type": "reference",
+  "harmonic_constituents": [
+    {
+      "name": "M2",
+      "amplitude": 0.53,
+      "phase": 28.7
+    },
+    {
+      "name": "S2",
+      "amplitude": 0.098,
+      "phase": 47.6
+    },
+    {
+      "name": "N2",
+      "amplitude": 0.142,
+      "phase": 10.2
+    },
+    {
+      "name": "K1",
+      "amplitude": 0.086,
+      "phase": 173.4
+    },
+    {
+      "name": "M4",
+      "amplitude": 0.088,
+      "phase": 54.6
+    },
+    {
+      "name": "O1",
+      "amplitude": 0.053,
+      "phase": 199.9
+    },
+    {
+      "name": "M6",
+      "amplitude": 0.023,
+      "phase": 292.7
+    },
+    {
+      "name": "MK3",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "S4",
+      "amplitude": 0.01,
+      "phase": 0.2
+    },
+    {
+      "name": "MN4",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "NU2",
+      "amplitude": 0.028,
+      "phase": 12.6
+    },
+    {
+      "name": "S6",
+      "amplitude": 0.006,
+      "phase": 273.4
+    },
+    {
+      "name": "MU2",
+      "amplitude": 0.013,
+      "phase": 228.5
+    },
+    {
+      "name": "2N2",
+      "amplitude": 0.019,
+      "phase": 351.6
+    },
+    {
+      "name": "OO1",
+      "amplitude": 0.002,
+      "phase": 148.3
+    },
+    {
+      "name": "LAM2",
+      "amplitude": 0.004,
+      "phase": 37.5
+    },
+    {
+      "name": "S1",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "M1",
+      "amplitude": 0.004,
+      "phase": 186.6
+    },
+    {
+      "name": "J1",
+      "amplitude": 0.004,
+      "phase": 160.8
+    },
+    {
+      "name": "MM",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "SSA",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "SA",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MSF",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MF",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "RHO",
+      "amplitude": 0.002,
+      "phase": 211.4
+    },
+    {
+      "name": "Q1",
+      "amplitude": 0.01,
+      "phase": 213.1
+    },
+    {
+      "name": "T2",
+      "amplitude": 0.006,
+      "phase": 46.9
+    },
+    {
+      "name": "R2",
+      "amplitude": 0.001,
+      "phase": 48.4
+    },
+    {
+      "name": "2Q1",
+      "amplitude": 0.001,
+      "phase": 224.7
+    },
+    {
+      "name": "P1",
+      "amplitude": 0.028,
+      "phase": 175.4
+    },
+    {
+      "name": "2SM2",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "M3",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "L2",
+      "amplitude": 0.015,
+      "phase": 47.2
+    },
+    {
+      "name": "2MK3",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "K2",
+      "amplitude": 0.027,
+      "phase": 49.1
+    },
+    {
+      "name": "M8",
+      "amplitude": 0.002,
+      "phase": 193.5
+    },
+    {
+      "name": "MS4",
+      "amplitude": 0,
+      "phase": 0
+    }
+  ]
+}

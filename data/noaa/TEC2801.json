@@ -1,0 +1,33 @@
+{
+  "name": "Shell Point, Harkers Island",
+  "region": "",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 34.68333333333299,
+  "longitude": -76.53333333333299,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TEC2801",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TEC2801"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8654400",
+    "height": {
+      "type": "ratio",
+      "high": 0.54,
+      "low": 0.83
+    },
+    "time": {
+      "high": 112,
+      "low": 154
+    }
+  }
+}

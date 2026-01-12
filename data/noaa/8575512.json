@@ -1,0 +1,228 @@
+{
+  "name": "Annapolis (US Naval Academy)",
+  "region": "MD",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 38.983882904052734,
+  "longitude": -76.48003387451172,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8575512",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8575512"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "datums": {
+    "LAT": 1.1589999,
+    "HAT": 1.961,
+    "STND": 0,
+    "MHHW": 1.815,
+    "MHW": 1.741,
+    "DTL": 1.596,
+    "MTL": 1.592,
+    "MSL": 1.596,
+    "MLW": 1.444,
+    "MLLW": 1.377,
+    "GT": 0.438,
+    "MN": 0.297,
+    "DHQ": 0.074,
+    "DLQ": 0.067,
+    "HWI": 10.04,
+    "LWI": 3.97,
+    "NAVD88": 1.612
+  },
+  "type": "reference",
+  "harmonic_constituents": [
+    {
+      "name": "M2",
+      "amplitude": 0.131,
+      "phase": 289.9
+    },
+    {
+      "name": "S2",
+      "amplitude": 0.02,
+      "phase": 322.8
+    },
+    {
+      "name": "N2",
+      "amplitude": 0.028,
+      "phase": 270.5
+    },
+    {
+      "name": "K1",
+      "amplitude": 0.055,
+      "phase": 356.7
+    },
+    {
+      "name": "M4",
+      "amplitude": 0.003,
+      "phase": 58.6
+    },
+    {
+      "name": "O1",
+      "amplitude": 0.046,
+      "phase": 6.8
+    },
+    {
+      "name": "M6",
+      "amplitude": 0.003,
+      "phase": 157.1
+    },
+    {
+      "name": "MK3",
+      "amplitude": 0.003,
+      "phase": 117.5
+    },
+    {
+      "name": "S4",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MN4",
+      "amplitude": 0.001,
+      "phase": 37.6
+    },
+    {
+      "name": "NU2",
+      "amplitude": 0.006,
+      "phase": 266.2
+    },
+    {
+      "name": "S6",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MU2",
+      "amplitude": 0.002,
+      "phase": 329.5
+    },
+    {
+      "name": "2N2",
+      "amplitude": 0.003,
+      "phase": 264.7
+    },
+    {
+      "name": "OO1",
+      "amplitude": 0.002,
+      "phase": 56.3
+    },
+    {
+      "name": "LAM2",
+      "amplitude": 0.003,
+      "phase": 316.7
+    },
+    {
+      "name": "S1",
+      "amplitude": 0.018,
+      "phase": 290.2
+    },
+    {
+      "name": "M1",
+      "amplitude": 0.002,
+      "phase": 61.7
+    },
+    {
+      "name": "J1",
+      "amplitude": 0.003,
+      "phase": 354
+    },
+    {
+      "name": "MM",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "SSA",
+      "amplitude": 0.042,
+      "phase": 54.7
+    },
+    {
+      "name": "SA",
+      "amplitude": 0.132,
+      "phase": 134.5
+    },
+    {
+      "name": "MSF",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MF",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "RHO",
+      "amplitude": 0.001,
+      "phase": 15.8
+    },
+    {
+      "name": "Q1",
+      "amplitude": 0.011,
+      "phase": 347.1
+    },
+    {
+      "name": "T2",
+      "amplitude": 0.002,
+      "phase": 274.6
+    },
+    {
+      "name": "R2",
+      "amplitude": 0.001,
+      "phase": 109.8
+    },
+    {
+      "name": "2Q1",
+      "amplitude": 0.002,
+      "phase": 293.1
+    },
+    {
+      "name": "P1",
+      "amplitude": 0.018,
+      "phase": 343.9
+    },
+    {
+      "name": "2SM2",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "M3",
+      "amplitude": 0.001,
+      "phase": 64.4
+    },
+    {
+      "name": "L2",
+      "amplitude": 0.008,
+      "phase": 296.3
+    },
+    {
+      "name": "2MK3",
+      "amplitude": 0.003,
+      "phase": 112.1
+    },
+    {
+      "name": "K2",
+      "amplitude": 0.007,
+      "phase": 322.8
+    },
+    {
+      "name": "M8",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MS4",
+      "amplitude": 0.001,
+      "phase": 108.9
+    }
+  ]
+}

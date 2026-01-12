@@ -1,0 +1,33 @@
+{
+  "name": "Waimea Bay",
+  "region": "HI",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 21.9567,
+  "longitude": -159.673,
+  "timezone": "Pacific/Honolulu",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "1611401",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=1611401"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/1611400",
+    "height": {
+      "type": "ratio",
+      "high": 0.86,
+      "low": 0.91
+    },
+    "time": {
+      "high": 7,
+      "low": 18
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Port Everglades, Turning Basin",
+  "region": "FL",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 26.0917,
+  "longitude": -80.1233,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8722951",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8722951"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8723178",
+    "height": {
+      "type": "ratio",
+      "high": 1.09,
+      "low": 1.14
+    },
+    "time": {
+      "high": -29,
+      "low": -9
+    }
+  }
+}

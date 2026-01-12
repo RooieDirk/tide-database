@@ -1,0 +1,33 @@
+{
+  "name": "Pole Anchorage, Kosciusko Island",
+  "region": "AK",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 55.955,
+  "longitude": -133.81,
+  "timezone": "America/Sitka",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9450862",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9450862"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/9451600",
+    "height": {
+      "type": "fixed",
+      "high": 0.43,
+      "low": -0.03
+    },
+    "time": {
+      "high": -22,
+      "low": -22
+    }
+  }
+}

@@ -1,0 +1,226 @@
+{
+  "name": "Melbourne Causeway",
+  "region": "FL",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 28.08329963684082,
+  "longitude": -80.5916976928711,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8721843",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8721843"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "datums": {
+    "LAT": -0.375,
+    "HAT": 0.010000005,
+    "STND": 0,
+    "MHHW": -0.192,
+    "MHW": -0.194,
+    "DTL": -0.235,
+    "MTL": -0.23,
+    "MSL": -0.228,
+    "MLW": -0.265,
+    "MLLW": -0.278,
+    "GT": 0.086,
+    "MN": 0.071,
+    "DHQ": 0.003,
+    "DLQ": 0.013,
+    "NAVD88": -0.003
+  },
+  "type": "reference",
+  "harmonic_constituents": [
+    {
+      "name": "M2",
+      "amplitude": 0.023,
+      "phase": 121.2
+    },
+    {
+      "name": "S2",
+      "amplitude": 0.003,
+      "phase": 144.3
+    },
+    {
+      "name": "N2",
+      "amplitude": 0.005,
+      "phase": 104.8
+    },
+    {
+      "name": "K1",
+      "amplitude": 0.006,
+      "phase": 283.4
+    },
+    {
+      "name": "M4",
+      "amplitude": 0.002,
+      "phase": 155.6
+    },
+    {
+      "name": "O1",
+      "amplitude": 0.004,
+      "phase": 276.9
+    },
+    {
+      "name": "M6",
+      "amplitude": 0.001,
+      "phase": 65.6
+    },
+    {
+      "name": "MK3",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "S4",
+      "amplitude": 0.001,
+      "phase": 148.1
+    },
+    {
+      "name": "MN4",
+      "amplitude": 0.001,
+      "phase": 102.7
+    },
+    {
+      "name": "NU2",
+      "amplitude": 0.001,
+      "phase": 109.6
+    },
+    {
+      "name": "S6",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MU2",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "2N2",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "OO1",
+      "amplitude": 0.001,
+      "phase": 319.2
+    },
+    {
+      "name": "LAM2",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "S1",
+      "amplitude": 0.006,
+      "phase": 84.1
+    },
+    {
+      "name": "M1",
+      "amplitude": 0.001,
+      "phase": 298.3
+    },
+    {
+      "name": "J1",
+      "amplitude": 0.001,
+      "phase": 349
+    },
+    {
+      "name": "MM",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "SSA",
+      "amplitude": 0.084,
+      "phase": 53.9
+    },
+    {
+      "name": "SA",
+      "amplitude": 0.108,
+      "phase": 205.2
+    },
+    {
+      "name": "MSF",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MF",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "RHO",
+      "amplitude": 0.001,
+      "phase": 37.1
+    },
+    {
+      "name": "Q1",
+      "amplitude": 0.002,
+      "phase": 292.8
+    },
+    {
+      "name": "T2",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "R2",
+      "amplitude": 0.001,
+      "phase": 278.9
+    },
+    {
+      "name": "2Q1",
+      "amplitude": 0.001,
+      "phase": 193.5
+    },
+    {
+      "name": "P1",
+      "amplitude": 0.003,
+      "phase": 14.9
+    },
+    {
+      "name": "2SM2",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "M3",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "L2",
+      "amplitude": 0.001,
+      "phase": 146
+    },
+    {
+      "name": "2MK3",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "K2",
+      "amplitude": 0.001,
+      "phase": 128.5
+    },
+    {
+      "name": "M8",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MS4",
+      "amplitude": 0,
+      "phase": 0
+    }
+  ]
+}

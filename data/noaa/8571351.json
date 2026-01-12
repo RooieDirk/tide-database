@@ -1,0 +1,33 @@
+{
+  "name": "Chance",
+  "region": "MD",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 38.1717,
+  "longitude": -75.945,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8571351",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8571351"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8638863",
+    "height": {
+      "type": "ratio",
+      "high": 0.78,
+      "low": 1.17
+    },
+    "time": {
+      "high": 329,
+      "low": 357
+    }
+  }
+}

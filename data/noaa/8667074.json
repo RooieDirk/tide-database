@@ -1,0 +1,33 @@
+{
+  "name": "Wiggins, Chehaw River",
+  "region": "SC",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 32.6017,
+  "longitude": -80.5417,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8667074",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8667074"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8670870",
+    "height": {
+      "type": "ratio",
+      "high": 0.88,
+      "low": 1.18
+    },
+    "time": {
+      "high": 105,
+      "low": 80
+    }
+  }
+}

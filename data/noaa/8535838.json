@@ -1,0 +1,33 @@
+{
+  "name": "Wildwood Crest, Sunset Lake",
+  "region": "NJ",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 38.9783,
+  "longitude": -74.8367,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8535838",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8535838"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8534720",
+    "height": {
+      "type": "ratio",
+      "high": 1.1,
+      "low": 1.06
+    },
+    "time": {
+      "high": 52,
+      "low": 47
+    }
+  }
+}

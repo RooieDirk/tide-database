@@ -1,0 +1,33 @@
+{
+  "name": "Cape Porpoise",
+  "region": "ME",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 43.3667,
+  "longitude": -70.4317,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8418772",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8418772"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8418150",
+    "height": {
+      "type": "ratio",
+      "high": 0.95,
+      "low": 0.95
+    },
+    "time": {
+      "high": 12,
+      "low": 14
+    }
+  }
+}

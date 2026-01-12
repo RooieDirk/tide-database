@@ -1,0 +1,33 @@
+{
+  "name": "Smith Slough",
+  "region": "CA",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 37.5017,
+  "longitude": -122.223,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9414511",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9414511"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/9414290",
+    "height": {
+      "type": "fixed",
+      "high": 0.64,
+      "low": 0
+    },
+    "time": {
+      "high": 75,
+      "low": 118
+    }
+  }
+}

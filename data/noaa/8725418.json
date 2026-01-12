@@ -1,0 +1,33 @@
+{
+  "name": "Iona Shores",
+  "region": "FL",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 26.5217,
+  "longitude": -81.965,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8725418",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8725418"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8726520",
+    "height": {
+      "type": "ratio",
+      "high": 0.43,
+      "low": 0.43
+    },
+    "time": {
+      "high": 68,
+      "low": 100
+    }
+  }
+}

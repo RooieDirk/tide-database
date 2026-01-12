@@ -1,0 +1,33 @@
+{
+  "name": "Hudson, Hudson Creek",
+  "region": "FL",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 28.3617,
+  "longitude": -82.71,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8727061",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8727061"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8727520",
+    "height": {
+      "type": "ratio",
+      "high": 0.91,
+      "low": 0.89
+    },
+    "time": {
+      "high": -72,
+      "low": -62
+    }
+  }
+}

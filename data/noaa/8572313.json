@@ -1,0 +1,33 @@
+{
+  "name": "St. Michaels, San Domingo Creek",
+  "region": "MD",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 38.775,
+  "longitude": -76.2333,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8572313",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8572313"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8574680",
+    "height": {
+      "type": "ratio",
+      "high": 1.25,
+      "low": 1.41
+    },
+    "time": {
+      "high": -175,
+      "low": -172
+    }
+  }
+}

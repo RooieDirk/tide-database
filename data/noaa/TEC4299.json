@@ -1,0 +1,33 @@
+{
+  "name": "Suwannee River entrance",
+  "region": "",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 29.28333333333299,
+  "longitude": -83.15,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TEC4299",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TEC4299"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8727520",
+    "height": {
+      "type": "ratio",
+      "high": 0.88,
+      "low": 0.95
+    },
+    "time": {
+      "high": 6,
+      "low": 18
+    }
+  }
+}

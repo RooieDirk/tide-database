@@ -1,0 +1,33 @@
+{
+  "name": "Lobeco, Whale Branch",
+  "region": "SC",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 32.5733,
+  "longitude": -80.745,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8667411",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8667411"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8670870",
+    "height": {
+      "type": "ratio",
+      "high": 1.11,
+      "low": 0.95
+    },
+    "time": {
+      "high": 100,
+      "low": 88
+    }
+  }
+}

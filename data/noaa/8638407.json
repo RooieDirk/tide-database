@@ -1,0 +1,33 @@
+{
+  "name": "Menchville",
+  "region": "VA",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 37.0817,
+  "longitude": -76.525,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8638407",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8638407"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8638610",
+    "height": {
+      "type": "ratio",
+      "high": 1.06,
+      "low": 0.83
+    },
+    "time": {
+      "high": 63,
+      "low": 79
+    }
+  }
+}

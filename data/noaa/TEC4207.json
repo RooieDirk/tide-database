@@ -1,0 +1,33 @@
+{
+  "name": "Point Ybel, San Carlos Bay entrance",
+  "region": "",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 26.45,
+  "longitude": -82.016666666667,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TEC4207",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TEC4207"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8726520",
+    "height": {
+      "type": "ratio",
+      "high": 1.21,
+      "low": 1.21
+    },
+    "time": {
+      "high": -110,
+      "low": -72
+    }
+  }
+}

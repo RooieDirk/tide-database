@@ -1,0 +1,33 @@
+{
+  "name": "Rongelap Island, Rongelap Atoll",
+  "region": "",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 11.15,
+  "longitude": 166.9,
+  "timezone": "Pacific/Majuro",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TPT2691",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TPT2691"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/1820000",
+    "height": {
+      "type": "ratio",
+      "high": 0.96,
+      "low": 0.96
+    },
+    "time": {
+      "high": -7,
+      "low": -7
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Boothbay Harbor",
+  "region": "ME",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 43.85,
+  "longitude": -69.6283,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8416828",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8416828"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8418150",
+    "height": {
+      "type": "ratio",
+      "high": 0.97,
+      "low": 0.97
+    },
+    "time": {
+      "high": -6,
+      "low": -8
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Alligator Point, St. James Island",
+  "region": "FL",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 29.9033,
+  "longitude": -84.4133,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8728288",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8728288"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8728130",
+    "height": {
+      "type": "ratio",
+      "high": 0.75,
+      "low": 0.73
+    },
+    "time": {
+      "high": -8,
+      "low": 11
+    }
+  }
+}

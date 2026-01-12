@@ -1,0 +1,33 @@
+{
+  "name": "Big Pine Key, Spanish Harbor",
+  "region": "FL",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 24.6483,
+  "longitude": -81.33,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8724178",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8724178"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8724580",
+    "height": {
+      "type": "ratio",
+      "high": 0.75,
+      "low": 0.42
+    },
+    "time": {
+      "high": -44,
+      "low": -3
+    }
+  }
+}

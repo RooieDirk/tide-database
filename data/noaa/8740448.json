@@ -1,0 +1,33 @@
+{
+  "name": "Point of Pines, Bayou Cumbest",
+  "region": "MS",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 30.3867,
+  "longitude": -88.44,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8740448",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8740448"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8760551",
+    "height": {
+      "type": "ratio",
+      "high": 1.25,
+      "low": 1.25
+    },
+    "time": {
+      "high": 109,
+      "low": 69
+    }
+  }
+}

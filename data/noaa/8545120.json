@@ -1,0 +1,33 @@
+{
+  "name": "Market Street Bridge",
+  "region": "PA",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 39.955,
+  "longitude": -75.18,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8545120",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8545120"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8545240",
+    "height": {
+      "type": "ratio",
+      "high": 0.99,
+      "low": 0.8
+    },
+    "time": {
+      "high": -20,
+      "low": 0
+    }
+  }
+}

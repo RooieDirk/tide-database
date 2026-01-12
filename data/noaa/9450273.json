@@ -1,0 +1,33 @@
+{
+  "name": "Tamgas Harbor, Annette Island",
+  "region": "AK",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 55.0667,
+  "longitude": -131.542,
+  "timezone": "America/Metlakatla",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9450273",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9450273"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/9450460",
+    "height": {
+      "type": "ratio",
+      "high": 0.98,
+      "low": 0.89
+    },
+    "time": {
+      "high": -9,
+      "low": -8
+    }
+  }
+}

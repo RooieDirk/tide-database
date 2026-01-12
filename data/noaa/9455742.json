@@ -1,0 +1,33 @@
+{
+  "name": "Kenai City Pier",
+  "region": "AK",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 60.545,
+  "longitude": -151.218,
+  "timezone": "America/Anchorage",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9455742",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9455742"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/9455500",
+    "height": {
+      "type": "fixed",
+      "high": 0.58,
+      "low": -0.03
+    },
+    "time": {
+      "high": 114,
+      "low": 175
+    }
+  }
+}

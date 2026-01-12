@@ -1,0 +1,33 @@
+{
+  "name": "Easton Point",
+  "region": "MD",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 38.7683,
+  "longitude": -76.095,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8572296",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8572296"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8574680",
+    "height": {
+      "type": "ratio",
+      "high": 1.47,
+      "low": 1.59
+    },
+    "time": {
+      "high": -165,
+      "low": -155
+    }
+  }
+}

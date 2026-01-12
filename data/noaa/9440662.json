@@ -1,0 +1,33 @@
+{
+  "name": "Naselle River, 4 miles above swing bridge",
+  "region": "WA",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 46.3883,
+  "longitude": -123.84,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9440662",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9440662"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/9440910",
+    "height": {
+      "type": "ratio",
+      "high": 1.22,
+      "low": 0.93
+    },
+    "time": {
+      "high": 62,
+      "low": 62
+    }
+  }
+}

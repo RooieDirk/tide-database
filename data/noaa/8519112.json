@@ -1,0 +1,33 @@
+{
+  "name": "St. George, Staten Island",
+  "region": "NY",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 40.6433,
+  "longitude": -74.0733,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8519112",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8519112"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8518750",
+    "height": {
+      "type": "ratio",
+      "high": 0.99,
+      "low": 0.99
+    },
+    "time": {
+      "high": -17,
+      "low": -15
+    }
+  }
+}

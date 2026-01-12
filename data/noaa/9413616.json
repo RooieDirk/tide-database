@@ -1,0 +1,33 @@
+{
+  "name": "Moss Landing, Ocean Pier",
+  "region": "CA",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 36.8017,
+  "longitude": -121.79,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9413616",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9413616"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/9413450",
+    "height": {
+      "type": "ratio",
+      "high": 0.95,
+      "low": 0.9
+    },
+    "time": {
+      "high": -1,
+      "low": -1
+    }
+  }
+}

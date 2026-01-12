@@ -1,0 +1,33 @@
+{
+  "name": "Point Partridge, Whidbey Island",
+  "region": "WA",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 48.2317,
+  "longitude": -122.765,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9447934",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9447934"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/9444900",
+    "height": {
+      "type": "ratio",
+      "high": 0.92,
+      "low": 0.92
+    },
+    "time": {
+      "high": -11,
+      "low": -15
+    }
+  }
+}

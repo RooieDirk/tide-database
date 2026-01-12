@@ -1,0 +1,33 @@
+{
+  "name": "Michoud Substation, ICWW",
+  "region": "LA",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 30.0067,
+  "longitude": -89.9367,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8761678",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8761678"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8760551",
+    "height": {
+      "type": "ratio",
+      "high": 1.09,
+      "low": 1.09
+    },
+    "time": {
+      "high": 397,
+      "low": 382
+    }
+  }
+}

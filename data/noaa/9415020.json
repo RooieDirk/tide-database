@@ -1,0 +1,228 @@
+{
+  "name": "Point Reyes",
+  "region": "CA",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 37.9941667,
+  "longitude": -122.9736111,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9415020",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9415020"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "datums": {
+    "LAT": 0.543,
+    "HAT": 3.4720001,
+    "STND": 0,
+    "MHHW": 2.964,
+    "MHW": 2.76,
+    "DTL": 2.085,
+    "MTL": 2.164,
+    "MSL": 2.152,
+    "MLW": 1.567,
+    "MLLW": 1.206,
+    "GT": 1.758,
+    "MN": 1.193,
+    "DHQ": 0.204,
+    "DLQ": 0.361,
+    "HWI": 6.68,
+    "LWI": 0.33,
+    "NAVD88": 1.214
+  },
+  "type": "reference",
+  "harmonic_constituents": [
+    {
+      "name": "M2",
+      "amplitude": 0.55,
+      "phase": 190.4
+    },
+    {
+      "name": "S2",
+      "amplitude": 0.137,
+      "phase": 196.3
+    },
+    {
+      "name": "N2",
+      "amplitude": 0.121,
+      "phase": 164.1
+    },
+    {
+      "name": "K1",
+      "amplitude": 0.383,
+      "phase": 219.9
+    },
+    {
+      "name": "M4",
+      "amplitude": 0.001,
+      "phase": 259.1
+    },
+    {
+      "name": "O1",
+      "amplitude": 0.235,
+      "phase": 204.1
+    },
+    {
+      "name": "M6",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MK3",
+      "amplitude": 0.001,
+      "phase": 200.4
+    },
+    {
+      "name": "S4",
+      "amplitude": 0.001,
+      "phase": 0.8
+    },
+    {
+      "name": "MN4",
+      "amplitude": 0.001,
+      "phase": 236.7
+    },
+    {
+      "name": "NU2",
+      "amplitude": 0.024,
+      "phase": 170
+    },
+    {
+      "name": "S6",
+      "amplitude": 0.001,
+      "phase": 66.8
+    },
+    {
+      "name": "MU2",
+      "amplitude": 0.013,
+      "phase": 124.5
+    },
+    {
+      "name": "2N2",
+      "amplitude": 0.014,
+      "phase": 135.3
+    },
+    {
+      "name": "OO1",
+      "amplitude": 0.012,
+      "phase": 249.8
+    },
+    {
+      "name": "LAM2",
+      "amplitude": 0.003,
+      "phase": 221.1
+    },
+    {
+      "name": "S1",
+      "amplitude": 0.016,
+      "phase": 316.3
+    },
+    {
+      "name": "M1",
+      "amplitude": 0.013,
+      "phase": 227.2
+    },
+    {
+      "name": "J1",
+      "amplitude": 0.023,
+      "phase": 233.8
+    },
+    {
+      "name": "MM",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "SSA",
+      "amplitude": 0.035,
+      "phase": 263.3
+    },
+    {
+      "name": "SA",
+      "amplitude": 0.059,
+      "phase": 213.3
+    },
+    {
+      "name": "MSF",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MF",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "RHO",
+      "amplitude": 0.008,
+      "phase": 198.4
+    },
+    {
+      "name": "Q1",
+      "amplitude": 0.042,
+      "phase": 196.7
+    },
+    {
+      "name": "T2",
+      "amplitude": 0.007,
+      "phase": 189.4
+    },
+    {
+      "name": "R2",
+      "amplitude": 0.001,
+      "phase": 287.8
+    },
+    {
+      "name": "2Q1",
+      "amplitude": 0.005,
+      "phase": 197.9
+    },
+    {
+      "name": "P1",
+      "amplitude": 0.118,
+      "phase": 215
+    },
+    {
+      "name": "2SM2",
+      "amplitude": 0.001,
+      "phase": 347.7
+    },
+    {
+      "name": "M3",
+      "amplitude": 0.002,
+      "phase": 10.8
+    },
+    {
+      "name": "L2",
+      "amplitude": 0.009,
+      "phase": 219.7
+    },
+    {
+      "name": "2MK3",
+      "amplitude": 0.001,
+      "phase": 165.5
+    },
+    {
+      "name": "K2",
+      "amplitude": 0.038,
+      "phase": 187
+    },
+    {
+      "name": "M8",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MS4",
+      "amplitude": 0,
+      "phase": 0
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Lindenburg Head",
+  "region": "",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 57.45,
+  "longitude": -135.03333333332992,
+  "timezone": "America/Sitka",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TWC1785",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TWC1785"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/9452210",
+    "height": {
+      "type": "fixed",
+      "high": -0.55,
+      "low": 0
+    },
+    "time": {
+      "high": -15,
+      "low": -5
+    }
+  }
+}

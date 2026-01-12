@@ -1,0 +1,33 @@
+{
+  "name": "San Salvador",
+  "region": "",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 24.05,
+  "longitude": -74.55,
+  "timezone": "America/Nassau",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TEC4631",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TEC4631"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/9710441",
+    "height": {
+      "type": "ratio",
+      "high": 0.86,
+      "low": 1.11
+    },
+    "time": {
+      "high": -8,
+      "low": -6
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Nandi Waters, Viti Levu",
+  "region": "",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": -17.75,
+  "longitude": -177.4166666666667,
+  "timezone": "Etc/GMT+12",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TPT2871",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TPT2871"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/1910000",
+    "height": {
+      "type": "fixed",
+      "high": 0.4,
+      "low": 0.3
+    },
+    "time": {
+      "high": -3,
+      "low": -8
+    }
+  }
+}

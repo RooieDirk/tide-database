@@ -1,0 +1,33 @@
+{
+  "name": "Kumeon Bay, B.C.",
+  "region": "",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 54.71666666666667,
+  "longitude": -130.2166666666667,
+  "timezone": "America/Vancouver",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8218361",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8218361"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/9450460",
+    "height": {
+      "type": "fixed",
+      "high": 0.06,
+      "low": 0
+    },
+    "time": {
+      "high": 53,
+      "low": 56
+    }
+  }
+}

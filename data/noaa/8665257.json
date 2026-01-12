@@ -1,0 +1,33 @@
+{
+  "name": "Canaday Landing, south of, Edisto River",
+  "region": "SC",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 32.8133,
+  "longitude": -80.4067,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8665257",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8665257"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8670870",
+    "height": {
+      "type": "ratio",
+      "high": 0.13,
+      "low": 0.32
+    },
+    "time": {
+      "high": 260,
+      "low": 334
+    }
+  }
+}

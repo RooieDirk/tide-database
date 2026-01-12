@@ -1,0 +1,33 @@
+{
+  "name": "San Mateo Bridge (east end)",
+  "region": "CA",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 37.6083,
+  "longitude": -122.182,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9414637",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9414637"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/9414290",
+    "height": {
+      "type": "fixed",
+      "high": 0.55,
+      "low": 0
+    },
+    "time": {
+      "high": 48,
+      "low": 79
+    }
+  }
+}

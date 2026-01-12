@@ -1,0 +1,33 @@
+{
+  "name": "Stuart",
+  "region": "FL",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 27.2,
+  "longitude": -80.2583,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8722357",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8722357"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8723178",
+    "height": {
+      "type": "ratio",
+      "high": 0.4,
+      "low": 0.86
+    },
+    "time": {
+      "high": 133,
+      "low": 210
+    }
+  }
+}

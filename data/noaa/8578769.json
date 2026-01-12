@@ -1,0 +1,33 @@
+{
+  "name": "Goose Creek, Port Tobacco River, Md.",
+  "region": "MD",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 38.4533,
+  "longitude": -77.0533,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8578769",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8578769"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8594900",
+    "height": {
+      "type": "ratio",
+      "high": 0.54,
+      "low": 0.6
+    },
+    "time": {
+      "high": -248,
+      "low": -307
+    }
+  }
+}

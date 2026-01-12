@@ -1,0 +1,33 @@
+{
+  "name": "Sand Bay, Great Sitkin Island",
+  "region": "AK",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 51.9733,
+  "longitude": -176.085,
+  "timezone": "America/Adak",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9461453",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9461453"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/9461380",
+    "height": {
+      "type": "ratio",
+      "high": 0.97,
+      "low": 0.97
+    },
+    "time": {
+      "high": -5,
+      "low": -20
+    }
+  }
+}

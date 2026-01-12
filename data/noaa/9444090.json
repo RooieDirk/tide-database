@@ -1,0 +1,228 @@
+{
+  "name": "Port Angeles",
+  "region": "WA",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 48.125,
+  "longitude": -123.44000244140625,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9444090",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9444090"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "datums": {
+    "LAT": 8.125471,
+    "HAT": 12.034471,
+    "STND": 0,
+    "MHHW": 11.393,
+    "MHW": 11.227,
+    "DTL": 10.316,
+    "MTL": 10.526,
+    "MSL": 10.534,
+    "MLW": 9.826,
+    "MLLW": 9.24,
+    "GT": 2.153,
+    "MN": 1.401,
+    "DHQ": 0.166,
+    "DLQ": 0.586,
+    "HWI": 10.556,
+    "LWI": 4.433,
+    "NAVD88": 9.369
+  },
+  "type": "reference",
+  "harmonic_constituents": [
+    {
+      "name": "M2",
+      "amplitude": 0.514,
+      "phase": 307.3
+    },
+    {
+      "name": "S2",
+      "amplitude": 0.147,
+      "phase": 326
+    },
+    {
+      "name": "N2",
+      "amplitude": 0.117,
+      "phase": 279.7
+    },
+    {
+      "name": "K1",
+      "amplitude": 0.667,
+      "phase": 261.8
+    },
+    {
+      "name": "M4",
+      "amplitude": 0.014,
+      "phase": 100.5
+    },
+    {
+      "name": "O1",
+      "amplitude": 0.39,
+      "phase": 241.6
+    },
+    {
+      "name": "M6",
+      "amplitude": 0.015,
+      "phase": 196.8
+    },
+    {
+      "name": "MK3",
+      "amplitude": 0.019,
+      "phase": 23.8
+    },
+    {
+      "name": "S4",
+      "amplitude": 0.002,
+      "phase": 115.4
+    },
+    {
+      "name": "MN4",
+      "amplitude": 0.007,
+      "phase": 66.2
+    },
+    {
+      "name": "NU2",
+      "amplitude": 0.022,
+      "phase": 287.3
+    },
+    {
+      "name": "S6",
+      "amplitude": 0.001,
+      "phase": 175.8
+    },
+    {
+      "name": "MU2",
+      "amplitude": 0.028,
+      "phase": 234.5
+    },
+    {
+      "name": "2N2",
+      "amplitude": 0.015,
+      "phase": 250.3
+    },
+    {
+      "name": "OO1",
+      "amplitude": 0.023,
+      "phase": 303
+    },
+    {
+      "name": "LAM2",
+      "amplitude": 0.006,
+      "phase": 53.3
+    },
+    {
+      "name": "S1",
+      "amplitude": 0.015,
+      "phase": 33.8
+    },
+    {
+      "name": "M1",
+      "amplitude": 0.024,
+      "phase": 280.6
+    },
+    {
+      "name": "J1",
+      "amplitude": 0.038,
+      "phase": 280.5
+    },
+    {
+      "name": "MM",
+      "amplitude": 0.026,
+      "phase": 285.8
+    },
+    {
+      "name": "SSA",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "SA",
+      "amplitude": 0.092,
+      "phase": 284.3
+    },
+    {
+      "name": "MSF",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MF",
+      "amplitude": 0.021,
+      "phase": 155.6
+    },
+    {
+      "name": "RHO",
+      "amplitude": 0.012,
+      "phase": 232.3
+    },
+    {
+      "name": "Q1",
+      "amplitude": 0.068,
+      "phase": 232.2
+    },
+    {
+      "name": "T2",
+      "amplitude": 0.008,
+      "phase": 330.5
+    },
+    {
+      "name": "R2",
+      "amplitude": 0.002,
+      "phase": 333.4
+    },
+    {
+      "name": "2Q1",
+      "amplitude": 0.007,
+      "phase": 221.5
+    },
+    {
+      "name": "P1",
+      "amplitude": 0.209,
+      "phase": 260
+    },
+    {
+      "name": "2SM2",
+      "amplitude": 0.003,
+      "phase": 308.6
+    },
+    {
+      "name": "M3",
+      "amplitude": 0.004,
+      "phase": 350
+    },
+    {
+      "name": "L2",
+      "amplitude": 0.011,
+      "phase": 31.2
+    },
+    {
+      "name": "2MK3",
+      "amplitude": 0.02,
+      "phase": 18.5
+    },
+    {
+      "name": "K2",
+      "amplitude": 0.027,
+      "phase": 332.6
+    },
+    {
+      "name": "M8",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MS4",
+      "amplitude": 0.009,
+      "phase": 115.3
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Edisto Marina, Big Bay Creek entrance",
+  "region": "SC",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 32.4933,
+  "longitude": -80.34,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8667676",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8667676"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8670870",
+    "height": {
+      "type": "ratio",
+      "high": 0.86,
+      "low": 0.91
+    },
+    "time": {
+      "high": -6,
+      "low": -13
+    }
+  }
+}

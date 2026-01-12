@@ -1,0 +1,33 @@
+{
+  "name": "Cliffs Wharf",
+  "region": "MD",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 39.11,
+  "longitude": -76.1383,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8573137",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8573137"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8574680",
+    "height": {
+      "type": "ratio",
+      "high": 1.33,
+      "low": 1.27
+    },
+    "time": {
+      "high": 9,
+      "low": -8
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "South Bay entrance",
+  "region": "TX",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 26.0517,
+  "longitude": -97.1817,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8779768",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8779768"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8779750",
+    "height": {
+      "type": "ratio",
+      "high": 0.91,
+      "low": 0.94
+    },
+    "time": {
+      "high": 14,
+      "low": 21
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Shell Key, northwest side, Lignumvitae Basin",
+  "region": "FL",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 24.9233,
+  "longitude": -80.6717,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8723807",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8723807"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8724580",
+    "height": {
+      "type": "ratio",
+      "high": 0.46,
+      "low": 0.46
+    },
+    "time": {
+      "high": 31,
+      "low": 117
+    }
+  }
+}

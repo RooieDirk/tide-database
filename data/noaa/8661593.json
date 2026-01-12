@@ -1,0 +1,33 @@
+{
+  "name": "Winea Plantation, Black River",
+  "region": "SC",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 33.535,
+  "longitude": -79.3883,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8661593",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8661593"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8665530",
+    "height": {
+      "type": "ratio",
+      "high": 0.47,
+      "low": 0.84
+    },
+    "time": {
+      "high": 263,
+      "low": 279
+    }
+  }
+}

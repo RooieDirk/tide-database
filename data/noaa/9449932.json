@@ -1,0 +1,227 @@
+{
+  "name": "Armitage Island, Thatcher Pass",
+  "region": "WA",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 48.535,
+  "longitude": -122.797,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9449932",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9449932"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "datums": {
+    "LAT": -0.015000105,
+    "HAT": 4.106,
+    "STND": 0,
+    "MHHW": 3.624,
+    "MHW": 3.437,
+    "DTL": 2.429,
+    "MTL": 2.689,
+    "MSL": 2.655,
+    "MLW": 1.941,
+    "MLLW": 1.233,
+    "GT": 2.391,
+    "MN": 1.495,
+    "DHQ": 0.187,
+    "DLQ": 0.708,
+    "HWI": 0.287,
+    "LWI": 6.145
+  },
+  "type": "reference",
+  "harmonic_constituents": [
+    {
+      "name": "M2",
+      "amplitude": 0.573,
+      "phase": 0.4
+    },
+    {
+      "name": "S2",
+      "amplitude": 0.144,
+      "phase": 22
+    },
+    {
+      "name": "N2",
+      "amplitude": 0.125,
+      "phase": 330.5
+    },
+    {
+      "name": "K1",
+      "amplitude": 0.756,
+      "phase": 276.4
+    },
+    {
+      "name": "M4",
+      "amplitude": 0.024,
+      "phase": 121.8
+    },
+    {
+      "name": "O1",
+      "amplitude": 0.436,
+      "phase": 255.6
+    },
+    {
+      "name": "M6",
+      "amplitude": 0.01,
+      "phase": 202.4
+    },
+    {
+      "name": "MK3",
+      "amplitude": 0.029,
+      "phase": 24.6
+    },
+    {
+      "name": "S4",
+      "amplitude": 0.002,
+      "phase": 149.6
+    },
+    {
+      "name": "MN4",
+      "amplitude": 0.011,
+      "phase": 89.2
+    },
+    {
+      "name": "NU2",
+      "amplitude": 0.024,
+      "phase": 340.1
+    },
+    {
+      "name": "S6",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MU2",
+      "amplitude": 0.026,
+      "phase": 260.8
+    },
+    {
+      "name": "2N2",
+      "amplitude": 0.014,
+      "phase": 279.6
+    },
+    {
+      "name": "OO1",
+      "amplitude": 0.03,
+      "phase": 332.9
+    },
+    {
+      "name": "LAM2",
+      "amplitude": 0.008,
+      "phase": 69.3
+    },
+    {
+      "name": "S1",
+      "amplitude": 0.019,
+      "phase": 57.1
+    },
+    {
+      "name": "M1",
+      "amplitude": 0.03,
+      "phase": 287.5
+    },
+    {
+      "name": "J1",
+      "amplitude": 0.044,
+      "phase": 303.5
+    },
+    {
+      "name": "MM",
+      "amplitude": 0.023,
+      "phase": 187.7
+    },
+    {
+      "name": "SSA",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "SA",
+      "amplitude": 0.101,
+      "phase": 287.6
+    },
+    {
+      "name": "MSF",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MF",
+      "amplitude": 0.014,
+      "phase": 146.8
+    },
+    {
+      "name": "RHO",
+      "amplitude": 0.015,
+      "phase": 246
+    },
+    {
+      "name": "Q1",
+      "amplitude": 0.075,
+      "phase": 245.9
+    },
+    {
+      "name": "T2",
+      "amplitude": 0.01,
+      "phase": 24.5
+    },
+    {
+      "name": "R2",
+      "amplitude": 0.001,
+      "phase": 332.5
+    },
+    {
+      "name": "2Q1",
+      "amplitude": 0.007,
+      "phase": 243.5
+    },
+    {
+      "name": "P1",
+      "amplitude": 0.243,
+      "phase": 274.9
+    },
+    {
+      "name": "2SM2",
+      "amplitude": 0.003,
+      "phase": 317
+    },
+    {
+      "name": "M3",
+      "amplitude": 0.005,
+      "phase": 44.5
+    },
+    {
+      "name": "L2",
+      "amplitude": 0.021,
+      "phase": 53.1
+    },
+    {
+      "name": "2MK3",
+      "amplitude": 0.022,
+      "phase": 15.7
+    },
+    {
+      "name": "K2",
+      "amplitude": 0.04,
+      "phase": 38.7
+    },
+    {
+      "name": "M8",
+      "amplitude": 0.001,
+      "phase": 72.5
+    },
+    {
+      "name": "MS4",
+      "amplitude": 0.014,
+      "phase": 142.4
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Haddam",
+  "region": "CT",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 41.4817,
+  "longitude": -72.5067,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8463582",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8463582"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8461490",
+    "height": {
+      "type": "ratio",
+      "high": 0.97,
+      "low": 0.95
+    },
+    "time": {
+      "high": 168,
+      "low": 188
+    }
+  }
+}

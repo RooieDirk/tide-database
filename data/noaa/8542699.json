@@ -1,0 +1,33 @@
+{
+  "name": "Norwood City",
+  "region": "PA",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 39.88,
+  "longitude": -75.29,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8542699",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8542699"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8545240",
+    "height": {
+      "type": "ratio",
+      "high": 0.97,
+      "low": 1
+    },
+    "time": {
+      "high": -42,
+      "low": -35
+    }
+  }
+}

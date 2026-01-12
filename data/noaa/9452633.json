@@ -1,0 +1,33 @@
+{
+  "name": "Miner Island",
+  "region": "AK",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 58.01,
+  "longitude": -136.342,
+  "timezone": "America/Juneau",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9452633",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9452633"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/9452634",
+    "height": {
+      "type": "ratio",
+      "high": 0.94,
+      "low": 0.96
+    },
+    "time": {
+      "high": -8,
+      "low": -6
+    }
+  }
+}

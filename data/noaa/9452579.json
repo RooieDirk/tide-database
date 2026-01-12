@@ -1,0 +1,33 @@
+{
+  "name": "Elbow Passage, Klag Bay",
+  "region": "AK",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 57.6133,
+  "longitude": -136.087,
+  "timezone": "America/Sitka",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9452579",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9452579"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/9452634",
+    "height": {
+      "type": "ratio",
+      "high": 0.98,
+      "low": 1.03
+    },
+    "time": {
+      "high": 8,
+      "low": 13
+    }
+  }
+}

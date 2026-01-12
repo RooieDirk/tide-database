@@ -1,0 +1,33 @@
+{
+  "name": "Little Talbot Island, ocean",
+  "region": "FL",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 30.43,
+  "longitude": -81.405,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8720194",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8720194"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8720030",
+    "height": {
+      "type": "ratio",
+      "high": 0.91,
+      "low": 1
+    },
+    "time": {
+      "high": -36,
+      "low": -13
+    }
+  }
+}

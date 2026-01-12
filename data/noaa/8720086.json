@@ -1,0 +1,33 @@
+{
+  "name": "Amelia City, South Amelia River",
+  "region": "FL",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 30.5867,
+  "longitude": -81.4633,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8720086",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8720086"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8720030",
+    "height": {
+      "type": "ratio",
+      "high": 0.89,
+      "low": 0.89
+    },
+    "time": {
+      "high": 21,
+      "low": 42
+    }
+  }
+}

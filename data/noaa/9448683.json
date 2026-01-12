@@ -1,0 +1,33 @@
+{
+  "name": "Burrows Bay (Allan Island)",
+  "region": "WA",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 48.46,
+  "longitude": -122.695,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9448683",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9448683"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/9444900",
+    "height": {
+      "type": "ratio",
+      "high": 0.95,
+      "low": 0.88
+    },
+    "time": {
+      "high": 9,
+      "low": 3
+    }
+  }
+}

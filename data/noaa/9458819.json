@@ -1,0 +1,33 @@
+{
+  "name": "Kujulik Bay (North Shore)",
+  "region": "AK",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 56.6133,
+  "longitude": -157.983,
+  "timezone": "America/Anchorage",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9458819",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9458819"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/9457292",
+    "height": {
+      "type": "ratio",
+      "high": 1.1,
+      "low": 1.35
+    },
+    "time": {
+      "high": 31,
+      "low": 46
+    }
+  }
+}

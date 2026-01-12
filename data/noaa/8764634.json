@@ -1,0 +1,33 @@
+{
+  "name": "Point Chevreuil",
+  "region": "LA",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 29.5183,
+  "longitude": -91.555,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8764634",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8764634"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8771450",
+    "height": {
+      "type": "ratio",
+      "high": 1.07,
+      "low": 1.07
+    },
+    "time": {
+      "high": 62,
+      "low": -54
+    }
+  }
+}

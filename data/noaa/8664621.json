@@ -1,0 +1,33 @@
+{
+  "name": "Wharf Creek entrance",
+  "region": "SC",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 32.9133,
+  "longitude": -79.6167,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8664621",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8664621"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8665530",
+    "height": {
+      "type": "ratio",
+      "high": 0.97,
+      "low": 0.95
+    },
+    "time": {
+      "high": 12,
+      "low": -8
+    }
+  }
+}

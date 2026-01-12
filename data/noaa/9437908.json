@@ -1,0 +1,33 @@
+{
+  "name": "Nehalem",
+  "region": "OR",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 45.71,
+  "longitude": -123.89,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9437908",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9437908"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/9419750",
+    "height": {
+      "type": "ratio",
+      "high": 1.03,
+      "low": 0.75
+    },
+    "time": {
+      "high": 77,
+      "low": 116
+    }
+  }
+}

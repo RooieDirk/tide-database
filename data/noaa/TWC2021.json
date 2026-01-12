@@ -1,0 +1,33 @@
+{
+  "name": "Marmot Island, Marmot Strait",
+  "region": "",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 58.23333333333299,
+  "longitude": -151.86666666667008,
+  "timezone": "America/Anchorage",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TWC2021",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TWC2021"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/9457292",
+    "height": {
+      "type": "fixed",
+      "high": 0.27,
+      "low": 0
+    },
+    "time": {
+      "high": 18,
+      "low": 7
+    }
+  }
+}

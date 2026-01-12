@@ -1,0 +1,33 @@
+{
+  "name": "Nassau, New Providence Island",
+  "region": "",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 25.08333333333299,
+  "longitude": -77.35,
+  "timezone": "America/Nassau",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TEC4623",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TEC4623"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/9710441",
+    "height": {
+      "type": "ratio",
+      "high": 0.98,
+      "low": 1.44
+    },
+    "time": {
+      "high": -8,
+      "low": -3
+    }
+  }
+}

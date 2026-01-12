@@ -1,0 +1,33 @@
+{
+  "name": "Rocky Point, Eld Inlet",
+  "region": "",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 47.081666666667005,
+  "longitude": -123.005,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TWC1115",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TWC1115"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/9447130",
+    "height": {
+      "type": "ratio",
+      "high": 1.31,
+      "low": 1.1
+    },
+    "time": {
+      "high": 39,
+      "low": 56
+    }
+  }
+}

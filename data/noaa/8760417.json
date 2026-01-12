@@ -1,0 +1,225 @@
+{
+  "name": "Devon Energy Facility",
+  "region": "LA",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 29.20075,
+  "longitude": -89.04446666666666,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8760417",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8760417"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "datums": {
+    "LAT": 11.8,
+    "HAT": 12.811001,
+    "STND": 0,
+    "MHHW": 12.533,
+    "MHW": 12.531,
+    "DTL": 12.352,
+    "MTL": 12.353,
+    "MSL": 12.35,
+    "MLW": 12.175,
+    "MLLW": 12.171,
+    "GT": 0.362,
+    "MN": 0.356,
+    "DHQ": 0.001,
+    "DLQ": 0.004
+  },
+  "type": "reference",
+  "harmonic_constituents": [
+    {
+      "name": "M2",
+      "amplitude": 0.019,
+      "phase": 121.1
+    },
+    {
+      "name": "S2",
+      "amplitude": 0.011,
+      "phase": 116.4
+    },
+    {
+      "name": "N2",
+      "amplitude": 0.005,
+      "phase": 141.4
+    },
+    {
+      "name": "K1",
+      "amplitude": 0.131,
+      "phase": 22
+    },
+    {
+      "name": "M4",
+      "amplitude": 0.003,
+      "phase": 337.1
+    },
+    {
+      "name": "O1",
+      "amplitude": 0.125,
+      "phase": 13.6
+    },
+    {
+      "name": "M6",
+      "amplitude": 0.001,
+      "phase": 9.1
+    },
+    {
+      "name": "MK3",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "S4",
+      "amplitude": 0.001,
+      "phase": 104.1
+    },
+    {
+      "name": "MN4",
+      "amplitude": 0.002,
+      "phase": 308.7
+    },
+    {
+      "name": "NU2",
+      "amplitude": 0.001,
+      "phase": 214.7
+    },
+    {
+      "name": "S6",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MU2",
+      "amplitude": 0.001,
+      "phase": 124
+    },
+    {
+      "name": "2N2",
+      "amplitude": 0.002,
+      "phase": 124.1
+    },
+    {
+      "name": "OO1",
+      "amplitude": 0.004,
+      "phase": 34.6
+    },
+    {
+      "name": "LAM2",
+      "amplitude": 0.001,
+      "phase": 358.8
+    },
+    {
+      "name": "S1",
+      "amplitude": 0.007,
+      "phase": 347.6
+    },
+    {
+      "name": "M1",
+      "amplitude": 0.007,
+      "phase": 355.3
+    },
+    {
+      "name": "J1",
+      "amplitude": 0.008,
+      "phase": 40
+    },
+    {
+      "name": "MM",
+      "amplitude": 0.015,
+      "phase": 245.8
+    },
+    {
+      "name": "SSA",
+      "amplitude": 0.094,
+      "phase": 32.4
+    },
+    {
+      "name": "SA",
+      "amplitude": 0.12,
+      "phase": 163.9
+    },
+    {
+      "name": "MSF",
+      "amplitude": 0.023,
+      "phase": 340.1
+    },
+    {
+      "name": "MF",
+      "amplitude": 0.021,
+      "phase": 354.8
+    },
+    {
+      "name": "RHO",
+      "amplitude": 0.006,
+      "phase": 351.9
+    },
+    {
+      "name": "Q1",
+      "amplitude": 0.028,
+      "phase": 9.5
+    },
+    {
+      "name": "T2",
+      "amplitude": 0.001,
+      "phase": 82.6
+    },
+    {
+      "name": "R2",
+      "amplitude": 0.001,
+      "phase": 276.9
+    },
+    {
+      "name": "2Q1",
+      "amplitude": 0.006,
+      "phase": 354.3
+    },
+    {
+      "name": "P1",
+      "amplitude": 0.04,
+      "phase": 16.3
+    },
+    {
+      "name": "2SM2",
+      "amplitude": 0.001,
+      "phase": 329.9
+    },
+    {
+      "name": "M3",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "L2",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "2MK3",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "K2",
+      "amplitude": 0.002,
+      "phase": 91.8
+    },
+    {
+      "name": "M8",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MS4",
+      "amplitude": 0.002,
+      "phase": 342.4
+    }
+  ]
+}

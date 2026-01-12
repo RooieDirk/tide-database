@@ -1,0 +1,33 @@
+{
+  "name": "Limehouse Bridge",
+  "region": "SC",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 32.7867,
+  "longitude": -80.105,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8665475",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8665475"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8665530",
+    "height": {
+      "type": "ratio",
+      "high": 1.08,
+      "low": 1.08
+    },
+    "time": {
+      "high": 103,
+      "low": 94
+    }
+  }
+}

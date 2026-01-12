@@ -1,0 +1,225 @@
+{
+  "name": "Sabine Pass",
+  "region": "TX",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 29.7284,
+  "longitude": -93.8701,
+  "timezone": "America/Chicago",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8770570",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8770570"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "datums": {
+    "LAT": 0.63400006,
+    "HAT": 1.74,
+    "STND": 0,
+    "MHHW": 1.538,
+    "MHW": 1.507,
+    "DTL": 1.294,
+    "MTL": 1.341,
+    "MSL": 1.343,
+    "MLW": 1.174,
+    "MLLW": 1.05,
+    "GT": 0.488,
+    "MN": 0.333,
+    "DHQ": 0.03,
+    "DLQ": 0.124
+  },
+  "type": "reference",
+  "harmonic_constituents": [
+    {
+      "name": "M2",
+      "amplitude": 0.123,
+      "phase": 275.5
+    },
+    {
+      "name": "S2",
+      "amplitude": 0.039,
+      "phase": 271.5
+    },
+    {
+      "name": "N2",
+      "amplitude": 0.033,
+      "phase": 254.4
+    },
+    {
+      "name": "K1",
+      "amplitude": 0.132,
+      "phase": 40.7
+    },
+    {
+      "name": "M4",
+      "amplitude": 0.005,
+      "phase": 318.9
+    },
+    {
+      "name": "O1",
+      "amplitude": 0.123,
+      "phase": 34.6
+    },
+    {
+      "name": "M6",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MK3",
+      "amplitude": 0.007,
+      "phase": 141.2
+    },
+    {
+      "name": "S4",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MN4",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "NU2",
+      "amplitude": 0.007,
+      "phase": 269.5
+    },
+    {
+      "name": "S6",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MU2",
+      "amplitude": 0.005,
+      "phase": 210.3
+    },
+    {
+      "name": "2N2",
+      "amplitude": 0.005,
+      "phase": 220.4
+    },
+    {
+      "name": "OO1",
+      "amplitude": 0.006,
+      "phase": 61.4
+    },
+    {
+      "name": "LAM2",
+      "amplitude": 0.001,
+      "phase": 273.6
+    },
+    {
+      "name": "S1",
+      "amplitude": 0.012,
+      "phase": 306.3
+    },
+    {
+      "name": "M1",
+      "amplitude": 0.006,
+      "phase": 36.9
+    },
+    {
+      "name": "J1",
+      "amplitude": 0.007,
+      "phase": 47.1
+    },
+    {
+      "name": "MM",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "SSA",
+      "amplitude": 0.077,
+      "phase": 52
+    },
+    {
+      "name": "SA",
+      "amplitude": 0.065,
+      "phase": 135.7
+    },
+    {
+      "name": "MSF",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MF",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "RHO",
+      "amplitude": 0.006,
+      "phase": 23.8
+    },
+    {
+      "name": "Q1",
+      "amplitude": 0.026,
+      "phase": 21.8
+    },
+    {
+      "name": "T2",
+      "amplitude": 0.002,
+      "phase": 271.7
+    },
+    {
+      "name": "R2",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "2Q1",
+      "amplitude": 0.003,
+      "phase": 28.5
+    },
+    {
+      "name": "P1",
+      "amplitude": 0.04,
+      "phase": 33.1
+    },
+    {
+      "name": "2SM2",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "M3",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "L2",
+      "amplitude": 0.004,
+      "phase": 5.1
+    },
+    {
+      "name": "2MK3",
+      "amplitude": 0.006,
+      "phase": 132.8
+    },
+    {
+      "name": "K2",
+      "amplitude": 0.008,
+      "phase": 338.5
+    },
+    {
+      "name": "M8",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MS4",
+      "amplitude": 0,
+      "phase": 0
+    }
+  ]
+}

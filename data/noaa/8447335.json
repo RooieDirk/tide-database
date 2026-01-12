@@ -1,0 +1,33 @@
+{
+  "name": "Barnstable Harbor, Beach Point",
+  "region": "MA",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 41.7217,
+  "longitude": -70.285,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8447335",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8447335"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8443970",
+    "height": {
+      "type": "ratio",
+      "high": 1,
+      "low": 1
+    },
+    "time": {
+      "high": 11,
+      "low": 30
+    }
+  }
+}

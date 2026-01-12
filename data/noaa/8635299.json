@@ -1,0 +1,33 @@
+{
+  "name": "Port Royal",
+  "region": "VA",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 38.1733,
+  "longitude": -77.19,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8635299",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8635299"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8594900",
+    "height": {
+      "type": "ratio",
+      "high": 0.68,
+      "low": 0.67
+    },
+    "time": {
+      "high": -139,
+      "low": -182
+    }
+  }
+}

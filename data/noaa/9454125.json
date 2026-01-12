@@ -1,0 +1,33 @@
+{
+  "name": "Shag Rock",
+  "region": "AK",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 60.465,
+  "longitude": -145.988,
+  "timezone": "America/Anchorage",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9454125",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9454125"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/9454050",
+    "height": {
+      "type": "fixed",
+      "high": -0.34,
+      "low": -0.03
+    },
+    "time": {
+      "high": -11,
+      "low": -16
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Damons Point, North River",
+  "region": "MA",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 42.16,
+  "longitude": -70.7333,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8445425",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8445425"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8443970",
+    "height": {
+      "type": "ratio",
+      "high": 0.89,
+      "low": 0.89
+    },
+    "time": {
+      "high": 20,
+      "low": 36
+    }
+  }
+}

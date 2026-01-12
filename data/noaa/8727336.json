@@ -1,0 +1,228 @@
+{
+  "name": "Dixie Bay, Salt River, Crystal Bay",
+  "region": "FL",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 28.8817,
+  "longitude": -82.635,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8727336",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8727336"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "disclaimers": "",
+  "datums": {
+    "LAT": 0.482,
+    "HAT": 1.556,
+    "STND": 0,
+    "MHHW": 1.333,
+    "MHW": 1.251,
+    "DTL": 1.003,
+    "MTL": 0.994,
+    "MSL": 0.985,
+    "MLW": 0.737,
+    "MLLW": 0.672,
+    "GT": 0.662,
+    "MN": 0.514,
+    "DHQ": 0.083,
+    "DLQ": 0.066,
+    "HWI": 8.488,
+    "LWI": 3.437,
+    "NAVD88": 1.045
+  },
+  "type": "reference",
+  "harmonic_constituents": [
+    {
+      "name": "M2",
+      "amplitude": 0.21,
+      "phase": 261.2
+    },
+    {
+      "name": "S2",
+      "amplitude": 0.07,
+      "phase": 311.2
+    },
+    {
+      "name": "N2",
+      "amplitude": 0.033,
+      "phase": 253.7
+    },
+    {
+      "name": "K1",
+      "amplitude": 0.081,
+      "phase": 110.3
+    },
+    {
+      "name": "M4",
+      "amplitude": 0.023,
+      "phase": 86.8
+    },
+    {
+      "name": "O1",
+      "amplitude": 0.114,
+      "phase": 93.3
+    },
+    {
+      "name": "M6",
+      "amplitude": 0.003,
+      "phase": 12
+    },
+    {
+      "name": "MK3",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "S4",
+      "amplitude": 0.005,
+      "phase": 242.3
+    },
+    {
+      "name": "MN4",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "NU2",
+      "amplitude": 0.006,
+      "phase": 254.7
+    },
+    {
+      "name": "S6",
+      "amplitude": 0.001,
+      "phase": 280.9
+    },
+    {
+      "name": "MU2",
+      "amplitude": 0.005,
+      "phase": 186
+    },
+    {
+      "name": "2N2",
+      "amplitude": 0.004,
+      "phase": 246.2
+    },
+    {
+      "name": "OO1",
+      "amplitude": 0.005,
+      "phase": 127.2
+    },
+    {
+      "name": "LAM2",
+      "amplitude": 0.002,
+      "phase": 284.4
+    },
+    {
+      "name": "S1",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "M1",
+      "amplitude": 0.008,
+      "phase": 101.8
+    },
+    {
+      "name": "J1",
+      "amplitude": 0.009,
+      "phase": 118.7
+    },
+    {
+      "name": "MM",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "SSA",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "SA",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MSF",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "MF",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "RHO",
+      "amplitude": 0.004,
+      "phase": 86
+    },
+    {
+      "name": "Q1",
+      "amplitude": 0.022,
+      "phase": 84.8
+    },
+    {
+      "name": "T2",
+      "amplitude": 0.004,
+      "phase": 309.1
+    },
+    {
+      "name": "R2",
+      "amplitude": 0.001,
+      "phase": 313.2
+    },
+    {
+      "name": "2Q1",
+      "amplitude": 0.003,
+      "phase": 76.4
+    },
+    {
+      "name": "P1",
+      "amplitude": 0.027,
+      "phase": 108.9
+    },
+    {
+      "name": "2SM2",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "M3",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "L2",
+      "amplitude": 0.005,
+      "phase": 268.7
+    },
+    {
+      "name": "2MK3",
+      "amplitude": 0,
+      "phase": 0
+    },
+    {
+      "name": "K2",
+      "amplitude": 0.019,
+      "phase": 315.2
+    },
+    {
+      "name": "M8",
+      "amplitude": 0.001,
+      "phase": 237.2
+    },
+    {
+      "name": "MS4",
+      "amplitude": 0,
+      "phase": 0
+    }
+  ]
+}

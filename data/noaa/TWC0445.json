@@ -1,0 +1,33 @@
+{
+  "name": "Mugu Lagoon (ocean pier)",
+  "region": "",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 34.1,
+  "longitude": -119.1,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "TWC0445",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=TWC0445"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/9410660",
+    "height": {
+      "type": "ratio",
+      "high": 0.96,
+      "low": 0.96
+    },
+    "time": {
+      "high": 3,
+      "low": 11
+    }
+  }
+}

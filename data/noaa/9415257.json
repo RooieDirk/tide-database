@@ -1,0 +1,33 @@
+{
+  "name": "Terminous, South Fork",
+  "region": "CA",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 38.11,
+  "longitude": -121.498,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9415257",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9415257"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/9415144",
+    "height": {
+      "type": "ratio",
+      "high": 0.7,
+      "low": 0.59
+    },
+    "time": {
+      "high": 233,
+      "low": 251
+    }
+  }
+}

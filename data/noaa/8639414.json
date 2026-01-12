@@ -1,0 +1,33 @@
+{
+  "name": "Deep Creek Entrance",
+  "region": "VA",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 36.755,
+  "longitude": -76.2933,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8639414",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8639414"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8638610",
+    "height": {
+      "type": "ratio",
+      "high": 1.21,
+      "low": 1.25
+    },
+    "time": {
+      "high": 22,
+      "low": 18
+    }
+  }
+}

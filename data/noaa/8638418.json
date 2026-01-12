@@ -1,0 +1,33 @@
+{
+  "name": "Smithfield, Pagan River",
+  "region": "VA",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 36.9833,
+  "longitude": -76.63,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8638418",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8638418"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8638610",
+    "height": {
+      "type": "ratio",
+      "high": 1.14,
+      "low": 0.83
+    },
+    "time": {
+      "high": 94,
+      "low": 98
+    }
+  }
+}

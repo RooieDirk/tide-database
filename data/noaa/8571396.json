@@ -1,0 +1,33 @@
+{
+  "name": "Sharkfin Shoal Light",
+  "region": "MD",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 38.2017,
+  "longitude": -75.9867,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8571396",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8571396"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8638863",
+    "height": {
+      "type": "ratio",
+      "high": 0.86,
+      "low": 0.92
+    },
+    "time": {
+      "high": 346,
+      "low": 366
+    }
+  }
+}

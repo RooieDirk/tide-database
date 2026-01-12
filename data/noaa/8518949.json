@@ -1,0 +1,33 @@
+{
+  "name": "Peekskill",
+  "region": "NY",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 41.2883,
+  "longitude": -73.9317,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8518949",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8518949"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8518750",
+    "height": {
+      "type": "ratio",
+      "high": 0.64,
+      "low": 0.64
+    },
+    "time": {
+      "high": 148,
+      "low": 183
+    }
+  }
+}

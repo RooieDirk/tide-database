@@ -1,0 +1,33 @@
+{
+  "name": "Shelton",
+  "region": "CT",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 41.3017,
+  "longitude": -73.0717,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8466573",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8466573"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8467150",
+    "height": {
+      "type": "ratio",
+      "high": 1.04,
+      "low": 0.96
+    },
+    "time": {
+      "high": 46,
+      "low": 79
+    }
+  }
+}

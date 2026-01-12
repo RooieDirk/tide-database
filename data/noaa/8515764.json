@@ -1,0 +1,33 @@
+{
+  "name": "Gilgo Heading",
+  "region": "NY",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 40.62,
+  "longitude": -73.395,
+  "timezone": "America/New_York",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "8515764",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=8515764"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/8531680",
+    "height": {
+      "type": "ratio",
+      "high": 0.24,
+      "low": 0.25
+    },
+    "time": {
+      "high": 142,
+      "low": 178
+    }
+  }
+}

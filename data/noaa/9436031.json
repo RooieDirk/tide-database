@@ -1,0 +1,33 @@
+{
+  "name": "Kernville, Siletz River",
+  "region": "OR",
+  "country": "United States",
+  "continent": "Americas",
+  "latitude": 44.8967,
+  "longitude": -124,
+  "timezone": "America/Los_Angeles",
+  "source": {
+    "name": "US National Oceanic and Atmospheric Administration",
+    "id": "9436031",
+    "published_harmonics": true,
+    "url": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9436031"
+  },
+  "license": {
+    "type": "public domain",
+    "commercial_use": true,
+    "url": "https://tidesandcurrents.noaa.gov/disclaimers.html"
+  },
+  "type": "subordinate",
+  "offsets": {
+    "reference": "noaa/9419750",
+    "height": {
+      "type": "ratio",
+      "high": 0.86,
+      "low": 0.67
+    },
+    "time": {
+      "high": 84,
+      "low": 113
+    }
+  }
+}
