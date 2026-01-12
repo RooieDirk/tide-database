@@ -40,6 +40,35 @@ console.log("Total stations:", stations.length);
 console.log(stations[0]);
 ```
 
+#### Searching for stations
+
+You can search for stations by proximity using the `near` and `nearest` functions:
+
+```typescript
+import { near, nearest } from "@neaps/tide-database";
+
+// Find all stations within 10 km of a lat/lon. Returns an array of [station, distanceinKm] tuples.
+const nearbyStations = near({
+  lon: -122,
+  lat: 37,
+  maxDistance: 10,
+  maxResults: 50,
+});
+console.log("Nearby stations:", nearbyStations.length);
+
+// Find the nearest station to a lat/lon
+const [nearestStation, distance] = nearest({ longitude: -75.5, latitude: 22 });
+console.log("Nearest station:", nearestStation.name, "is", distance, "km away");
+```
+
+Both functions take the following parameters:
+
+- `latitude` or `lat`: Latitude in decimal degrees.
+- `longitude`, `lon`, or `lng`: Longitude in decimal degrees.
+- `filter`: A function that takes a station and returns `true` to include it in results, or `false` to exclude it.
+- `maxDistance`: Maximum distance in kilometers to search for stations (default: `50` km).
+- `maxResults`: Maximum number of results to return (default: `10`).
+
 ## Data Format
 
 Each tide station is defined in a single JSON file in the [`data/`](./data) directory that includes basic station information, like location and name, and harmonics or subordinate station offsets. The format is defined by the schema in [../schemas/station.schema.json](schemas/station.schema.json), which includes more detailed descriptions of each field. All data is validated against this schema automatically on each change.
