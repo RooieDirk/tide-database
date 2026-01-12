@@ -1,4 +1,5 @@
 import { defineConfig } from "tsdown";
+import macros from "unplugin-macros/rolldown";
 
 export default defineConfig({
   entry: ["./src/index.ts"],
@@ -8,4 +9,5 @@ export default defineConfig({
   declarationMap: true,
   target: "es2020",
   platform: "neutral",
+  plugins: [macros()],
 });
