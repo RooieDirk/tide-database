@@ -4,6 +4,7 @@
     "rootDir": "./src",
     "outDir": "./dist",
     "types": ["vite/client"],
+    "declarationMap": true,
     "tsBuildInfoFile": "./dist/.tsbuildinfo"
   },
   "include": ["src/**/*"]
