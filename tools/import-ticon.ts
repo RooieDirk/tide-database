@@ -37,9 +37,12 @@ async function main() {
   let created = 0;
 
   for (const rows of stations) {
-    await save("ticon", convertStation(rows));
-    created++;
-    process.stdout.write(".");
+    const station = convertStation(rows);
+    if (station) {
+      await save("ticon", station);
+      created++;
+      process.stdout.write(".");
+    }
   }
 
   console.log(`\nDone. Created ${created} files`);
@@ -77,9 +80,14 @@ function dayMonthYearToDate(date: string) {
 /**
  * Convert a TICON-4 station to our JSON schema format
  */
-function convertStation(rows: TiconRow[]): StationData {
+function convertStation(rows: TiconRow[]): StationData | void {
   if (!rows[0]) {
     throw new Error("No rows to convert");
+  }
+
+  if (rows[0].tide_gauge_name.includes("usa-noaa")) {
+    // Skip NOAA stations as they are available from NOAA directly
+    return;
   }
 
   const gesla = metadata[rows[0].tide_gauge_name];

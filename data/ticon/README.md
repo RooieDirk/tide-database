@@ -1,6 +1,6 @@
 # TICON-4 Tide Station Data
 
-[TICON-4](https://www.seanoe.org/data/00980/109129/) is a global dataset of tidal harmonic constituents derived from the **GESLA-4** (Global Extreme Sea Level Analysis v.4) sea-level gauge compilation. It provides tidal characteristics for approximately **4,838 tide stations** worldwide, with emphasis on global coverage outside the United States (which is covered by NOAA's tide database).
+[TICON-4](https://www.seanoe.org/data/00980/109129/) is a global dataset of tidal harmonic constituents derived from the **GESLA-4** (Global Extreme Sea Level Analysis v.4) sea-level gauge compilation. It provides tidal characteristics for  **4,264 tide stations** worldwide, with emphasis on global coverage outside the United States (which is covered by NOAA's tide database).
 
 **Key Details:**
 - **Source:** [TICON-4 @ SEANOE](https://www.seanoe.org/data/00980/109129/)
