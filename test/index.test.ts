@@ -47,8 +47,8 @@ stations.forEach((station) => {
           const [other, dist] = nearby[0]!;
           throw new Error(
             `This TICON station has duplicate/very close coordinates with ${other.id}: ` +
-            `${(dist * 1000).toFixed(0)}m apart. ` +
-            `Run tools/deduplicate-stations.ts to remove duplicates.`
+              `${(dist * 1000).toFixed(0)}m apart. ` +
+              `Run tools/deduplicate-stations.ts to remove duplicates.`,
           );
         }
       });
@@ -68,8 +68,8 @@ stations.forEach((station) => {
           const [noaa, dist] = nearby[0]!;
           throw new Error(
             `This TICON station is ${(dist * 1000).toFixed(0)}m from NOAA station ${noaa.id}. ` +
-            `Minimum distance is ${MIN_DISTANCE * 1000}m. ` +
-            `Run tools/deduplicate-stations.ts to remove duplicates.`
+              `Minimum distance is ${MIN_DISTANCE * 1000}m. ` +
+              `Run tools/deduplicate-stations.ts to remove duplicates.`,
           );
         }
       });
@@ -89,8 +89,8 @@ stations.forEach((station) => {
           const [other, dist] = nearby[0]!;
           throw new Error(
             `This TICON station is only ${(dist * 1000).toFixed(0)}m from ${other.id} ` +
-            `(minimum: ${MIN_DISTANCE * 1000}m). ` +
-            `Run tools/deduplicate-stations.ts to remove duplicates.`
+              `(minimum: ${MIN_DISTANCE * 1000}m). ` +
+              `Run tools/deduplicate-stations.ts to remove duplicates.`,
           );
         }
       });
