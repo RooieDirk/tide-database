@@ -13,6 +13,7 @@ import {
   MIN_DISTANCE_TICON,
   getSourceSuffix,
 } from "./filtering.ts";
+import { cleanName } from "./name-cleanup.ts";
 import { near } from "../dist/index.js";
 import type { StationData } from "../src/index.ts";
 
@@ -88,9 +89,12 @@ async function main() {
     const epochStart = dayMonthYearToDate(rows[0].start_date);
     const epochEnd = dayMonthYearToDate(rows[0].end_date);
 
+    const cleaned = cleanName(gesla["SITE NAME"], rows[0].country);
+
     candidates.push(
       normalize({
-        name: gesla["SITE NAME"],
+        name: cleaned.name,
+        ...(cleaned.region ? { region: cleaned.region } : {}),
         country: rows[0].country,
         latitude: parseFloat(rows[0].lat),
         longitude: parseFloat(rows[0].lon),
