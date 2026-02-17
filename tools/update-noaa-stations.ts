@@ -62,6 +62,7 @@ async function buildStation(meta: any): Promise<StationData> {
       commercial_use: true,
       url: "https://tidesandcurrents.noaa.gov/disclaimers.html",
     },
+    chart_datum: "MLLW",
   };
 
   if (meta.type == "S") {

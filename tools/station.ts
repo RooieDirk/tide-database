@@ -20,10 +20,43 @@ const sortOrder: (keyof StationData)[] = [
   "license",
   "disclaimers",
   "datums",
+  "chart_datum",
   "type",
   "harmonic_constituents",
   "offsets",
 ];
+
+// Preferred chart datum by country. Names must match country-code-lookup output.
+// Countries not listed default to LAT (IHO international standard).
+const CHART_DATUMS: Record<string, string> = {
+  // MLLW countries (US convention)
+  "United States": "MLLW",
+  "The Bahamas": "MLLW",
+  Philippines: "MLLW",
+  "Marshall Islands": "MLLW",
+  Palau: "MLLW",
+  "Federated States of Micronesia": "MLLW",
+  // Other national datums (fall back to LAT if unavailable)
+  Canada: "LLWLT",
+  Japan: "NLLW",
+  China: "TLT",
+  "South Korea": "ALLW",
+};
+
+/**
+ * Determine the chart datum for a station based on its country and
+ * available datums. Uses the country's preferred datum if it exists in
+ * the station's datum values, otherwise falls back to LAT.
+ */
+export function getChartDatum(
+  country: string,
+  availableDatums: Record<string, number>,
+): string {
+  const lookup =
+    countryLookup.byCountry(country) || countryLookup.byIso(country);
+  const preferred = CHART_DATUMS[lookup?.country ?? ""];
+  return preferred && preferred in availableDatums ? preferred : "LAT";
+}
 
 export function normalize(
   station: Omit<StationData, "timezone" | "continent">,
@@ -53,6 +86,8 @@ export function normalize(
       timezone,
       continent,
       country,
+      chart_datum:
+        station.chart_datum ?? getChartDatum(country, station.datums),
     },
     sortOrder,
   );
