@@ -12,6 +12,7 @@ import {
   MIN_DISTANCE_TO_NOAA,
   MIN_DISTANCE_TICON,
   getSourceSuffix,
+  NON_COMMERCIAL_SOURCES,
 } from "./filtering.ts";
 import { cleanName } from "./name-cleanup.ts";
 import { loadGeocoder } from "./geocode.ts";
@@ -123,11 +124,21 @@ async function main() {
           id: rows[0].tide_gauge_name,
           published_harmonics: true,
         },
-        license: {
-          type: "cc-by-4.0",
-          commercial_use: true,
-          url: "https://creativecommons.org/licenses/by/4.0/",
-        },
+        license: NON_COMMERCIAL_SOURCES.includes(
+          getSourceSuffix(rows[0].tide_gauge_name),
+        )
+          ? {
+              type: "cc-by-nc-4.0",
+              commercial_use: false,
+              url: "https://creativecommons.org/licenses/by-nc/4.0/",
+              notes:
+                "Upstream GESLA data provider restricts commercial use. See https://gesla787883612.wordpress.com/license/",
+            }
+          : {
+              type: "cc-by-4.0",
+              commercial_use: true,
+              url: "https://creativecommons.org/licenses/by/4.0/",
+            },
         harmonic_constituents: rows.map((row) => ({
           name: row.con,
           amplitude: parseFloat(row.amp) / 100, // cm to m
@@ -150,14 +161,29 @@ async function main() {
 
   const removed = new Set<string>();
 
-  // Step 1: Remove candidates within 100m of NOAA stations
+  // Step 1a: Remove NOAA-sourced TICON candidates (we have original NOAA data)
+  console.log("Step 1a: Removing NOAA-sourced TICON candidates...");
+  let noaaSourceCount = 0;
+
+  for (const c of candidates) {
+    if (getSourceSuffix(c.source.id) === "noaa") {
+      removed.add(candidateId(c));
+      noaaSourceCount++;
+    }
+  }
+
+  console.log(`  Removed ${noaaSourceCount} NOAA-sourced candidates\n`);
+
+  // Step 1b: Remove candidates within 100m of NOAA stations
   console.log(
-    `Step 1: Finding candidates within ${MIN_DISTANCE_TO_NOAA * 1000}m of NOAA...`,
+    `Step 1b: Finding candidates within ${MIN_DISTANCE_TO_NOAA * 1000}m of NOAA...`,
   );
   let nearNoaaCount = 0;
 
   for (const c of candidates) {
     const id = candidateId(c);
+    if (removed.has(id)) continue;
+
     const nearby = near({
       latitude: c.latitude,
       longitude: c.longitude,
@@ -271,6 +297,7 @@ async function main() {
 
   console.log("=== Filter Summary ===\n");
   console.log(`Total removed: ${removed.size}`);
+  console.log(`  - NOAA-sourced: ${noaaSourceCount}`);
   console.log(`  - Near NOAA: ${nearNoaaCount}`);
   console.log(`  - Quality issues: ${qualityRemovals}`);
   console.log(`  - Duplicates: ${duplicateCount}`);
