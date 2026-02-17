@@ -58,9 +58,11 @@ export function getChartDatum(
   return preferred && preferred in availableDatums ? preferred : "LAT";
 }
 
-export function normalize(
-  station: Omit<StationData, "timezone" | "continent">,
-): StationData {
+type OptionalProperties = "timezone" | "continent" | "chart_datum";
+export type PartialStationData = Omit<StationData, OptionalProperties> &
+  Partial<Pick<StationData, OptionalProperties>>;
+
+export function normalize(station: PartialStationData): StationData {
   const { iso2, continent, country } =
     countryLookup.byCountry(station.country) ||
     countryLookup.byIso(station.country) ||
