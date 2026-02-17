@@ -161,14 +161,29 @@ async function main() {
 
   const removed = new Set<string>();
 
-  // Step 1: Remove candidates within 100m of NOAA stations
+  // Step 1a: Remove NOAA-sourced TICON candidates (we have original NOAA data)
+  console.log("Step 1a: Removing NOAA-sourced TICON candidates...");
+  let noaaSourceCount = 0;
+
+  for (const c of candidates) {
+    if (getSourceSuffix(c.source.id) === "noaa") {
+      removed.add(candidateId(c));
+      noaaSourceCount++;
+    }
+  }
+
+  console.log(`  Removed ${noaaSourceCount} NOAA-sourced candidates\n`);
+
+  // Step 1b: Remove candidates within 100m of NOAA stations
   console.log(
-    `Step 1: Finding candidates within ${MIN_DISTANCE_TO_NOAA * 1000}m of NOAA...`,
+    `Step 1b: Finding candidates within ${MIN_DISTANCE_TO_NOAA * 1000}m of NOAA...`,
   );
   let nearNoaaCount = 0;
 
   for (const c of candidates) {
     const id = candidateId(c);
+    if (removed.has(id)) continue;
+
     const nearby = near({
       latitude: c.latitude,
       longitude: c.longitude,
@@ -282,6 +297,7 @@ async function main() {
 
   console.log("=== Filter Summary ===\n");
   console.log(`Total removed: ${removed.size}`);
+  console.log(`  - NOAA-sourced: ${noaaSourceCount}`);
   console.log(`  - Near NOAA: ${nearNoaaCount}`);
   console.log(`  - Quality issues: ${qualityRemovals}`);
   console.log(`  - Duplicates: ${duplicateCount}`);
