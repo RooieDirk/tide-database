@@ -6,11 +6,11 @@ The TCD file includes all stations in the tide database, and all tidal constitue
 
 ## Usage
 
-Download the latest `neaps-YYYYMMDD.tcd` from [GitHub Releases](https://github.com/openwatersio/tide-database/releases).
+Download the latest `neaps-YYYYMMDD.tcd` from [releases](https://github.com/openwatersio/tide-database/releases).
 
 ### OpenCPN
 
-Open the OpenCPN options, navigate to the "Charts" tab, and add the TCD file as a "Tides & Currents" data source. See the [OpenCPN manual](https://opencpn.org/wiki/dokuwiki/doku.php?id=opencpn%3Amanual\_basic%3Aset\_options%3Acharts%3Atides-currents) for more details.
+Open the OpenCPN options, navigate to the "Charts" tab, and add the TCD file as a "Tides & Currents" data source. See the [OpenCPN manual](https://opencpn.org/wiki/dokuwiki/doku.php?id=opencpn%3Amanual_basic%3Aset_options%3Acharts%3Atides-currents) for more details.
 
 ![screenshot of tide stations in OpenCPN](https://github.com/user-attachments/assets/6e57f4fd-0dad-4aae-b1db-fe638915c225)
 
@@ -56,8 +56,8 @@ tide -l "BOSTON, MA, United States" -b "2026-01-01 00:00" -e "2026-01-08 00:00" 
 
 ## Contributing
 
-* Build the TCD file with: `npm run build`
-* Run tests with: `npm test`
+- Build the TCD file with: `npm run build`
+- Run tests with: `npm test`
 
 ## References
 
